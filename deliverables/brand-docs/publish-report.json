@@ -1,0 +1,59 @@
+{
+  "brand": "ZackAI",
+  "run_root": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update",
+  "outputs_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs",
+  "generated_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/zackai/generated",
+  "notebooklm_artifacts_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/deliverables/notebooklm/artifacts",
+  "wiki_output_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/wiki-output",
+  "wiki_site_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/wiki-site",
+  "published_site_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/wiki-site/dist",
+  "latest_symlink": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/published-site",
+  "generated_docs": [
+    "audience/primary-persona.md",
+    "audience/secondary-personas.md",
+    "brand/visual-assets.md",
+    "brand/visual-guidelines.md",
+    "brand/voice-tone.md",
+    "getting-started/quickstart.md",
+    "index.md",
+    "market/competitive-landscape.md",
+    "marketing/ad-creative.md",
+    "marketing/campaign-copy.md",
+    "marketing/email-templates.md",
+    "marketing/social-content.md",
+    "marketing/video-scripts.md",
+    "product/features.md",
+    "product/overview.md",
+    "product/specifications.md",
+    "research/notebooklm-artifacts.md",
+    "research/report-blog.md",
+    "research/report-briefing.md",
+    "research/report-study-guide.md"
+  ],
+  "output_count": 18,
+  "inventory_documents": 18,
+  "asset_map_pages": [
+    "brand/visual-assets.md",
+    "brand/visual-guidelines.md",
+    "product/features.md",
+    "product/overview.md",
+    "product/specifications.md"
+  ],
+  "notebooklm_counts": {
+    "reports": 3,
+    "decks": 4,
+    "audio": 3,
+    "infographics": 3,
+    "tables": 3,
+    "flashcards": 2,
+    "quizzes": 2,
+    "mind_maps": 1,
+    "other": 0
+  },
+  "notebooklm_report_pages": [
+    "research/report-blog.md",
+    "research/report-briefing.md",
+    "research/report-study-guide.md"
+  ],
+  "published_at": "2026-03-11T17:28:29.573870"
+}

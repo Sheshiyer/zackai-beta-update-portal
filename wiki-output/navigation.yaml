@@ -1,0 +1,32 @@
+- title: Getting Started
+  items:
+  - index.md
+  - getting-started/quickstart.md
+- title: product
+  items:
+  - product/overview.md
+  - product/features.md
+  - product/specifications.md
+- title: brand
+  items:
+  - brand/voice-tone.md
+  - brand/visual-guidelines.md
+  - brand/visual-assets.md
+- title: audience
+  items:
+  - audience/primary-persona.md
+  - audience/secondary-personas.md
+  - market/competitive-landscape.md
+- title: marketing
+  items:
+  - marketing/campaign-copy.md
+  - marketing/email-templates.md
+  - marketing/social-content.md
+  - marketing/video-scripts.md
+  - marketing/ad-creative.md
+- title: general
+  items:
+  - research/notebooklm-artifacts.md
+  - research/report-blog.md
+  - research/report-briefing.md
+  - research/report-study-guide.md

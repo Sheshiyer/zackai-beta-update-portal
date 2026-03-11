@@ -1,0 +1,152 @@
+---
+import { getCollection } from 'astro:content';
+import siteData from '../data/site-data.json';
+
+const docs = await getCollection('docs');
+
+const categories: Record<string, typeof docs> = {};
+for (const doc of docs) {
+  const category = doc.data.category || 'General';
+  if (!categories[category]) categories[category] = [];
+  categories[category].push(doc);
+}
+
+for (const cat of Object.keys(categories)) {
+  categories[cat].sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+}
+
+const sortedCategories = Object.entries(categories).sort(([a], [b]) => a.localeCompare(b));
+---
+
+<nav class="wiki-nav">
+  <div class="nav-header">
+    <a href="/" class="nav-logo">
+      <span class="nav-logo-icon">✦</span>
+      <span>
+        <span class="nav-logo-text">{siteData.brandName}</span>
+        <span class="nav-logo-subtitle">{siteData.tagline}</span>
+      </span>
+    </a>
+    <div class="nav-utility-links">
+      <a href="/" class="nav-utility-link">Launch Portal</a>
+      <a href={siteData.docsHomeHref || '/docs/index'} class="nav-utility-link">Docs Index</a>
+    </div>
+  </div>
+
+  {sortedCategories.map(([category, categoryDocs]) => (
+    <div class="nav-category">
+      <h3 class="nav-category-title">{category}</h3>
+      <ul class="nav-list">
+        {categoryDocs.map(doc => (
+          <li>
+            <a href={`/docs/${doc.slug}`} class="nav-glass-item">
+              {doc.data.icon && <span class="nav-icon">{doc.data.icon}</span>}
+              <span>{doc.data.title}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  ))}
+</nav>
+
+<style>
+  .wiki-nav {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-6);
+  }
+
+  .nav-header {
+    margin-bottom: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+  }
+
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    color: var(--color-text-primary);
+    text-decoration: none;
+  }
+
+  .nav-logo-icon {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, rgba(230, 122, 46, 0.22), rgba(170, 152, 214, 0.26));
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: var(--shadow-glass-sm);
+    font-size: 1rem;
+  }
+
+  .nav-logo-text {
+    display: block;
+    font-size: var(--text-lg);
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .nav-logo-subtitle {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-secondary);
+    margin-top: 2px;
+  }
+
+  .nav-utility-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+  }
+
+  .nav-utility-link {
+    padding: var(--space-2) var(--space-3);
+    border-radius: var(--radius-full);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    font-size: var(--text-xs);
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    transition: all var(--duration-fast) var(--ease-out-quart);
+  }
+
+  .nav-utility-link:hover {
+    color: var(--color-text-primary);
+    transform: translateY(-1px);
+  }
+
+  [data-theme="light"] .nav-utility-link {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.06);
+  }
+
+  .nav-category-title {
+    font-size: var(--text-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-tertiary);
+    margin-bottom: var(--space-2);
+    padding: 0 var(--space-3);
+  }
+
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-list li {
+    margin-bottom: 2px;
+  }
+
+  .nav-icon {
+    font-size: var(--text-sm);
+  }
+</style>

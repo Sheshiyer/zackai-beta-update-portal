@@ -1,0 +1,330 @@
+execution_context:
+  budget_tier: standard
+  launch_channel: kickstarter
+  maturity_stage: pre-launch
+  depth_level: comprehensive
+  tone: playful, warm, trust-building
+  quality_bar: premium
+brand:
+  name: ZackAI
+  tagline: Screen-Free Playtime Companion
+  archetype: The Playful Guardian
+  voice: Warm, playful, reassuring, parent-trustworthy
+  domain: Kids AI / Smart Toys / EdTech
+  domain_tags:
+  - dtc
+  - ecommerce
+  - physical-product
+  - lifestyle
+theme:
+  name: Soft Intelligence
+  description: Approachable AI wrapped in cozy, tactile softness. Technology that
+    feels like a hug.
+  metaphor: A warm, glowing plush friend who whispers knowledge and kindness
+  mood_keywords:
+  - soft
+  - intelligent
+  - playful
+  - warm
+  - cozy
+  - safe
+  - glowing
+  - curious
+  - friendly
+  - approachable
+palette:
+  primary:
+    name: Muted Lilac
+    hex: '#AA98D6'
+    role: 60% backgrounds, hero surfaces, brand anchoring — from Phantom Purple variant
+  secondary:
+    name: Cloud White
+    hex: '#F8F6F2'
+    role: 30% text, clean backgrounds, breathing space
+  accent:
+    name: Warm Sunset Orange
+    hex: '#E67A2E'
+    role: 10% CTAs, highlights, energy bursts, buy buttons — from Spark Orange variant
+  support:
+    name: Soft Almond Cream
+    hex: '#D9D3C1'
+    role: Borders, metadata, secondary text, subtle UI — from Storm Grey variant
+  signal:
+    name: Soft Aqua Teal
+    hex: '#4CC8B2'
+    role: Growth indicators, success states, learning progress — from Arctic Blue
+      variant
+typography:
+  header:
+    font: Figtree
+    weights:
+    - Regular
+    - SemiBold
+    - Bold
+    display_weight: SemiBold
+    emphasis_weight: Bold
+    case: title case
+  body:
+    font: Inter
+    weights:
+    - Regular
+    - Medium
+  data:
+    font: JetBrains Mono
+    weights:
+    - Regular
+materials:
+- soft fluffy plush fabric
+- hypoallergenic fur
+- brushed cotton
+- sealed rounded LED components
+- warm LED glow (animated eyes)
+- USB-C charging cable
+- kraft paper packaging
+- embossed cardboard
+- woven label tag
+- recycled polyester fill
+- matte silicone accents
+- soft felt lining
+photography:
+  style: Warm, natural light, playful compositions with children's environments, lifestyle
+    family moments
+  environment: Cozy kids' bedroom, play corner with soft textures, warm afternoon
+    light, family living room
+  constraint: No faces shown clearly. Hands and interaction focus. No clinical or
+    cold settings. No screens visible.
+  camera: Sony A7IV, 35mm, f/2.8, warm white balance
+illustration:
+  style: Rounded, friendly vector illustrations with soft gradients and warm colors
+  references: Headspace illustration style meets Duolingo character warmth, Google
+    Doodle playfulness
+sigil:
+  description: A round fluffy creature silhouette with pointed cat-like ears and glowing
+    LED eyes
+  components:
+  - Round ball body silhouette (warmth, softness, approachability)
+  - Pointed cat/fox ears (playfulness, curiosity)
+  - Glowing LED eyes (AI intelligence, emotional connection)
+audience:
+  persona_name: The Intentional Parent
+  aesthetic_affinity: clean design, warm minimalism, Scandinavian kids' decor
+  aspirational_brands: Tonies, Yoto, LEGO, Montessori, Lovevery
+  emotional_register: protective warmth, guilt-free screen alternative, learning joy
+competitive_context:
+  avoid_visual_patterns: cold tech aesthetics, robot imagery, screen-heavy visuals,
+    clinical AI diagrams, teal/mint primary (Bondu), Poppins font (Bondu)
+  differentiate_from: Bondu (same category, teal/mint, Poppins), Tonies (audio-only,
+    no AI), Yoto (no conversational AI), Alexa Kids (screen-based, privacy concerns)
+  occupy_territory: warm AI companion that parents trust — screen-free, multilingual,
+    emotionally intelligent, animated LED personality
+positioning:
+  statement: For intentional parents in France who want their children aged 3-12 to
+    learn, play, and grow through conversation rather than screens, ZackAI is the
+    AI-powered plush companion that combines the warmth of a stuffed animal with the
+    intelligence of a personal tutor. Unlike Bondu, which locks families into subscriptions,
+    unlike Tonies and Yoto, which offer passive audio playback, and unlike smart speakers,
+    which were never designed for children, ZackAI delivers adaptive, multilingual,
+    conversational learning inside a huggable, screen-free form factor — certified
+    safe under EU regulations, available in five bold colors led by Phantom Purple,
+    and sold at EUR 99 with no subscription ever. ZackAI is not a gadget. It is the
+    friend every curious child deserves.
+  hero_headline: Screen-Free Playtime Companion
+  identity_pillars:
+  - screen-free learning
+  - emotional intelligence
+  - multilingual play
+  - parent trust
+  - animated LED personality
+products:
+  hero:
+    name: ZackAI Smart Plush — Phantom Purple
+    description: AI-powered screen-free learning companion with animated LED eyes,
+      in signature Muted Lilac
+    physical_form: Round, ball-shaped fluffy plush creature in Muted Lilac (#AA98D6)
+      with pointed cat-like ears, cream/beige face with rosy cheeks, large animated
+      blue LED eyes synced with voice/emotion/mood, small red smile, grey inner ears,
+      hypoallergenic fur, USB-C charging
+  capsule_lineup:
+  - name: ZackAI — Phantom Purple
+    description: Lead variant in signature Muted Lilac (#AA98D6), the hero SKU
+  - name: ZackAI — Stealth Black
+    description: Deep Midnight Navy (#0F2238) variant, sleek and modern
+  - name: ZackAI — Arctic Blue
+    description: Soft Aqua Teal (#4CC8B2) variant evoking calm and curiosity
+  - name: ZackAI — Storm Grey
+    description: Soft Almond Cream (#D9D3C1) variant, warm neutral blending into any
+      decor
+  - name: ZackAI — Spark Orange
+    description: Warm Sunset Orange (#E67A2E) variant bursting with playful energy
+  detail:
+    name: ZackAI Plush Detail
+    focus: Close-up of the Muted Lilac plush surface, cream face, rosy cheeks, stitched
+      smile, animated blue LED eyes, grey inner ears, and the real USB-C charging
+      port seam on the plush body
+  flatlay_objects:
+    count: 5
+    items:
+    - ZackAI plush toy (Phantom Purple) with glowing LED eyes
+    - USB-C charging cable
+    - Product packaging box
+    - All 5 color variants arranged in a row
+    - Printed quick-start guide card beside plush
+  category: AI smart toy / screen-free learning companion
+aesthetic:
+  hero_object_type: round fluffy plush creature with animated LED eyes
+  hero_surface: soft fluffy plush fabric surface
+  seal_material: Embossed matte lilac
+  seal_geometry: Rounded, child-friendly organic shapes with cat-ear motif
+  logo_treatment: embroidered-patch
+  logo_substrate: soft cotton fabric panel
+  panel_structure: Soft gradient panels with rounded corners and playful icons
+  icon_line_style: Rounded, thick stroke with friendly curves
+  poster_artifact: round fluffy plush companion with glowing LED eyes
+  poster_filament: warm animated LED glow from eyes
+  poster_border: Rounded, bubbly border frame with soft shadow
+  quality_reference: Dribbble Popular / Behance Kids Design
+  engraving_style: embroidered patch illustration
+  seeker_inner_detail: animated LED eye glow, soft stitched texture details
+  sequence_type: child-toy interaction narrative
+  sequence_constraint: hands-and-toy only, no faces
+logo_files:
+  primary: ''
+  icon: ''
+negative_prompt: 'scary, dark, horror, violent, sharp edges, weapons, adult themes,
+
+  clinical, cold, sterile, robotic, metallic, hard surfaces,
+
+  screen, tablet, phone, laptop, TV, monitor,
+
+  teal mint green (Bondu competitor color), Poppins font,
+
+  cartoon anime, clipart, watermark, text overlay, blurry, low resolution,
+
+  stock photo, generic, cheap, oversaturated, uncanny valley,
+
+  bear shape, teddy bear (product is round ball-shaped creature with cat ears)
+
+  '
+generation:
+  output_dir: generated
+  seeds:
+  - 42
+  - 137
+  resolution: 2K
+  output_format: png
+  env_file: ~/.claude/.env
+  provider: fal
+  visual_backend: scripts
+  reference_overrides: {}
+  product_reference_images:
+  - products/phantom-purple.png
+  - products/stealth-black.png
+  - products/aqua-blue.png
+  - products/storm-grey.png
+  - products/spark-orange.png
+prompts:
+  brand_identity:
+  - bento_grid
+  - seal
+  - logo_emboss
+  products:
+  - capsule_collection
+  - hero_product
+  - product_detail
+  photography:
+  - catalog_layout
+  - flatlay
+  illustration:
+    types:
+    - heritage_engraving
+    - campaign_grid
+    - art_panel
+    icon_groups:
+    - name: Learning Modes
+      icons:
+      - name: Storytelling
+        description: Open book with gentle sparkles and sound waves
+      - name: Language Learning
+        description: Speech bubble with globe and multiple script characters
+      - name: Emotional Support
+        description: Heart shape with gentle pulse wave and warm glow
+      - name: Interactive Play
+        description: Two rounded hands high-fiving with motion lines
+    - name: Features
+      icons:
+      - name: 40+ Languages
+        description: Globe with overlapping speech bubbles in different colors
+      - name: Screen-Free
+        description: Crossed-out phone screen with happy plush toy beside it
+      - name: Safe AI
+        description: Shield with friendly checkmark and soft glow
+      - name: Bedtime Mode
+        description: Moon and stars with gentle Zzz letters floating
+  narrative:
+    types:
+    - contact_sheet
+  posters:
+    types:
+    - seeker_poster
+    engines:
+    - id: 9A-01
+      name: Storytelling Engine
+      engine_name: STORYTELLING
+      tagline: Every adventure begins with 'Once upon a time...'
+      object: Round Muted Lilac plush creature with glowing LED eyes sitting on an
+        open storybook with glowing pages
+      material_a: soft plush fabric
+      material_b: warm paper pages
+      bg_color: deep Muted Lilac
+      bg_hex: '#AA98D6'
+    - id: 9A-02
+      name: Language Engine
+      engine_name: MULTILINGUAL
+      tagline: 40+ languages. One cuddly teacher.
+      object: Round plush creature surrounded by floating speech bubbles in different
+        scripts
+      material_a: soft fluffy fur
+      material_b: translucent speech bubble shapes
+      bg_color: warm Cloud White
+      bg_hex: '#F8F6F2'
+    - id: 9A-03
+      name: Emotion Engine
+      engine_name: EMOTIONAL INTELLIGENCE
+      tagline: Feelings are valid. Let's explore them together.
+      object: Round plush creature with animated LED eyes glowing warmly in heart
+        pattern
+      material_a: plush fabric
+      material_b: gentle animated LED glow
+      bg_color: energetic Warm Sunset Orange
+      bg_hex: '#E67A2E'
+    sequences:
+    - id: 10A
+      key: unboxing
+      title: The Unboxing Moment
+      panels: 1.Child's hands receiving product box 2.Lifting lid 3.Tissue paper parting
+        to reveal round plush creature 4.Lifting plush out of box 5.Discovering USB-C
+        cable 6.Touching soft fluffy fur 7.Hugging round plush for first time 8.Plush
+        on bedside table with LED eyes glowing 9.Overhead view of complete unboxing
+        spread
+    - id: 10B
+      key: playtime
+      title: The Play Session
+      panels: 1.Child reaching for round plush on shelf 2.Picking up plush, LED eyes
+        activating 3.Plush LED eyes glowing warmly blue 4.Child whispering to plush
+        5.Plush and child surrounded by storybook imagery 6.Child laughing with plush
+        7.Building blocks with plush watching 8.Drawing together 9.Child and plush
+        in cozy reading nook
+    - id: 10C
+      key: bedtime
+      title: The Bedtime Ritual
+      panels: 1.Child carrying round plush to bed 2.Tucking plush under blanket 3.LED
+        eyes shifting to soft dim mode 4.Soft lilac glow in dim room 5.Plush telling
+        bedtime story with gentle eye animations 6.Child's eyes closing 7.Plush LED
+        eyes dimming slowly 8.Moonlight on sleeping child and plush 9.Overhead of
+        peaceful sleeping scene
+publishing:
+  notebooklm:
+    source_document_mode: hybrid
+    image_source_policy: product-reference-only
+notebooklm:
+  reuse_policy: fresh-per-spec

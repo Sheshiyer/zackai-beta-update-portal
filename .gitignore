@@ -1,0 +1,12 @@
+# Astro
+wiki-site/node_modules/
+wiki-site/dist/
+wiki-site/.astro/
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+
+# Local runtime
+published-site

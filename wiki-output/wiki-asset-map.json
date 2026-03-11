@@ -1,0 +1,191 @@
+{
+  "brand/visual-guidelines.md": {
+    "hero": {
+      "asset_id": "2A",
+      "file": "2A-brand-kit-bento-nanobananapro-v1.png",
+      "alt": "Brand Kit Bento Grid",
+      "section": "Brand Kit",
+      "variants": [
+        "2A-brand-kit-bento-nanobananapro-v137.png"
+      ]
+    },
+    "images": [
+      {
+        "asset_id": "2B",
+        "file": "2B-brand-seal-flux2pro-v1.png",
+        "alt": "Brand Seal",
+        "section": "Logo & Seal",
+        "variants": [
+          "2B-brand-seal-flux2pro-v137.png"
+        ]
+      },
+      {
+        "asset_id": "2C",
+        "file": "2C-logo-emboss-flux2pro-v1.png",
+        "alt": "Logo Emboss",
+        "section": "Logo & Seal",
+        "variants": [
+          "2C-logo-emboss-flux2pro-v137.png"
+        ]
+      }
+    ],
+    "gallery": [],
+    "meta": []
+  },
+  "product/features.md": {
+    "hero": null,
+    "images": [
+      {
+        "asset_id": "3A",
+        "file": "3A-capsule-collection-nanobananapro-v1.png",
+        "alt": "Capsule Collection",
+        "section": "Product Line",
+        "variants": [
+          "3A-capsule-collection-nanobananapro-v137.png"
+        ]
+      },
+      {
+        "asset_id": "3C",
+        "file": "3C-product-detail-nanobananapro-v1.png",
+        "alt": "Product Detail",
+        "section": "Product Line",
+        "variants": []
+      }
+    ],
+    "gallery": [],
+    "meta": []
+  },
+  "product/overview.md": {
+    "hero": {
+      "asset_id": "3B",
+      "file": "3B-hero-product-nanobananapro-v1.png",
+      "alt": "Hero Product",
+      "section": "Hero Product",
+      "variants": [
+        "3B-hero-product-nanobananapro-v137.png"
+      ]
+    },
+    "images": [],
+    "gallery": [],
+    "meta": []
+  },
+  "product/specifications.md": {
+    "hero": {
+      "asset_id": "4A",
+      "file": "4A-catalog-layout-nanobananapro-v1.png",
+      "alt": "Catalog Layout",
+      "section": "Catalog",
+      "variants": [
+        "4A-catalog-layout-nanobananapro-v137.png"
+      ]
+    },
+    "images": [
+      {
+        "asset_id": "4B",
+        "file": "4B-flatlay-nanobananapro-v1.png",
+        "alt": "Flatlay",
+        "section": "Product Photography",
+        "variants": [
+          "4B-flatlay-nanobananapro-v137.png"
+        ]
+      }
+    ],
+    "gallery": [],
+    "meta": []
+  },
+  "brand/visual-assets.md": {
+    "hero": null,
+    "images": [],
+    "gallery": [],
+    "meta": [],
+    "all_assets": [
+      {
+        "asset_id": "2A",
+        "file": "2A-brand-kit-bento-nanobananapro-v1.png",
+        "alt": "Brand Kit Bento Grid",
+        "section": "Brand Kit",
+        "variants": [
+          "2A-brand-kit-bento-nanobananapro-v1.png",
+          "2A-brand-kit-bento-nanobananapro-v137.png"
+        ],
+        "variant_count": 2
+      },
+      {
+        "asset_id": "2B",
+        "file": "2B-brand-seal-flux2pro-v1.png",
+        "alt": "Brand Seal",
+        "section": "Logo & Seal",
+        "variants": [
+          "2B-brand-seal-flux2pro-v1.png",
+          "2B-brand-seal-flux2pro-v137.png"
+        ],
+        "variant_count": 2
+      },
+      {
+        "asset_id": "2C",
+        "file": "2C-logo-emboss-flux2pro-v1.png",
+        "alt": "Logo Emboss",
+        "section": "Logo & Seal",
+        "variants": [
+          "2C-logo-emboss-flux2pro-v1.png",
+          "2C-logo-emboss-flux2pro-v137.png"
+        ],
+        "variant_count": 2
+      },
+      {
+        "asset_id": "3A",
+        "file": "3A-capsule-collection-nanobananapro-v1.png",
+        "alt": "Capsule Collection",
+        "section": "Product Line",
+        "variants": [
+          "3A-capsule-collection-nanobananapro-v1.png",
+          "3A-capsule-collection-nanobananapro-v137.png"
+        ],
+        "variant_count": 2
+      },
+      {
+        "asset_id": "3B",
+        "file": "3B-hero-product-nanobananapro-v1.png",
+        "alt": "Hero Product",
+        "section": "Hero Product",
+        "variants": [
+          "3B-hero-product-nanobananapro-v1.png",
+          "3B-hero-product-nanobananapro-v137.png"
+        ],
+        "variant_count": 2
+      },
+      {
+        "asset_id": "3C",
+        "file": "3C-product-detail-nanobananapro-v1.png",
+        "alt": "Product Detail",
+        "section": "Product Line",
+        "variants": [
+          "3C-product-detail-nanobananapro-v1.png"
+        ],
+        "variant_count": 1
+      },
+      {
+        "asset_id": "4A",
+        "file": "4A-catalog-layout-nanobananapro-v1.png",
+        "alt": "Catalog Layout",
+        "section": "Catalog",
+        "variants": [
+          "4A-catalog-layout-nanobananapro-v1.png",
+          "4A-catalog-layout-nanobananapro-v137.png"
+        ],
+        "variant_count": 2
+      },
+      {
+        "asset_id": "4B",
+        "file": "4B-flatlay-nanobananapro-v1.png",
+        "alt": "Flatlay",
+        "section": "Product Photography",
+        "variants": [
+          "4B-flatlay-nanobananapro-v1.png",
+          "4B-flatlay-nanobananapro-v137.png"
+        ],
+        "variant_count": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "title": "Brand Flashcards",
+  "cards": [
+    {
+      "front": "Brand: ZackAI Archetype",
+      "back": "The Playful Guardian"
+    },
+    {
+      "front": "ZackAI Brand Theme Name",
+      "back": "Soft Intelligence"
+    },
+    {
+      "front": "What is the primary visual metaphor for the ZackAI brand?",
+      "back": "A warm, glowing plush friend who whispers knowledge and kindness."
+    },
+    {
+      "front": "ZackAI Hero Product Name",
+      "back": "ZackAI Smart Plush \u2014 Phantom Purple"
+    },
+    {
+      "front": "What is the specific hex code for the signature 'Muted Lilac' color?",
+      "back": "$#AA98D6$"
+    },
+    {
+      "front": "How many languages can ZackAI converse in fluently?",
+      "back": "$40+$ languages"
+    },
+    {
+      "front": "What is the full retail price of ZackAI vs. its Kickstarter launch price?",
+      "back": "EUR $199$ vs. EUR $99$ ($50\\%$ discount)."
+    },
+    {
+      "front": "Which three EU safety certifications are the primary trust signals for ZackAI?",
+      "back": "GDPR-compliant, CE, and EN71."
+    },
+    {
+      "front": "Buyer Persona: 'The Intentional Parent' Age Range",
+      "back": "$30$-$42$ years old"
+    },
+    {
+      "front": "What is the household income bracket for 'The Intentional Parent' segment?",
+      "back": "EUR $55,000$-$120,000$ per year."
+    },
+    {
+      "front": "Why did 'The Intentional Parent' reject the Tonie Box or Yoto Player?",
+      "back": "They are one-directional audio players where the child cannot talk back or ask questions."
+    },
+    {
+      "front": "Why do generic smart speakers like Alexa Kids fail for ZackAI's target audience?",
+      "back": "They are perceived as privacy nightmares that harvest data and lack child-specific emotional intelligence."
+    },
+    {
+      "front": "Market Data: Projected AI toy market value by $2032$",
+      "back": "$\\$1.37$ billion"
+    },
+    {
+      "front": "What is the Compound Annual Growth Rate (CAGR) for the AI toy market through $2032$?",
+      "back": "$52\\%$"
+    },
+    {
+      "front": "Competitive Intelligence: Bondu Primary Category",
+      "back": "AI smart plush toy (priced EUR $89$-$129$)."
+    },
+    {
+      "front": "What is ZackAI's primary competitive advantage over Bondu regarding pricing?",
+      "back": "ZackAI offers a 'no subscription' model while Bondu requires recurring fees."
+    },
+    {
+      "front": "In the Competitive Positioning Matrix, what score does ZackAI receive for 'Conversational AI'?",
+      "back": "$10/10$"
+    },
+    {
+      "front": "What is the 'Persistent Memory' feature differentiator?",
+      "back": "ZackAI remembers the child's favorite topics, stories, and conversations to deepen the friendship over time."
+    },
+    {
+      "front": "Product Specification: Physical Form Factor",
+      "back": "Round, ball-shaped fluffy plush with pointed cat-like ears."
+    },
+    {
+      "front": "What type of charging port is integrated into the ZackAI plush?",
+      "back": "USB-C"
+    },
+    {
+      "front": "What is the primary material used for the ZackAI outer fur?",
+      "back": "Hypoallergenic fur"
+    },
+    {
+      "front": "Which specific hardware component provides ZackAI's 'animated personality'?",
+      "back": "Large blue LED eyes synced with voice, emotion, and mood."
+    },
+    {
+      "front": "Campaign Mechanics: Timing for the 'Launch Morning' email",
+      "back": "Launch Day $09:00$"
+    },
+    {
+      "front": "What is the primary goal of the 'Launch Day Reminder' email at $18:00$?",
+      "back": "To capture undecided subscribers before the first day ends."
+    },
+    {
+      "front": "What are the five core Social Content Pillars for the campaign?",
+      "back": "Screen-free learning, emotional intelligence, multilingual play, parent trust, and animated LED personality."
+    },
+    {
+      "front": "Content Strategy: PR 'Disruption' Angle",
+      "back": "Challenging the subscription model with a one-time EUR $99$ lifetime device."
+    },
+    {
+      "front": "Which French law is cited as a cultural tailwind for ZackAI's screen-free positioning?",
+      "back": "Loi Studer $2024$ (regarding children's screen time)."
+    },
+    {
+      "front": "Customer Psychology: Primary 'Aspiration' of the target parent",
+      "back": "To raise a curious, empathetic, multilingual child without relying on screens."
+    },
+    {
+      "front": "What is the 'Genie Simulation' for a perfect product in this segment?",
+      "back": "A child-safe companion that speaks multiple languages, respects privacy, and requires zero screen time."
+    },
+    {
+      "front": "Identify the 'Repellent Words' to avoid in ZackAI copy.",
+      "back": "Addictive, gamified, screen time, engagement metrics, and data-driven."
+    },
+    {
+      "front": "Content Strategy: Preferred social media platform for 'emotion-first reels'",
+      "back": "Instagram"
+    },
+    {
+      "front": "What is the core target age range for ZackAI users?",
+      "back": "$3$\u2013$12$ years old"
+    },
+    {
+      "front": "Pricing Analysis: Total first-year cost of a Toniebox (starter + figurines)",
+      "back": "EUR $200+$"
+    },
+    {
+      "front": "Strategic Recommendation: How to attack Alexa on positioning",
+      "back": "Focus on privacy and the superior physical companion (huggable) form factor."
+    },
+    {
+      "front": "Writing Rule: Address parents as _____",
+      "back": "Allies (speak to them as equals, never lecture)."
+    },
+    {
+      "front": "Writing Rule: Price mentions",
+      "back": "Always pair EUR $99$ with the 'no-subscription' promise."
+    },
+    {
+      "front": "What are the four 'Proof Moments' defined for the campaign video?",
+      "back": "Screen-free positioning, premium materials, multilingual support, and parent trust."
+    },
+    {
+      "front": "Campaign Mechanics: Goal of the 'Momentum Update' email (Day $3$)",
+      "back": "Use social proof and campaign progress to drive pledges."
+    },
+    {
+      "front": "Customer Psychology: What is the primary 'Fear' regarding AI toys?",
+      "back": "That AI is recording, profiling, or manipulating their child."
+    },
+    {
+      "front": "Product Specs: Face Detail Description",
+      "back": "Cream/beige face with rosy cheeks and a small red smile."
+    },
+    {
+      "front": "What is the packaging material for ZackAI?",
+      "back": "Kraft paper and embossed cardboard."
+    },
+    {
+      "front": "Voice Attribute: Definition of 'Reassuring'",
+      "back": "Ensuring parents feel confident about safety, privacy, and benefits through clarity and evidence."
+    },
+    {
+      "front": "Voice Attribute: Definition of 'Empowering'",
+      "back": "Positioning the child as the hero of every story, with Zack as the sidekick."
+    },
+    {
+      "front": "What is the 'Tone Spectrum' score for Packaging & Unboxing?",
+      "back": "Warmth: $10$, Playfulness: $10$ (Maximum wonder)."
+    },
+    {
+      "front": "Market Gap: Why is the French market specifically underserved in this category?",
+      "back": "Most competitors have limited French-language content and weak local presence."
+    },
+    {
+      "front": "Buying Trigger: The $50\\%$ launch discount creates what emotional state?",
+      "back": "Urgency and the feeling of making a 'smart-parent deal'."
+    },
+    {
+      "front": "Flashcard Category: Process. What is the goal of the 'Pre-Launch Email Sequence'?",
+      "back": "To convert subscribers into launch-ready backers using story, trust, and anticipation."
+    },
+    {
+      "front": "Email Sequence: Timing of 'Tomorrow we go live' email",
+      "back": "$T$-$1$ day"
+    },
+    {
+      "front": "Email Sequence: Goal of 'The problem with screen-time solutions' ($T$-$10$ days)",
+      "back": "To prime the problem/solution frame for prospective backers."
+    },
+    {
+      "front": "Campaign Video Beat: The opening hook question",
+      "back": "What if the smartest thing in your child\u2019s room felt like a hug instead of a screen?"
+    },
+    {
+      "front": "Brand Resonance: Why does ZackAI become more valuable over time?",
+      "back": "The AI learns and adapts to the child's interests and conversational style."
+    },
+    {
+      "front": "Messaging Hierarchy: Primary Message",
+      "back": "Screen-free AI companion, $40+$ languages, EUR $99$, no subscription ever."
+    },
+    {
+      "front": "Messaging Hierarchy: Secondary Message regarding Privacy",
+      "back": "Built GDPR-first in Europe; child's privacy is the product, not the price."
+    },
+    {
+      "front": "French Market Headline: 'L'IA qui se _____'?",
+      "back": "caline (The AI that cuddles)."
+    },
+    {
+      "front": "What are the three tiers in the 'Rewards Framing' strategy?",
+      "back": "Early Bird, Standard Backer, and Family Bundle."
+    },
+    {
+      "front": "Strategic Detail: Where is ZackAI's data stored to ensure GDPR compliance?",
+      "back": "European Union (EU-based) data storage."
+    },
+    {
+      "front": "Competitor Strength: What is Lovevery's primary brand strength?",
+      "back": "Beautiful materials and a strong Montessori philosophy."
+    },
+    {
+      "front": "Competitor Weakness: What is the 'failed solution' reason for Hiring an Au Pair?",
+      "back": "Financially unsustainable long-term (EUR $800$-$1,500$/month)."
+    },
+    {
+      "front": "Customer Psychology: What is the 'Daily Frustration' regarding bedtime?",
+      "back": "Bedtime routines that drag on for $45+$ minutes."
+    },
+    {
+      "front": "Product Usage Scene: A $4$-year-old after school",
+      "back": "Chatting with ZackAI about dinosaurs in French, then switching to English."
+    },
+    {
+      "front": "Visual Identity: Primary Constraint for photography",
+      "back": "No children's faces shown clearly; focus on hands and interaction."
+    },
+    {
+      "front": "Visual Identity: Imagery Constraint regarding technology",
+      "back": "No screens visible in any imagery."
+    },
+    {
+      "front": "Voice Attribute: 'Simple' reading age for parent content",
+      "back": "$10$\u2013$12$ years old"
+    },
+    {
+      "front": "Voice Attribute: 'Simple' reading age for child-facing copy",
+      "back": "$6$\u2013$8$ years old"
+    },
+    {
+      "front": "Writing Rule: Maximum word count per sentence for clarity",
+      "back": "$20$ words"
+    },
+    {
+      "front": "Writing Rule: Exclamation point usage",
+      "back": "Maximum one exclamation mark per paragraph."
+    },
+    {
+      "front": "Competitive Differentiation: Visual strategy 'Own' color",
+      "back": "Muted Lilac ($#AA98D6$)."
+    },
+    {
+      "front": "Strategic Detail: What does the 'Parent Companion App' allow parents to do?",
+      "back": "Set languages, review learning insights, and control content/safety filters."
+    },
+    {
+      "front": "Objection Handling: 'Is this just another screen in disguise?'",
+      "back": "The app is for parents only; the child never sees or touches a screen."
+    },
+    {
+      "front": "Buying Trigger: Dual-parent buy-in effect",
+      "back": "Partner agreement eliminates guilt and triggers the purchase."
+    },
+    {
+      "front": "Market Gap: Multilingual depth compared to competitors",
+      "back": "No competitor exceeds $5$ languages; ZackAI offers $40+$."
+    },
+    {
+      "front": "Content Strategy: 'Influencer Outreach' creator segments",
+      "back": "Parenting creators, Montessori educators, family design accounts, and bilingual communities."
+    },
+    {
+      "front": "Welcome Email: Timing of 'Welcome to ZackAI'",
+      "back": "Immediate upon signup."
+    },
+    {
+      "front": "Market Data: Frequency of 'Screen Time Anxiety' complaint cluster",
+      "back": "Very High"
+    },
+    {
+      "front": "Product Specs: Inner ear color",
+      "back": "Grey"
+    },
+    {
+      "front": "Strategic recommendation: Usage of the 'No Subscription' model",
+      "back": "Use it as a 'trust signal' that the company doesn't 'nickel-and-dime' parents."
+    },
+    {
+      "front": "Social Content Pillar: Animated LED Personality purpose",
+      "back": "To show the character's 'glowing' personality and emotional engagement."
+    },
+    {
+      "front": "Campaign Ad Hook: 'The smartest thing in the room is also the _____'?",
+      "back": "softest"
+    },
+    {
+      "front": "Market Analysis: Demographic gender skew for purchasing decisions",
+      "back": "$65\\%$ female, $35\\%$ male."
+    },
+    {
+      "front": "Competitor Analysis: Tonies first-year cost vs. ZackAI",
+      "back": "Tonies: EUR $200+$ vs. ZackAI: EUR $99$ (one-time)."
+    },
+    {
+      "front": "Product Positioning: Category Entry Point",
+      "back": "Screen-free AI learning companion for children $3$-$12$."
+    },
+    {
+      "front": "Visual Identity: Color to 'Avoid' (Bondu's territory)",
+      "back": "Teal/mint green ($#78C9B3$)."
+    },
+    {
+      "front": "ZackAI Brand Archetype: Personality Trait 'Inclusive'",
+      "back": "Reflects diversity of families and learning styles using universal scenarios."
+    },
+    {
+      "front": "Strategic Detail: ZackAI content filtering method",
+      "back": "Multi-layer content filtering designed specifically for ages $3$-$12$."
+    }
+  ]
+}

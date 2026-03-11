@@ -1,0 +1,659 @@
+{
+  "scan_date": "2026-03-11T17:28:29.604573",
+  "source_directory": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs",
+  "documents": [
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/buyer-persona.json",
+      "filename": "buyer-persona.json",
+      "relative_path": "buyer-persona.json",
+      "type": "buyer_persona",
+      "confidence": "high",
+      "wiki_section": "audience",
+      "skill": "buyer-persona-generator",
+      "priority": 1
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/campaign-page-copy.json",
+      "filename": "campaign-page-copy.json",
+      "relative_path": "campaign-page-copy.json",
+      "type": "campaign_copy",
+      "confidence": "high",
+      "wiki_section": "marketing",
+      "skill": "campaign-page-copy",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/campaign-video-script.json",
+      "filename": "campaign-video-script.json",
+      "relative_path": "campaign-video-script.json",
+      "type": "campaign_copy",
+      "confidence": "high",
+      "wiki_section": "marketing",
+      "skill": "campaign-page-copy",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/competitor-analysis.json",
+      "filename": "competitor-analysis.json",
+      "relative_path": "competitor-analysis.json",
+      "type": "competitor",
+      "confidence": "high",
+      "wiki_section": "audience",
+      "skill": "competitor-analysis",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/detailed-product-description.json",
+      "filename": "detailed-product-description.json",
+      "relative_path": "detailed-product-description.json",
+      "type": "buyer_persona",
+      "confidence": "medium",
+      "wiki_section": "audience",
+      "skill": "buyer-persona-generator",
+      "priority": 1
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/influencer-outreach-pro.json",
+      "filename": "influencer-outreach-pro.json",
+      "relative_path": "influencer-outreach-pro.json",
+      "type": "campaign_copy",
+      "confidence": "medium",
+      "wiki_section": "marketing",
+      "skill": "campaign-page-copy",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/launch-email-sequence.json",
+      "filename": "launch-email-sequence.json",
+      "relative_path": "launch-email-sequence.json",
+      "type": "campaign_copy",
+      "confidence": "medium",
+      "wiki_section": "marketing",
+      "skill": "campaign-page-copy",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/live-campaign-ads.json",
+      "filename": "live-campaign-ads.json",
+      "relative_path": "live-campaign-ads.json",
+      "type": "campaign_copy",
+      "confidence": "high",
+      "wiki_section": "marketing",
+      "skill": "campaign-page-copy",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/mds-messaging-direction-summary.json",
+      "filename": "mds-messaging-direction-summary.json",
+      "relative_path": "mds-messaging-direction-summary.json",
+      "type": "mds",
+      "confidence": "high",
+      "wiki_section": "product",
+      "skill": "mds-messaging-direction-summary",
+      "priority": 1
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/niche-validator.json",
+      "filename": "niche-validator.json",
+      "relative_path": "niche-validator.json",
+      "type": "press_release",
+      "confidence": "medium",
+      "wiki_section": "marketing",
+      "skill": "press-release-copy",
+      "priority": 3
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/pre-launch-ads.json",
+      "filename": "pre-launch-ads.json",
+      "relative_path": "pre-launch-ads.json",
+      "type": "mds",
+      "confidence": "medium",
+      "wiki_section": "product",
+      "skill": "mds-messaging-direction-summary",
+      "priority": 1
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/pre-launch-email-sequence.json",
+      "filename": "pre-launch-email-sequence.json",
+      "relative_path": "pre-launch-email-sequence.json",
+      "type": "campaign_copy",
+      "confidence": "medium",
+      "wiki_section": "marketing",
+      "skill": "campaign-page-copy",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/press-release-copy.json",
+      "filename": "press-release-copy.json",
+      "relative_path": "press-release-copy.json",
+      "type": "press_release",
+      "confidence": "high",
+      "wiki_section": "marketing",
+      "skill": "press-release-copy",
+      "priority": 3
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/product-positioning-summary.json",
+      "filename": "product-positioning-summary.json",
+      "relative_path": "product-positioning-summary.json",
+      "type": "positioning",
+      "confidence": "high",
+      "wiki_section": "product",
+      "skill": "product-positioning-summary",
+      "priority": 1
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/social-content-engine.json",
+      "filename": "social-content-engine.json",
+      "relative_path": "social-content-engine.json",
+      "type": "campaign_copy",
+      "confidence": "high",
+      "wiki_section": "marketing",
+      "skill": "campaign-page-copy",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/visual-identity-core.json",
+      "filename": "visual-identity-core.json",
+      "relative_path": "visual-identity-core.json",
+      "type": "competitor",
+      "confidence": "medium",
+      "wiki_section": "audience",
+      "skill": "competitor-analysis",
+      "priority": 2
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/voice-and-tone.json",
+      "filename": "voice-and-tone.json",
+      "relative_path": "voice-and-tone.json",
+      "type": "voice_tone",
+      "confidence": "high",
+      "wiki_section": "brand",
+      "skill": "voice-and-tone",
+      "priority": 1
+    },
+    {
+      "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/welcome-email-sequence.json",
+      "filename": "welcome-email-sequence.json",
+      "relative_path": "welcome-email-sequence.json",
+      "type": "mds",
+      "confidence": "medium",
+      "wiki_section": "product",
+      "skill": "mds-messaging-direction-summary",
+      "priority": 1
+    }
+  ],
+  "by_type": {
+    "buyer_persona": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/buyer-persona.json",
+        "filename": "buyer-persona.json",
+        "relative_path": "buyer-persona.json",
+        "type": "buyer_persona",
+        "confidence": "high",
+        "wiki_section": "audience",
+        "skill": "buyer-persona-generator",
+        "priority": 1
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/detailed-product-description.json",
+        "filename": "detailed-product-description.json",
+        "relative_path": "detailed-product-description.json",
+        "type": "buyer_persona",
+        "confidence": "medium",
+        "wiki_section": "audience",
+        "skill": "buyer-persona-generator",
+        "priority": 1
+      }
+    ],
+    "campaign_copy": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/campaign-page-copy.json",
+        "filename": "campaign-page-copy.json",
+        "relative_path": "campaign-page-copy.json",
+        "type": "campaign_copy",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/campaign-video-script.json",
+        "filename": "campaign-video-script.json",
+        "relative_path": "campaign-video-script.json",
+        "type": "campaign_copy",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/influencer-outreach-pro.json",
+        "filename": "influencer-outreach-pro.json",
+        "relative_path": "influencer-outreach-pro.json",
+        "type": "campaign_copy",
+        "confidence": "medium",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/launch-email-sequence.json",
+        "filename": "launch-email-sequence.json",
+        "relative_path": "launch-email-sequence.json",
+        "type": "campaign_copy",
+        "confidence": "medium",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/live-campaign-ads.json",
+        "filename": "live-campaign-ads.json",
+        "relative_path": "live-campaign-ads.json",
+        "type": "campaign_copy",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/pre-launch-email-sequence.json",
+        "filename": "pre-launch-email-sequence.json",
+        "relative_path": "pre-launch-email-sequence.json",
+        "type": "campaign_copy",
+        "confidence": "medium",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/social-content-engine.json",
+        "filename": "social-content-engine.json",
+        "relative_path": "social-content-engine.json",
+        "type": "campaign_copy",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      }
+    ],
+    "competitor": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/competitor-analysis.json",
+        "filename": "competitor-analysis.json",
+        "relative_path": "competitor-analysis.json",
+        "type": "competitor",
+        "confidence": "high",
+        "wiki_section": "audience",
+        "skill": "competitor-analysis",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/visual-identity-core.json",
+        "filename": "visual-identity-core.json",
+        "relative_path": "visual-identity-core.json",
+        "type": "competitor",
+        "confidence": "medium",
+        "wiki_section": "audience",
+        "skill": "competitor-analysis",
+        "priority": 2
+      }
+    ],
+    "mds": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/mds-messaging-direction-summary.json",
+        "filename": "mds-messaging-direction-summary.json",
+        "relative_path": "mds-messaging-direction-summary.json",
+        "type": "mds",
+        "confidence": "high",
+        "wiki_section": "product",
+        "skill": "mds-messaging-direction-summary",
+        "priority": 1
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/pre-launch-ads.json",
+        "filename": "pre-launch-ads.json",
+        "relative_path": "pre-launch-ads.json",
+        "type": "mds",
+        "confidence": "medium",
+        "wiki_section": "product",
+        "skill": "mds-messaging-direction-summary",
+        "priority": 1
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/welcome-email-sequence.json",
+        "filename": "welcome-email-sequence.json",
+        "relative_path": "welcome-email-sequence.json",
+        "type": "mds",
+        "confidence": "medium",
+        "wiki_section": "product",
+        "skill": "mds-messaging-direction-summary",
+        "priority": 1
+      }
+    ],
+    "press_release": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/niche-validator.json",
+        "filename": "niche-validator.json",
+        "relative_path": "niche-validator.json",
+        "type": "press_release",
+        "confidence": "medium",
+        "wiki_section": "marketing",
+        "skill": "press-release-copy",
+        "priority": 3
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/press-release-copy.json",
+        "filename": "press-release-copy.json",
+        "relative_path": "press-release-copy.json",
+        "type": "press_release",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "press-release-copy",
+        "priority": 3
+      }
+    ],
+    "positioning": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/product-positioning-summary.json",
+        "filename": "product-positioning-summary.json",
+        "relative_path": "product-positioning-summary.json",
+        "type": "positioning",
+        "confidence": "high",
+        "wiki_section": "product",
+        "skill": "product-positioning-summary",
+        "priority": 1
+      }
+    ],
+    "voice_tone": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/voice-and-tone.json",
+        "filename": "voice-and-tone.json",
+        "relative_path": "voice-and-tone.json",
+        "type": "voice_tone",
+        "confidence": "high",
+        "wiki_section": "brand",
+        "skill": "voice-and-tone",
+        "priority": 1
+      }
+    ]
+  },
+  "by_section": {
+    "audience": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/buyer-persona.json",
+        "filename": "buyer-persona.json",
+        "relative_path": "buyer-persona.json",
+        "type": "buyer_persona",
+        "confidence": "high",
+        "wiki_section": "audience",
+        "skill": "buyer-persona-generator",
+        "priority": 1
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/competitor-analysis.json",
+        "filename": "competitor-analysis.json",
+        "relative_path": "competitor-analysis.json",
+        "type": "competitor",
+        "confidence": "high",
+        "wiki_section": "audience",
+        "skill": "competitor-analysis",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/detailed-product-description.json",
+        "filename": "detailed-product-description.json",
+        "relative_path": "detailed-product-description.json",
+        "type": "buyer_persona",
+        "confidence": "medium",
+        "wiki_section": "audience",
+        "skill": "buyer-persona-generator",
+        "priority": 1
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/visual-identity-core.json",
+        "filename": "visual-identity-core.json",
+        "relative_path": "visual-identity-core.json",
+        "type": "competitor",
+        "confidence": "medium",
+        "wiki_section": "audience",
+        "skill": "competitor-analysis",
+        "priority": 2
+      }
+    ],
+    "marketing": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/campaign-page-copy.json",
+        "filename": "campaign-page-copy.json",
+        "relative_path": "campaign-page-copy.json",
+        "type": "campaign_copy",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/campaign-video-script.json",
+        "filename": "campaign-video-script.json",
+        "relative_path": "campaign-video-script.json",
+        "type": "campaign_copy",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/influencer-outreach-pro.json",
+        "filename": "influencer-outreach-pro.json",
+        "relative_path": "influencer-outreach-pro.json",
+        "type": "campaign_copy",
+        "confidence": "medium",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/launch-email-sequence.json",
+        "filename": "launch-email-sequence.json",
+        "relative_path": "launch-email-sequence.json",
+        "type": "campaign_copy",
+        "confidence": "medium",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/live-campaign-ads.json",
+        "filename": "live-campaign-ads.json",
+        "relative_path": "live-campaign-ads.json",
+        "type": "campaign_copy",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/niche-validator.json",
+        "filename": "niche-validator.json",
+        "relative_path": "niche-validator.json",
+        "type": "press_release",
+        "confidence": "medium",
+        "wiki_section": "marketing",
+        "skill": "press-release-copy",
+        "priority": 3
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/pre-launch-email-sequence.json",
+        "filename": "pre-launch-email-sequence.json",
+        "relative_path": "pre-launch-email-sequence.json",
+        "type": "campaign_copy",
+        "confidence": "medium",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/press-release-copy.json",
+        "filename": "press-release-copy.json",
+        "relative_path": "press-release-copy.json",
+        "type": "press_release",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "press-release-copy",
+        "priority": 3
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/social-content-engine.json",
+        "filename": "social-content-engine.json",
+        "relative_path": "social-content-engine.json",
+        "type": "campaign_copy",
+        "confidence": "high",
+        "wiki_section": "marketing",
+        "skill": "campaign-page-copy",
+        "priority": 2
+      }
+    ],
+    "product": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/mds-messaging-direction-summary.json",
+        "filename": "mds-messaging-direction-summary.json",
+        "relative_path": "mds-messaging-direction-summary.json",
+        "type": "mds",
+        "confidence": "high",
+        "wiki_section": "product",
+        "skill": "mds-messaging-direction-summary",
+        "priority": 1
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/pre-launch-ads.json",
+        "filename": "pre-launch-ads.json",
+        "relative_path": "pre-launch-ads.json",
+        "type": "mds",
+        "confidence": "medium",
+        "wiki_section": "product",
+        "skill": "mds-messaging-direction-summary",
+        "priority": 1
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/product-positioning-summary.json",
+        "filename": "product-positioning-summary.json",
+        "relative_path": "product-positioning-summary.json",
+        "type": "positioning",
+        "confidence": "high",
+        "wiki_section": "product",
+        "skill": "product-positioning-summary",
+        "priority": 1
+      },
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/welcome-email-sequence.json",
+        "filename": "welcome-email-sequence.json",
+        "relative_path": "welcome-email-sequence.json",
+        "type": "mds",
+        "confidence": "medium",
+        "wiki_section": "product",
+        "skill": "mds-messaging-direction-summary",
+        "priority": 1
+      }
+    ],
+    "brand": [
+      {
+        "path": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs/voice-and-tone.json",
+        "filename": "voice-and-tone.json",
+        "relative_path": "voice-and-tone.json",
+        "type": "voice_tone",
+        "confidence": "high",
+        "wiki_section": "brand",
+        "skill": "voice-and-tone",
+        "priority": 1
+      }
+    ]
+  },
+  "agent_dispatch": {
+    "foundation": {
+      "document_count": 4,
+      "documents": [
+        "mds-messaging-direction-summary.json",
+        "pre-launch-ads.json",
+        "welcome-email-sequence.json",
+        "product-positioning-summary.json"
+      ],
+      "wiki_sections": [
+        "product"
+      ]
+    },
+    "brand": {
+      "document_count": 1,
+      "documents": [
+        "voice-and-tone.json"
+      ],
+      "wiki_sections": [
+        "brand"
+      ]
+    },
+    "persona": {
+      "document_count": 4,
+      "documents": [
+        "buyer-persona.json",
+        "detailed-product-description.json",
+        "competitor-analysis.json",
+        "visual-identity-core.json"
+      ],
+      "wiki_sections": [
+        "audience"
+      ]
+    },
+    "marketing": {
+      "document_count": 9,
+      "documents": [
+        "campaign-page-copy.json",
+        "campaign-video-script.json",
+        "influencer-outreach-pro.json",
+        "launch-email-sequence.json",
+        "live-campaign-ads.json",
+        "pre-launch-email-sequence.json",
+        "social-content-engine.json",
+        "niche-validator.json",
+        "press-release-copy.json"
+      ],
+      "wiki_sections": [
+        "marketing"
+      ]
+    }
+  },
+  "visual_assets": {
+    "found": true,
+    "directory": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/zackai/generated",
+    "total_files": 15,
+    "asset_ids": [
+      "2A",
+      "2B",
+      "2C",
+      "3A",
+      "3B",
+      "3C",
+      "4A",
+      "4B"
+    ],
+    "by_extension": {
+      ".png": 15
+    },
+    "files": [
+      "2A-brand-kit-bento-nanobananapro-v1.png",
+      "2A-brand-kit-bento-nanobananapro-v137.png",
+      "2B-brand-seal-flux2pro-v1.png",
+      "2B-brand-seal-flux2pro-v137.png",
+      "2C-logo-emboss-flux2pro-v1.png",
+      "2C-logo-emboss-flux2pro-v137.png",
+      "3A-capsule-collection-nanobananapro-v1.png",
+      "3A-capsule-collection-nanobananapro-v137.png",
+      "3B-hero-product-nanobananapro-v1.png",
+      "3B-hero-product-nanobananapro-v137.png",
+      "3C-product-detail-nanobananapro-v1.png",
+      "4A-catalog-layout-nanobananapro-v1.png",
+      "4A-catalog-layout-nanobananapro-v137.png",
+      "4B-flatlay-nanobananapro-v1.png",
+      "4B-flatlay-nanobananapro-v137.png"
+    ]
+  }
+}
