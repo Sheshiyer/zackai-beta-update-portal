@@ -206,15 +206,56 @@ That means the portal can expose both:
 - It intentionally does **not** include the full Brandmint engine.
 - If you want pipeline code, Wave orchestration, or provider logic, that belongs in the separate Brandmint repo.
 
+## Deploying the portal
+
+This repo contains the Astro source app, so deployment is the standard Astro static workflow:
+
+### Local development
+
+```bash
+cd wiki-site
+bun install
+bun run dev
+```
+
+### Production build
+
+```bash
+cd wiki-site
+bun install
+bun run build
+```
+
+The generated static output lands in:
+
+```bash
+wiki-site/dist/
+```
+
+### Static hosting
+
+Because the site builds to static files, you can deploy `wiki-site/dist/` to any static host, including:
+- GitHub Pages
+- Cloudflare Pages
+- Netlify
+- Vercel (static export)
+- S3/static bucket hosting
+
+A minimal release flow is:
+1. build inside `wiki-site/`
+2. publish the contents of `wiki-site/dist/`
+3. keep `wiki-output/` and `deliverables/brand-docs/publish-report.json` in the repo for provenance
+
 ## Running notes
 
 - `wiki-site/node_modules`, `.astro`, and `dist` are intentionally excluded from git.
 - The repo keeps **source assets** and **portal content**, not ephemeral install/build outputs.
 - The committed `publish-report.json` acts as a compact provenance record for this build.
+- Large NotebookLM binary media under `wiki-site/public/notebooklm/` are tracked with Git LFS.
 
-## License / ownership
+## License
 
-This repository contains the ZackAI beta-update portal assets and supporting generated artifacts. Add your preferred license before broader external distribution if needed.
+This repository is released under the [MIT License](LICENSE).
 
 <div align="center">
 
