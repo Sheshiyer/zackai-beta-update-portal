@@ -1,15 +1,20 @@
 ---
+import type { Locale } from '../i18n';
+import { t } from '../i18n';
+
 interface Props {
   headings: { depth: number; slug: string; text: string }[];
+  locale: Locale;
 }
 
-const { headings } = Astro.props;
+const { headings, locale } = Astro.props;
+const copy = t(locale);
 const toc = headings.filter((heading) => heading.depth >= 2 && heading.depth <= 3);
 ---
 
 {toc.length > 0 && (
   <aside class="toc-panel glass-panel glass-panel--soft">
-    <p class="eyebrow eyebrow--muted">On this page</p>
+    <p class="eyebrow eyebrow--muted">{copy.shell.onThisPage}</p>
     <ul class="toc-list">
       {toc.map((heading) => (
         <li class:list={['toc-item', `toc-item--${heading.depth}`]}>

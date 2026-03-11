@@ -1,7 +1,15 @@
 ---
 import { getCollection } from 'astro:content';
 import siteData from '../data/site-data.json';
+import type { Locale } from '../i18n';
+import { localizedPath, localizedDocTitle, t } from '../i18n';
 
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const copy = t(locale);
 const docs = await getCollection('docs');
 const categories: Record<string, typeof docs> = {};
 
@@ -23,18 +31,10 @@ const sortedCategories = Object.entries(categories).sort(([a], [b]) => {
   const bRank = bi === -1 ? 99 : bi;
   return aRank === bRank ? a.localeCompare(b) : aRank - bRank;
 });
-
-const categoryLabels: Record<string, string> = {
-  general: 'Portal & Research',
-  product: 'Product',
-  brand: 'Brand System',
-  audience: 'Audience',
-  marketing: 'Campaign',
-};
 ---
 
 <nav class="portal-nav">
-  <a href="/" class="brand-lockup">
+  <a href={localizedPath(locale, '/')} class="brand-lockup">
     <span class="brand-lockup__orb">✦</span>
     <span>
       <strong>{siteData.brandName}</strong>
@@ -49,24 +49,24 @@ const categoryLabels: Record<string, string> = {
   </div>
 
   <div class="portal-nav__quicklinks">
-    <a class="quicklink" href="/">Portal Home</a>
-    <a class="quicklink" href={siteData.docsHomeHref || '/docs/index'}>Docs Index</a>
-    <a class="quicklink" href={siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts'}>NotebookLM</a>
+    <a class="quicklink" href={localizedPath(locale, '/')}>{copy.shell.portalHome}</a>
+    <a class="quicklink" href={localizedPath(locale, siteData.docsHomeHref || '/docs/index')}>{copy.shell.docsIndex}</a>
+    <a class="quicklink" href={localizedPath(locale, siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts')}>{copy.shell.notebooklm}</a>
   </div>
 
   {sortedCategories.map(([category, categoryDocs]) => (
     <section class="nav-section">
       <div class="nav-section__header">
-        <p class="eyebrow eyebrow--muted">{categoryLabels[category] || category}</p>
+        <p class="eyebrow eyebrow--muted">{copy.categories[category as keyof typeof copy.categories] || category}</p>
         <span>{categoryDocs.length}</span>
       </div>
       <ul class="nav-list">
         {categoryDocs.map((doc) => (
           <li>
-            <a href={`/docs/${doc.slug}`} class="nav-link">
+            <a href={localizedPath(locale, `/docs/${doc.slug}`)} class="nav-link">
               {doc.data.icon && <span class="nav-link__icon">{doc.data.icon}</span>}
               <span>
-                <strong>{doc.data.title}</strong>
+                <strong>{localizedDocTitle(locale, doc.slug, doc.data.title)}</strong>
                 {doc.data.description && <small>{doc.data.description}</small>}
               </span>
             </a>

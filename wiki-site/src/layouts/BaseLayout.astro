@@ -1,15 +1,18 @@
 ---
 import Navigation from '../components/Navigation.astro';
 import ThemeToggle from '../components/ThemeToggle.astro';
+import LanguageToggle from '../components/LanguageToggle.astro';
 import siteData from '../data/site-data.json';
+import type { Locale } from '../i18n';
 import '../styles/global.css';
 
 interface Props {
   title: string;
   description?: string;
+  locale: Locale;
 }
 
-const { title, description } = Astro.props;
+const { title, description, locale } = Astro.props;
 const palette = siteData.palette || {};
 const brandVars = {
   '--brand-primary': palette.primary?.hex || '#AA98D6',
@@ -20,10 +23,11 @@ const brandVars = {
   '--font-display': siteData.typography?.header?.font || 'Figtree',
   '--font-body': siteData.typography?.body?.font || 'Inter',
 };
+const pathname = Astro.url.pathname;
 ---
 
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang={locale} data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,7 +46,10 @@ const brandVars = {
 
     <div class="portal-shell">
       <aside class="sidebar-frame">
-        <Navigation />
+        <div class="sidebar-frame__topbar">
+          <LanguageToggle locale={locale} pathname={pathname} />
+        </div>
+        <Navigation locale={locale} />
       </aside>
 
       <main class="content-frame">
