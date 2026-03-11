@@ -5,6 +5,7 @@
   "generated_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/zackai/generated",
   "notebooklm_artifacts_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/deliverables/notebooklm/artifacts",
   "wiki_output_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/wiki-output",
+  "wiki_output_fr_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/wiki-output-fr",
   "wiki_site_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/wiki-site",
   "published_site_dir": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/wiki-site/dist",
   "latest_symlink": "/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/published-site",
@@ -30,6 +31,16 @@
     "research/report-briefing.md",
     "research/report-study-guide.md"
   ],
+  "localized_docs": {
+    "fr": [
+      "brand/visual-guidelines.md",
+      "getting-started/quickstart.md",
+      "index.md",
+      "marketing/campaign-copy.md",
+      "product/overview.md",
+      "research/notebooklm-artifacts.md"
+    ]
+  },
   "output_count": 18,
   "inventory_documents": 18,
   "asset_map_pages": [
@@ -55,5 +66,5 @@
     "research/report-briefing.md",
     "research/report-study-guide.md"
   ],
-  "published_at": "2026-03-11T20:11:21.533566"
+  "published_at": "2026-03-11T21:26:20.603904"
 }

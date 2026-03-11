@@ -11,9 +11,23 @@ interface Props {
 const { locale } = Astro.props;
 const copy = t(locale);
 const docs = await getCollection('docs');
-const categories: Record<string, typeof docs> = {};
+const frDocs = await getCollection('frDocs');
+const frDocsBySlug = new Map(frDocs.map((entry) => [entry.slug, entry]));
+const localizedDocs = docs.map((doc) => {
+  const localized = locale === 'fr' ? frDocsBySlug.get(doc.slug) : undefined;
+  return localized
+    ? {
+        ...doc,
+        data: {
+          ...doc.data,
+          ...localized.data,
+        },
+      }
+    : doc;
+});
+const categories: Record<string, typeof localizedDocs> = {};
 
-for (const doc of docs) {
+for (const doc of localizedDocs) {
   const category = (doc.data.category || 'general').toString();
   if (!categories[category]) categories[category] = [];
   categories[category].push(doc);

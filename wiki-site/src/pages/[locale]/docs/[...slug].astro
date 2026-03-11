@@ -16,15 +16,20 @@ export async function getStaticPaths() {
 
 const { doc, locale: routeLocale } = Astro.props;
 const locale = normalizeLocale(routeLocale);
-const { Content, headings } = await doc.render();
+const frDocs = await getCollection('frDocs');
+const frDocsBySlug = new Map(frDocs.map((entry) => [entry.slug, entry]));
+const localizedDoc = locale === 'fr' ? frDocsBySlug.get(doc.slug) ?? doc : doc;
+const { Content, headings } = await localizedDoc.render();
 const copy = t(locale);
-const title = localizedDocTitle(locale, doc.slug, doc.data.title);
-const category = copy.categories[(doc.data.category || 'general') as keyof typeof copy.categories] || doc.data.category;
+const title = localizedDocTitle(locale, doc.slug, localizedDoc.data.title || doc.data.title);
+const description = localizedDoc.data.description || doc.data.description;
+const categoryKey = (localizedDoc.data.category || doc.data.category || 'general') as keyof typeof copy.categories;
+const category = copy.categories[categoryKey] || localizedDoc.data.category || doc.data.category;
 ---
 
 <DocLayout
   title={title}
-  description={doc.data.description}
+  description={description}
   category={category}
   headings={headings}
   locale={locale}

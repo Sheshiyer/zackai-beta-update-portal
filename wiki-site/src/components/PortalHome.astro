@@ -13,14 +13,29 @@ interface Props {
 const { locale } = Astro.props;
 const copy = t(locale);
 const docs = await getCollection('docs');
+const frDocs = await getCollection('frDocs');
+const frDocsBySlug = new Map(frDocs.map((entry) => [entry.slug, entry]));
+const localizedDocs = docs.map((doc) => {
+  const localized = locale === 'fr' ? frDocsBySlug.get(doc.slug) : undefined;
+  return localized
+    ? {
+        ...doc,
+        data: {
+          ...doc.data,
+          ...localized.data,
+        },
+      }
+    : doc;
+});
+const docsBySlug = new Map(localizedDocs.map((doc) => [doc.slug, doc]));
 const metrics = siteData.metrics || [];
 const storyPillars = siteData.storyPillars || [];
 const featuredDocs = siteData.featuredDocs || [];
 const visualHighlights = siteData.visualHighlights || [];
 const notebooklmHighlights = siteData.notebooklmHighlights || [];
 
-const categories: Record<string, typeof docs> = {};
-for (const doc of docs) {
+const categories: Record<string, typeof localizedDocs> = {};
+for (const doc of localizedDocs) {
   const category = (doc.data.category || 'general').toString();
   if (!categories[category]) categories[category] = [];
   categories[category].push(doc);
@@ -94,10 +109,12 @@ const orderedCategories = Object.entries(categories).sort(([a], [b]) => {
       </div>
       <div class="feature-grid">
         {featuredDocs.map((doc) => {
+          const slug = (doc.href || '').replace(/^\/docs\//, '').replace(/^\//, '');
+          const localizedDoc = docsBySlug.get(slug);
           const localized = localizedFeature(locale, doc.href, {
-            title: doc.title,
+            title: localizedDoc?.data.title || doc.title,
             eyebrow: doc.eyebrow,
-            description: doc.description,
+            description: localizedDoc?.data.description || doc.description,
           });
           return (
             <GlassCard class="feature-card" interactive href={localizedPath(locale, doc.href)} tone="default">
