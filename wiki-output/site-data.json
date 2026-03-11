@@ -5,7 +5,7 @@
   "launchChannel": "kickstarter",
   "heroTitle": "Screen-Free Playtime Companion",
   "heroSubtitle": "Approachable AI wrapped in cozy, tactile softness. Technology that feels like a hug.",
-  "heroDescription": "For intentional parents in France who want their children aged 3-12 to learn, play, and grow through conversation rather than screens, ZackAI is the AI-powered plush companion that combines the warmth of a stuffed animal with the intelligence of a personal tutor. Unlike Bondu, which locks families into subscriptions, unlike Tonies and Yoto, which offer passive audio playback, and unlike smart speakers, which were never designed for children, ZackAI delivers adaptive, multilingual, conversational learning inside a huggable, screen-free form factor \u2014 certified safe under EU regulations, available in five bold colors led by Phantom Purple, and sold at EUR 99 with no subscription ever. ZackAI is not a gadget. It is the friend every curious child deserves.",
+  "heroDescription": "ZackAI brings together plush warmth, screen-free learning, and launch-ready research in one premium review portal.",
   "heroPrimaryHref": "/docs/product/overview",
   "heroSecondaryHref": "/docs/research/notebooklm-artifacts",
   "docsHomeHref": "/docs/index",
@@ -47,13 +47,20 @@
       "value": "product-reference-only"
     }
   ],
+  "storyPillars": [
+    "screen-free learning",
+    "emotional intelligence",
+    "multilingual play",
+    "parent trust",
+    "animated LED personality"
+  ],
   "featuredDocs": [
     {
       "title": "Product Overview",
       "description": "Hero product definition, positioning, and messaging stack for the current ZackAI build.",
       "href": "/docs/product/overview",
       "icon": "\ud83d\udce6",
-      "eyebrow": "product"
+      "eyebrow": "Product"
     },
     {
       "title": "Visual Guidelines",
@@ -74,7 +81,7 @@
       "description": "Surfaced reports, infographics, decks, audio, and research tables produced during Wave 7.",
       "href": "/docs/research/notebooklm-artifacts",
       "icon": "\ud83e\udde0",
-      "eyebrow": "general"
+      "eyebrow": "Research"
     }
   ],
   "visualHighlights": [
@@ -141,6 +148,59 @@
       "image": ""
     }
   ],
-  "publishedAtHuman": "March 11, 2026 at 05:28 PM",
-  "runLabel": "Latest build from beta-update"
+  "publishedAtHuman": "March 11, 2026 at 07:41 PM",
+  "runLabel": "Latest beta-update launch build",
+  "palette": {
+    "primary": {
+      "name": "Muted Lilac",
+      "hex": "#AA98D6",
+      "role": "60% backgrounds, hero surfaces, brand anchoring \u2014 from Phantom Purple variant"
+    },
+    "secondary": {
+      "name": "Cloud White",
+      "hex": "#F8F6F2",
+      "role": "30% text, clean backgrounds, breathing space"
+    },
+    "accent": {
+      "name": "Warm Sunset Orange",
+      "hex": "#E67A2E",
+      "role": "10% CTAs, highlights, energy bursts, buy buttons \u2014 from Spark Orange variant"
+    },
+    "support": {
+      "name": "Soft Almond Cream",
+      "hex": "#D9D3C1",
+      "role": "Borders, metadata, secondary text, subtle UI \u2014 from Storm Grey variant"
+    },
+    "signal": {
+      "name": "Soft Aqua Teal",
+      "hex": "#4CC8B2",
+      "role": "Growth indicators, success states, learning progress \u2014 from Arctic Blue variant"
+    }
+  },
+  "typography": {
+    "header": {
+      "font": "Figtree",
+      "weights": [
+        "Regular",
+        "SemiBold",
+        "Bold"
+      ],
+      "display_weight": "SemiBold",
+      "emphasis_weight": "Bold",
+      "case": "title case"
+    },
+    "body": {
+      "font": "Inter",
+      "weights": [
+        "Regular",
+        "Medium"
+      ]
+    },
+    "data": {
+      "font": "JetBrains Mono",
+      "weights": [
+        "Regular"
+      ]
+    }
+  }
 }

@@ -241,6 +241,8 @@ Because the site builds to static files, you can deploy `wiki-site/dist/` to any
 - Vercel (static export)
 - S3/static bucket hosting
 
+A root-level `vercel.json` is included so Vercel can build the nested `wiki-site/` Astro app without guessing the correct build and output paths.
+
 A minimal release flow is:
 1. build inside `wiki-site/`
 2. publish the contents of `wiki-site/dist/`

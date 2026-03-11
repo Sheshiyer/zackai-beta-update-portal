@@ -1,380 +1,186 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import GlassCard from '../components/GlassCard.astro';
 import siteData from '../data/site-data.json';
 
+const docs = await getCollection('docs');
 const metrics = siteData.metrics || [];
-const launchFacts = siteData.launchFacts || [];
+const storyPillars = siteData.storyPillars || [];
 const featuredDocs = siteData.featuredDocs || [];
 const visualHighlights = siteData.visualHighlights || [];
 const notebooklmHighlights = siteData.notebooklmHighlights || [];
+
+const categories: Record<string, typeof docs> = {};
+for (const doc of docs) {
+  const category = (doc.data.category || 'general').toString();
+  if (!categories[category]) categories[category] = [];
+  categories[category].push(doc);
+}
+for (const category of Object.keys(categories)) {
+  categories[category].sort((a, b) => (a.data.order ?? 999) - (b.data.order ?? 999));
+}
+const categoryLabels: Record<string, string> = {
+  general: 'Portal & Research',
+  product: 'Product',
+  brand: 'Brand System',
+  audience: 'Audience',
+  marketing: 'Campaign',
+};
+const orderedCategories = Object.entries(categories).sort(([a], [b]) => {
+  const order = ['general', 'product', 'brand', 'audience', 'marketing'];
+  return (order.indexOf(a) === -1 ? 99 : order.indexOf(a)) - (order.indexOf(b) === -1 ? 99 : order.indexOf(b));
+});
 ---
+
 <BaseLayout title={`${siteData.brandName} Launch Portal`} description={siteData.heroSubtitle || siteData.tagline}>
-  <section class="hero-shell">
-    <div class="hero-copy">
-      <p class="hero-eyebrow">{siteData.themeName} · {siteData.launchChannel}</p>
-      <h1>{siteData.heroTitle}</h1>
-      <p class="hero-subtitle">{siteData.heroSubtitle}</p>
-      {siteData.heroDescription && <p class="hero-description">{siteData.heroDescription}</p>}
+  <section class="home-stage">
+    <section class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">{siteData.themeName} · {siteData.launchChannel}</p>
+        <h1>{siteData.heroTitle}</h1>
+        <p class="hero-subtitle">{siteData.heroSubtitle}</p>
+        {siteData.heroDescription && <p class="hero-description">{siteData.heroDescription}</p>}
 
-      <div class="hero-actions">
-        <a class="hero-button hero-button-primary" href={siteData.heroPrimaryHref || '/docs/product/overview'}>Explore Product Story</a>
-        <a class="hero-button hero-button-secondary" href={siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts'}>View NotebookLM Outputs</a>
-      </div>
-
-      {metrics.length > 0 && (
-        <div class="metric-row">
-          {metrics.map((metric) => (
-            <div class="metric-pill">
-              <span class="metric-value">{metric.value}</span>
-              <span class="metric-label">{metric.label}</span>
-            </div>
-          ))}
+        <div class="hero-actions">
+          <a class="cta cta--primary" href={siteData.heroPrimaryHref || '/docs/product/overview'}>Explore the product story</a>
+          <a class="cta cta--secondary" href={siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts'}>Open research & NotebookLM</a>
         </div>
-      )}
-    </div>
 
-    <GlassCard variant="light" class="hero-visual-card">
-      {siteData.heroImage && (
-        <img class="hero-image" src={siteData.heroImage} alt={siteData.heroImageAlt || siteData.brandName} />
-      )}
-      <div class="hero-visual-copy">
-        <p class="hero-visual-label">Latest published build</p>
-        <h2>{siteData.brandName}</h2>
-        <p>{siteData.tagline}</p>
+        {storyPillars.length > 0 && (
+          <div class="story-pillars">
+            {storyPillars.map((pillar) => <span class="pill pill--soft">{pillar}</span>)}
+          </div>
+        )}
+
+        {metrics.length > 0 && (
+          <div class="metric-grid">
+            {metrics.map((metric) => (
+              <GlassCard class="metric-card" tone="warm">
+                <strong>{metric.value}</strong>
+                <span>{metric.label}</span>
+              </GlassCard>
+            ))}
+          </div>
+        )}
       </div>
-      {launchFacts.length > 0 && (
+
+      <GlassCard class="hero-visual-card" tone="accent">
+        <div class="hero-visual-card__frame">
+          {siteData.heroImage && <img src={siteData.heroImage} alt={siteData.heroImageAlt || siteData.brandName} />}
+        </div>
+        <div class="hero-visual-card__copy">
+          <p class="eyebrow">Launch-ready portal</p>
+          <h2>{siteData.brandName}</h2>
+          <p>{siteData.tagline}</p>
+        </div>
         <div class="launch-facts">
-          {launchFacts.map((fact) => (
+          {(siteData.launchFacts || []).map((fact) => (
             <div class="launch-fact">
-              <span class="launch-fact-label">{fact.label}</span>
+              <small>{fact.label}</small>
               <strong>{fact.value}</strong>
             </div>
           ))}
         </div>
-      )}
-    </GlassCard>
-  </section>
+      </GlassCard>
+    </section>
 
-  <section class="section-grid">
-    <div class="section-heading">
-      <p class="section-eyebrow">Key launch tracks</p>
-      <h2>Move through the ZackAI dossier without digging through a file tree</h2>
-    </div>
-    <div class="feature-grid">
-      {featuredDocs.map((doc) => (
-        <GlassCard variant="light" interactive class="feature-card">
-          <p class="feature-eyebrow">{doc.eyebrow}</p>
-          <h3>{doc.icon ? `${doc.icon} ${doc.title}` : doc.title}</h3>
-          <p>{doc.description}</p>
-          <a class="feature-link" href={doc.href}>Open section →</a>
-        </GlassCard>
-      ))}
-    </div>
-  </section>
+    <section class="home-section">
+      <div class="section-heading">
+        <p class="eyebrow">Curated launch tracks</p>
+        <h2>A brand portal first, but still a real wiki underneath</h2>
+        <p>Move through product, brand, research, and campaign work without losing deep document access.</p>
+      </div>
+      <div class="feature-grid">
+        {featuredDocs.map((doc) => (
+          <GlassCard class="feature-card" interactive href={doc.href} tone="default">
+            <p class="feature-card__eyebrow">{doc.eyebrow}</p>
+            <h3>{doc.icon ? `${doc.icon} ${doc.title}` : doc.title}</h3>
+            <p>{doc.description}</p>
+            <span class="feature-link">Open section →</span>
+          </GlassCard>
+        ))}
+      </div>
+    </section>
 
-  <section class="section-grid">
-    <div class="section-heading">
-      <p class="section-eyebrow">Visual system</p>
-      <h2>Product and brand visuals curated for review, not dumped as a giant index</h2>
-    </div>
-    <div class="highlight-grid highlight-grid-visuals">
-      {visualHighlights.map((item) => (
-        <GlassCard variant="light" interactive class="visual-card">
-          {item.image && <img class="visual-card-image" src={item.image} alt={item.title} />}
-          <div class="visual-card-copy">
-            <p class="feature-eyebrow">{item.eyebrow}</p>
-            <h3>{item.title}</h3>
-            <p>{item.description}</p>
-            <a class="feature-link" href={item.href}>Review asset context →</a>
-          </div>
-        </GlassCard>
-      ))}
-    </div>
-  </section>
+    <section class="home-section">
+      <div class="section-heading">
+        <p class="eyebrow">Visual world</p>
+        <h2>Use the actual brand surfaces, not just generic documentation cards</h2>
+      </div>
+      <div class="visual-grid">
+        {visualHighlights.map((item) => (
+          <GlassCard class="visual-card" interactive href={item.href} tone="signal">
+            {item.image && <img src={item.image} alt={item.title} class="visual-card__image" />}
+            <div class="visual-card__copy">
+              <p class="feature-card__eyebrow">{item.eyebrow}</p>
+              <h3>{item.title}</h3>
+              <p>{item.description}</p>
+              <span class="feature-link">Review the context →</span>
+            </div>
+          </GlassCard>
+        ))}
+      </div>
+    </section>
 
-  <section class="section-grid">
-    <div class="section-heading">
-      <p class="section-eyebrow">NotebookLM outputs</p>
-      <h2>Research artifacts, reports, decks, audio, and infographics surfaced as first-class publishables</h2>
-    </div>
-    <div class="highlight-grid">
-      {notebooklmHighlights.map((item) => (
-        <GlassCard variant="light" interactive class="artifact-card">
-          {item.image && <img class="artifact-preview" src={item.image} alt={item.title} />}
-          <p class="feature-eyebrow">{item.kind}</p>
-          <h3>{item.title}</h3>
-          <p>{item.description}</p>
-          <div class="artifact-actions">
-            {item.href && <a class="feature-link" href={item.href}>Open in docs →</a>}
-            {item.downloadHref && <a class="artifact-download" href={item.downloadHref}>Download</a>}
-          </div>
-        </GlassCard>
-      ))}
-    </div>
-  </section>
+    <section class="home-section home-section--dual">
+      <GlassCard class="knowledge-map" tone="default">
+        <div class="section-heading section-heading--compact">
+          <p class="eyebrow">Knowledge map</p>
+          <h2>Browse the wiki by track</h2>
+        </div>
+        <div class="knowledge-map__grid">
+          {orderedCategories.map(([category, categoryDocs]) => (
+            <section class="knowledge-map__section">
+              <p class="feature-card__eyebrow">{categoryLabels[category] || category}</p>
+              <ul>
+                {categoryDocs.map((doc) => (
+                  <li>
+                    <a href={`/docs/${doc.slug}`}>
+                      {doc.data.icon && <span>{doc.data.icon} </span>}
+                      {doc.data.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </GlassCard>
 
-  <section class="bottom-strip glass-panel">
-    <div>
-      <p class="section-eyebrow">Freshness</p>
-      <h2>{siteData.runLabel}</h2>
-      <p>Published {siteData.publishedAtHuman}. Inner docs remain available via the sidebar; this homepage is intentionally curated for launch review.</p>
-    </div>
-    <div class="bottom-actions">
-      <a class="hero-button hero-button-secondary" href={siteData.docsHomeHref || '/docs/index'}>Open docs index</a>
-      <a class="hero-button hero-button-primary" href={siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts'}>Open research artifacts</a>
-    </div>
+      <GlassCard class="research-panel" tone="warm">
+        <div class="section-heading section-heading--compact">
+          <p class="eyebrow">NotebookLM spotlight</p>
+          <h2>Research and learning artifacts stay close to the story</h2>
+        </div>
+        <div class="research-panel__list">
+          {notebooklmHighlights.map((item) => (
+            <a class="research-item" href={item.href || siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts'}>
+              {item.image && <img src={item.image} alt={item.title} class="research-item__image" />}
+              <div>
+                <p class="feature-card__eyebrow">{item.kind}</p>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                <span class="feature-link">Open in the wiki →</span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </GlassCard>
+    </section>
+
+    <section class="home-section">
+      <GlassCard class="closing-banner" tone="accent">
+        <div>
+          <p class="eyebrow">Fresh build</p>
+          <h2>{siteData.runLabel}</h2>
+          <p>Published {siteData.publishedAtHuman}. This portal keeps the wiki depth, but presents it through the ZackAI brand system instead of a generic docs shell.</p>
+        </div>
+        <div class="closing-banner__actions">
+          <a class="cta cta--secondary" href={siteData.docsHomeHref || '/docs/index'}>Open docs index</a>
+          <a class="cta cta--primary" href={siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts'}>Open research hub</a>
+        </div>
+      </GlassCard>
+    </section>
   </section>
 </BaseLayout>
-
-<style>
-  .hero-shell {
-    display: grid;
-    grid-template-columns: minmax(0, 1.15fr) minmax(320px, 0.85fr);
-    gap: var(--space-8);
-    align-items: stretch;
-    padding: var(--space-10) 0 var(--space-12);
-  }
-
-  .hero-copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: var(--space-4);
-  }
-
-  .hero-eyebrow,
-  .section-eyebrow,
-  .feature-eyebrow,
-  .hero-visual-label {
-    font-size: var(--text-xs);
-    font-weight: 700;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--color-accent);
-  }
-
-  .hero-shell h1 {
-    font-size: clamp(2.8rem, 5vw, 4.8rem);
-    line-height: 0.95;
-    letter-spacing: var(--tracking-tight);
-    margin: 0;
-  }
-
-  .hero-subtitle {
-    font-size: var(--text-xl);
-    line-height: var(--leading-relaxed);
-    color: var(--color-text-secondary);
-    max-width: 52rem;
-  }
-
-  .hero-description {
-    max-width: 46rem;
-    color: var(--color-text-secondary);
-  }
-
-  .hero-actions,
-  .bottom-actions,
-  .artifact-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-3);
-    align-items: center;
-  }
-
-  .hero-button,
-  .artifact-download {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--space-3) var(--space-5);
-    border-radius: var(--radius-full);
-    text-decoration: none;
-    font-weight: 600;
-    transition: all var(--duration-fast) var(--ease-out-quart);
-  }
-
-  .hero-button-primary {
-    background: linear-gradient(135deg, rgba(230, 122, 46, 0.95), rgba(170, 152, 214, 0.95));
-    color: white;
-    box-shadow: var(--shadow-glass-md);
-  }
-
-  .hero-button-secondary,
-  .artifact-download {
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    color: var(--color-text-primary);
-  }
-
-  [data-theme="light"] .hero-button-secondary,
-  [data-theme="light"] .artifact-download {
-    background: rgba(0, 0, 0, 0.03);
-    border-color: rgba(0, 0, 0, 0.06);
-  }
-
-  .hero-button:hover,
-  .artifact-download:hover,
-  .feature-link:hover {
-    transform: translateY(-1px);
-  }
-
-  .metric-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-3);
-    padding-top: var(--space-2);
-  }
-
-  .metric-pill,
-  .launch-fact {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    padding: var(--space-3) var(--space-4);
-    border-radius: var(--radius-xl);
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    min-width: 120px;
-  }
-
-  [data-theme="light"] .metric-pill,
-  [data-theme="light"] .launch-fact {
-    background: rgba(0, 0, 0, 0.03);
-    border-color: rgba(0, 0, 0, 0.06);
-  }
-
-  .metric-value {
-    font-size: var(--text-lg);
-    font-weight: 700;
-  }
-
-  .metric-label,
-  .launch-fact-label {
-    font-size: var(--text-xs);
-    color: var(--color-text-secondary);
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-
-  .hero-visual-card {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-4);
-    min-height: 100%;
-  }
-
-  .hero-image,
-  .visual-card-image,
-  .artifact-preview {
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    border-radius: var(--radius-xl);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-  }
-
-  .hero-image {
-    aspect-ratio: 1 / 1;
-  }
-
-  .launch-facts {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--space-3);
-  }
-
-  .section-grid {
-    display: grid;
-    gap: var(--space-6);
-    margin-top: var(--space-12);
-  }
-
-  .section-heading h2 {
-    font-size: clamp(1.5rem, 2vw, 2.2rem);
-    max-width: 52rem;
-  }
-
-  .feature-grid,
-  .highlight-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: var(--space-5);
-  }
-
-  .highlight-grid-visuals {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .feature-card,
-  .visual-card,
-  .artifact-card {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-3);
-  }
-
-  .feature-card h3,
-  .visual-card h3,
-  .artifact-card h3 {
-    font-size: var(--text-2xl);
-    line-height: 1.15;
-  }
-
-  .feature-card p,
-  .visual-card p,
-  .artifact-card p,
-  .hero-visual-copy p {
-    color: var(--color-text-secondary);
-  }
-
-  .feature-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    color: var(--color-accent);
-    font-weight: 600;
-    text-decoration: none;
-  }
-
-  .visual-card-copy {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-2);
-  }
-
-  .artifact-preview {
-    aspect-ratio: 16 / 10;
-  }
-
-  .bottom-strip {
-    margin-top: var(--space-12);
-    padding: var(--space-6);
-    display: flex;
-    justify-content: space-between;
-    gap: var(--space-6);
-    align-items: center;
-  }
-
-  .bottom-strip h2 {
-    margin: var(--space-2) 0;
-  }
-
-  @media (max-width: 1200px) {
-    .hero-shell,
-    .highlight-grid-visuals {
-      grid-template-columns: 1fr;
-    }
-  }
-
-  @media (max-width: 900px) {
-    .feature-grid,
-    .highlight-grid,
-    .launch-facts,
-    .bottom-strip {
-      grid-template-columns: 1fr;
-      flex-direction: column;
-      align-items: stretch;
-    }
-  }
-</style>

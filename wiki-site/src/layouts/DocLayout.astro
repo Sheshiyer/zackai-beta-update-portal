@@ -11,84 +11,36 @@ interface Props {
 }
 
 const { title, description, category, headings = [] } = Astro.props;
-
-// Estimate reading time
 const content = await Astro.slots.render('default');
-const wordCount = content.split(/\s+/).length;
-const readingTime = Math.max(1, Math.ceil(wordCount / 200));
+const wordCount = content.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+const readingTime = Math.max(1, Math.ceil(wordCount / 210));
 ---
+
 <BaseLayout title={title} description={description}>
-  <article class="doc-article">
-    <Breadcrumb title={title} category={category} />
+  <section class="doc-stage">
+    <div class="doc-shell">
+      <article class="doc-panel glass-panel">
+        <Breadcrumb title={title} category={category} />
 
-    <header class="doc-header">
-      <h1 class="doc-title">{title}</h1>
-      {description && <p class="doc-description">{description}</p>}
-      <div class="doc-meta">
-        <span class="reading-time">{readingTime} min read</span>
-      </div>
-    </header>
+        <header class="doc-header">
+          <div class="doc-header__meta">
+            {category && <span class="pill pill--soft">{category}</span>}
+            <span class="pill pill--warm">{readingTime} min read</span>
+          </div>
+          <h1>{title}</h1>
+          {description && <p class="doc-description">{description}</p>}
+        </header>
 
-    <div class="doc-layout">
-      <div class="doc-content prose">
-        <slot />
-      </div>
+        <div class="prose portal-prose">
+          <slot />
+        </div>
+      </article>
+
       {headings.length > 0 && (
-        <aside class="doc-sidebar">
+        <div class="doc-sidebar">
           <TableOfContents headings={headings} />
-        </aside>
+        </div>
       )}
     </div>
-  </article>
+  </section>
 </BaseLayout>
-
-<style>
-  .doc-article {
-    max-width: 100%;
-  }
-
-  .doc-header {
-    margin-bottom: var(--space-8);
-    padding-bottom: var(--space-6);
-    border-bottom: 1px solid var(--color-divider);
-  }
-
-  .doc-title {
-    font-size: var(--text-4xl);
-    margin-bottom: var(--space-3);
-  }
-
-  .doc-description {
-    font-size: var(--text-lg);
-    color: var(--color-text-secondary);
-    margin-bottom: var(--space-4);
-  }
-
-  .doc-meta {
-    display: flex;
-    gap: var(--space-4);
-    font-size: var(--text-sm);
-    color: var(--color-text-tertiary);
-  }
-
-  .doc-layout {
-    display: flex;
-    gap: var(--space-12);
-  }
-
-  .doc-content {
-    flex: 1;
-    min-width: 0;
-  }
-
-  .doc-sidebar {
-    width: 220px;
-    flex-shrink: 0;
-  }
-
-  @media (max-width: 1100px) {
-    .doc-sidebar {
-      display: none;
-    }
-  }
-</style>

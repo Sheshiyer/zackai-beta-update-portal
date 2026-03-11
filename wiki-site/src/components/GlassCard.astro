@@ -1,26 +1,29 @@
 ---
 interface Props {
-  variant?: 'subtle' | 'light' | 'medium' | 'strong' | 'solid';
+  href?: string;
   interactive?: boolean;
+  tone?: 'default' | 'warm' | 'signal' | 'accent';
   class?: string;
 }
 
-const { variant = 'medium', interactive = false, class: className = '' } = Astro.props;
-const classes = [
-  'glass-card',
-  `glass-${variant}`,
-  interactive ? 'glass-interactive' : '',
-  className,
-].filter(Boolean).join(' ');
+const {
+  href,
+  interactive = false,
+  tone = 'default',
+  class: className = '',
+} = Astro.props;
+
+const Tag = href ? 'a' : 'div';
 ---
 
-<div class={classes}>
+<Tag
+  href={href}
+  class:list={[
+    'glass-card',
+    `glass-card--${tone}`,
+    { 'glass-card--interactive': interactive || Boolean(href) },
+    className,
+  ]}
+>
   <slot />
-</div>
-
-<style>
-  .glass-card {
-    border-radius: var(--radius-xl);
-    padding: var(--space-6);
-  }
-</style>
+</Tag>

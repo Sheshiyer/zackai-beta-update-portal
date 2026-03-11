@@ -8,60 +8,8 @@ const { category, title } = Astro.props;
 ---
 
 <nav class="breadcrumb" aria-label="Breadcrumb">
-  <ol class="breadcrumb-list">
-    <li class="breadcrumb-item">
-      <a href="/">Home</a>
-    </li>
-    {category && (
-      <li class="breadcrumb-item">
-        <span class="breadcrumb-sep">/</span>
-        <span>{category}</span>
-      </li>
-    )}
-    <li class="breadcrumb-item breadcrumb-current">
-      <span class="breadcrumb-sep">/</span>
-      <span>{title}</span>
-    </li>
-  </ol>
+  <a href="/">Portal</a>
+  {category && <><span>/</span><span>{category}</span></>}
+  <span>/</span>
+  <span class="breadcrumb__current">{title}</span>
 </nav>
-
-<style>
-  .breadcrumb {
-    margin-bottom: var(--space-6);
-  }
-
-  .breadcrumb-list {
-    display: flex;
-    align-items: center;
-    gap: var(--space-2);
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-
-  .breadcrumb-item {
-    display: flex;
-    align-items: center;
-    gap: var(--space-2);
-    font-size: var(--text-sm);
-    color: var(--color-text-tertiary);
-  }
-
-  .breadcrumb-item a {
-    color: var(--color-text-secondary);
-    text-decoration: none;
-  }
-
-  .breadcrumb-item a:hover {
-    color: var(--color-accent);
-  }
-
-  .breadcrumb-sep {
-    color: var(--color-text-tertiary);
-    opacity: 0.5;
-  }
-
-  .breadcrumb-current {
-    color: var(--color-text-primary);
-  }
-</style>
