@@ -1,6 +1,0 @@
-{
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "cd wiki-site && bun install",
-  "buildCommand": "cd wiki-site && bun run build",
-  "outputDirectory": "wiki-site/dist"
-}
