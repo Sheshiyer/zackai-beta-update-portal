@@ -10,7 +10,7 @@ tags:
 sources:
 - buyer-persona.json
 - competitor-analysis.json
-lastUpdated: '2026-03-11'
+lastUpdated: '2026-03-12'
 order: 2
 icon: 🧭
 ---

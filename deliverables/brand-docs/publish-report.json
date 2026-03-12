@@ -34,10 +34,14 @@
   "localized_docs": {
     "fr": [
       "brand/visual-guidelines.md",
+      "brand/voice-tone.md",
       "getting-started/quickstart.md",
       "index.md",
       "marketing/campaign-copy.md",
+      "marketing/email-templates.md",
+      "product/features.md",
       "product/overview.md",
+      "product/specifications.md",
       "research/notebooklm-artifacts.md"
     ]
   },
@@ -66,5 +70,5 @@
     "research/report-briefing.md",
     "research/report-study-guide.md"
   ],
-  "published_at": "2026-03-11T21:26:20.603904"
+  "published_at": "2026-03-12T16:50:30.891543"
 }

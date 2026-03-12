@@ -11,7 +11,7 @@ sources:
 - welcome-email-sequence.json
 - pre-launch-email-sequence.json
 - launch-email-sequence.json
-lastUpdated: '2026-03-11'
+lastUpdated: '2026-03-12'
 order: 2
 icon: ✉️
 ---

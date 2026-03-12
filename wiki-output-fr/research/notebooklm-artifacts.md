@@ -8,7 +8,7 @@ tags:
 - notebooklm
 - artifacts
 sources: []
-lastUpdated: '2026-03-11'
+lastUpdated: '2026-03-12'
 order: 1
 icon: 🧠
 ---

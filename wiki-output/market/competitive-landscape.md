@@ -9,7 +9,7 @@ tags:
 - landscape
 sources:
 - competitor-analysis.json
-lastUpdated: '2026-03-11'
+lastUpdated: '2026-03-12'
 order: 3
 icon: 🥊
 ---

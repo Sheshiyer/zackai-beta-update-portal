@@ -9,7 +9,7 @@ tags:
 - script
 sources:
 - campaign-video-script.json
-lastUpdated: '2026-03-11'
+lastUpdated: '2026-03-12'
 order: 4
 icon: 🎬
 ---

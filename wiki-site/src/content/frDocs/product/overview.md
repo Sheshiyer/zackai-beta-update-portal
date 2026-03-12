@@ -11,7 +11,7 @@ sources:
 - detailed-product-description.json
 - product-positioning-summary.json
 - mds-messaging-direction-summary.json
-lastUpdated: '2026-03-11'
+lastUpdated: '2026-03-12'
 order: 1
 icon: 📦
 ---
