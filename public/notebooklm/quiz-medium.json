@@ -1,0 +1,307 @@
+{
+  "title": "ZackAI Quiz",
+  "questions": [
+    {
+      "question": "Which brand archetype is used to define the ZackAI personality?",
+      "answerOptions": [
+        {
+          "text": "The Playful Guardian",
+          "isCorrect": true,
+          "rationale": "This archetype balances the brand's nurturing safety with its curious and adventurous AI personality."
+        },
+        {
+          "text": "The Innocent",
+          "isCorrect": false,
+          "rationale": "While the brand is focused on childhood, it emphasizes protection and wisdom over simple optimism or purity."
+        },
+        {
+          "text": "The Sage",
+          "isCorrect": false,
+          "rationale": "ZackAI provides knowledge, but the brand voice avoids being clinical or purely academic in favor of warmth."
+        },
+        {
+          "text": "The Magician",
+          "isCorrect": false,
+          "rationale": "Although AI technology might seem magical, the brand focuses on tactile, physical companionship rather than transformation or mystery."
+        }
+      ],
+      "hint": "Consider the role that combines both safety and wonder for a child."
+    },
+    {
+      "question": "ZackAI's primary target audience, 'The Intentional Parent,' is characterized by which specific attitude toward technology?",
+      "answerOptions": [
+        {
+          "text": "High digital literacy but deliberately tech-skeptical for children",
+          "isCorrect": true,
+          "rationale": "These parents use advanced tech personally but enforce strict boundaries and screen rules for their children's development."
+        },
+        {
+          "text": "Anti-technology and prefers completely traditional wooden toys",
+          "isCorrect": false,
+          "rationale": "They value technology's benefits for learning, provided it is delivered in a screen-free, safe manner."
+        },
+        {
+          "text": "Early adopters who want their children to master screens as early as possible",
+          "isCorrect": false,
+          "rationale": "This audience views early screen exposure as a negative 'passive consumption' habit rather than a skill."
+        },
+        {
+          "text": "Low digital literacy and avoids all AI products due to lack of understanding",
+          "isCorrect": false,
+          "rationale": "The persona is actually highly educated and comfortable with app-based controls, just skeptical of their child's exposure."
+        }
+      ],
+      "hint": "This group uses smartphones themselves but wants their children to interact with the world differently."
+    },
+    {
+      "question": "What is the specific one-time launch price for ZackAI on Kickstarter?",
+      "answerOptions": [
+        {
+          "text": "EUR 99",
+          "isCorrect": true,
+          "rationale": "This represents a 50% discount from the planned retail price of EUR 199 to reward early backers."
+        },
+        {
+          "text": "EUR 199",
+          "isCorrect": false,
+          "rationale": "This is the intended retail launch price, not the limited-time Kickstarter early bird price."
+        },
+        {
+          "text": "EUR 49",
+          "isCorrect": false,
+          "rationale": "This price would be below the premium positioning of the materials and AI technology used in the product."
+        },
+        {
+          "text": "EUR 79.99",
+          "isCorrect": false,
+          "rationale": "This is closer to the entry price of a Toniebox, which lacks the conversational AI and multilingual depth of ZackAI."
+        }
+      ],
+      "hint": "It is exactly half of the future retail price mentioned in the positioning strategy."
+    },
+    {
+      "question": "According to the competitive analysis, what is the primary limitation of products like the Toniebox and Yoto Player compared to ZackAI?",
+      "answerOptions": [
+        {
+          "text": "They offer passive, one-directional audio content",
+          "isCorrect": true,
+          "rationale": "Unlike ZackAI's two-way conversational AI, these incumbents only play pre-recorded stories without interaction."
+        },
+        {
+          "text": "They are not safe for children under 12",
+          "isCorrect": false,
+          "rationale": "These products are widely considered safe; their limitation is the lack of interactive intelligence, not safety."
+        },
+        {
+          "text": "They are too expensive compared to ZackAI's first-year cost",
+          "isCorrect": false,
+          "rationale": "While the initial player might be cheaper, the total cost of purchasing content figurines or cards often exceeds EUR 200 in the first year."
+        },
+        {
+          "text": "They require a permanent screen connection",
+          "isCorrect": false,
+          "rationale": "These products are successfully screen-free; their gap is in conversational capability and language breadth."
+        }
+      ],
+      "hint": "Focus on the flow of communication between the child and the device."
+    },
+    {
+      "question": "Which visual element serves as the signature for ZackAI\u2019s personality and emotional engagement?",
+      "answerOptions": [
+        {
+          "text": "Animated LED eyes synced with voice and mood",
+          "isCorrect": true,
+          "rationale": "The eyes convey joy, curiosity, and sleepiness, creating a living character feel without using a screen."
+        },
+        {
+          "text": "A glowing chest heart that changes color",
+          "isCorrect": false,
+          "rationale": "The design focuses specifically on the eyes for emotional intelligence and expression."
+        },
+        {
+          "text": "Movable arms and legs for physical posing",
+          "isCorrect": false,
+          "rationale": "The form factor is described as a round, huggable ball-shaped plush rather than an articulated action figure."
+        },
+        {
+          "text": "A screen hidden under the plush fur",
+          "isCorrect": false,
+          "rationale": "The product is strictly screen-free to align with its core positioning and parental trust."
+        }
+      ],
+      "hint": "This feature differentiates it from static speakers or traditional dolls."
+    },
+    {
+      "question": "True or False: ZackAI requires a monthly subscription to access its 40+ languages and conversational memory.",
+      "answerOptions": [
+        {
+          "text": "False",
+          "isCorrect": true,
+          "rationale": "ZackAI explicitly positions itself as having no mandatory subscription, offering a one-time purchase model for all features."
+        },
+        {
+          "text": "True",
+          "isCorrect": false,
+          "rationale": "The brand strategy uses 'No Subscription' as a primary differentiator against competitors like Bondu."
+        }
+      ],
+      "hint": "One of the core messaging pillars is 'No Subscription, No Surprises.'"
+    },
+    {
+      "question": "What is the primary brand color for ZackAI, used for backgrounds and the signature variant?",
+      "answerOptions": [
+        {
+          "text": "Muted Lilac (#AA98D6)",
+          "isCorrect": true,
+          "rationale": "This color represents the signature 'Phantom Purple' variant and is used for 60% of backgrounds."
+        },
+        {
+          "text": "Warm Sunset Orange (#E67A2E)",
+          "isCorrect": false,
+          "rationale": "This is an accent color used for 10% of designs, specifically for CTAs and buy buttons."
+        },
+        {
+          "text": "Soft Aqua Teal (#4CC8B2)",
+          "isCorrect": false,
+          "rationale": "Teal is used as a signal color for growth indicators and success states, but is avoided as a primary to differentiate from Bondu."
+        },
+        {
+          "text": "Cloud White (#F8F6F2)",
+          "isCorrect": false,
+          "rationale": "White is a secondary color used for text and breathing space, comprising 30% of the palette."
+        }
+      ],
+      "hint": "This color is linked to the Phantom Purple hero product."
+    },
+    {
+      "question": "In the 'Visual Identity' guidelines, which of the following is strictly prohibited in brand photography?",
+      "answerOptions": [
+        {
+          "text": "Showing children's faces clearly",
+          "isCorrect": true,
+          "rationale": "The guidelines specify focusing on hands, backs, and physical interaction with the toy to maintain a certain aesthetic and privacy feel."
+        },
+        {
+          "text": "Showing the product in a bedroom setting",
+          "isCorrect": false,
+          "rationale": "Cozy children's bedrooms with soft rugs are actually recommended environments for the product."
+        },
+        {
+          "text": "Using natural afternoon light",
+          "isCorrect": false,
+          "rationale": "Natural light is a requirement to communicate warmth and organic play."
+        },
+        {
+          "text": "Showing the USB-C charging cable",
+          "isCorrect": false,
+          "rationale": "The USB-C port and cable are listed as product details that are acceptable to show in catalogs."
+        }
+      ],
+      "hint": "This rule helps the audience focus on the interaction and the plush itself while avoiding stock-photo smiles."
+    },
+    {
+      "question": "ZackAI's 'Persistent Memory' feature is designed to solve which common problem with traditional toys?",
+      "answerOptions": [
+        {
+          "text": "Children getting bored of the toy after two weeks",
+          "isCorrect": true,
+          "rationale": "By remembering favorite topics and evolving with the child, ZackAI deepens the engagement over months like a real friendship."
+        },
+        {
+          "text": "The toy running out of battery too quickly",
+          "isCorrect": false,
+          "rationale": "Memory relates to software and content adaptation, whereas battery life is a hardware concern addressed by USB-C charging."
+        },
+        {
+          "text": "The toy being unable to speak multiple languages",
+          "isCorrect": false,
+          "rationale": "While it supports 40+ languages, 'Persistent Memory' specifically refers to the relationship and historical context of conversations."
+        },
+        {
+          "text": "Data being lost when the device is turned off",
+          "isCorrect": false,
+          "rationale": "This is a technical requirement, but the benefit is aimed at developmental growth and emotional bonding."
+        }
+      ],
+      "hint": "Think about how a toy stays 'fresh' or 'smart' as a child grows older."
+    },
+    {
+      "question": "Which pair of fonts is specified for the ZackAI visual system?",
+      "answerOptions": [
+        {
+          "text": "Figtree (Headers) and Inter (Body)",
+          "isCorrect": true,
+          "rationale": "Figtree provides a rounded, friendly geometry for headers, while Inter is used for clean, readable body copy."
+        },
+        {
+          "text": "Poppins (Headers) and Inter (Body)",
+          "isCorrect": false,
+          "rationale": "The brand explicitly avoids Poppins as it is identified as the typography territory of the competitor, Bondu."
+        },
+        {
+          "text": "JetBrains Mono (Headers) and Figtree (Body)",
+          "isCorrect": false,
+          "rationale": "JetBrains Mono is reserved for data and metadata, not headers."
+        },
+        {
+          "text": "Brinnan (Headers) and Poppins (Body)",
+          "isCorrect": false,
+          "rationale": "While Brinnan is the brand font inspiration, Figtree is the specified implementation for web/digital headers."
+        }
+      ],
+      "hint": "The header font was chosen for its rounded, approachable geometry."
+    },
+    {
+      "question": "The ZackAI voice attribute 'Simple' means writing should be aimed at what reading age for child-facing copy?",
+      "answerOptions": [
+        {
+          "text": "Ages 6\u20138",
+          "isCorrect": true,
+          "rationale": "This ensures the language is accessible to children while maintaining a natural, storybook-like rhythm."
+        },
+        {
+          "text": "Ages 10\u201312",
+          "isCorrect": false,
+          "rationale": "This is the target reading age for parent-facing content, which needs more detail but still requires clarity."
+        },
+        {
+          "text": "Ages 3\u20135",
+          "isCorrect": false,
+          "rationale": "While the product is for children as young as 3, the written copy guidelines aim slightly higher to ensure rich vocabulary."
+        },
+        {
+          "text": "University level",
+          "isCorrect": false,
+          "rationale": "The brand avoids academic and jargon-heavy language to remain warm and approachable."
+        }
+      ],
+      "hint": "It is lower than the parent-facing content but higher than a toddler's basic vocabulary."
+    },
+    {
+      "question": "Which compliance standard is emphasized as a 'competitive moat' for the French market launch?",
+      "answerOptions": [
+        {
+          "text": "GDPR (General Data Protection Regulation)",
+          "isCorrect": true,
+          "rationale": "Given French skepticism of AI, GDPR compliance and EU-based data storage are core trust signals for the brand."
+        },
+        {
+          "text": "COPPA (Children's Online Privacy Protection Act)",
+          "isCorrect": false,
+          "rationale": "While relevant globally, COPPA is a US-based regulation, and the source material prioritizes EU standards for the launch in France."
+        },
+        {
+          "text": "ISO 9001 (Quality Management)",
+          "isCorrect": false,
+          "rationale": "This is a general manufacturing standard, not the specific safety/privacy certifications emphasized for child tech."
+        },
+        {
+          "text": "FCC Certification",
+          "isCorrect": false,
+          "rationale": "This relates to US radio frequency equipment, while the brand focuses on CE and EN71 for European safety."
+        }
+      ],
+      "hint": "This standard is crucial for data privacy within the European Union."
+    }
+  ]
+}
