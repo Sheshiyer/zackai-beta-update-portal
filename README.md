@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&text=ZackAI%20Beta%20Update%20Portal&fontSize=42&fontAlignY=38&desc=Screen-Free%20Playtime%20Companion%20%E2%80%A2%20Launch-ready%20Astro%20brand%20portal&descAlignY=58&fontColor=ffffff" width="100%" />
@@ -266,3 +267,92 @@ This repository is released under the [MIT License](LICENSE).
 Built as a launch-portal snapshot for **ZackAI beta-update**.
 
 </div>
+=======
+# ZackAI Beta Update Portal
+
+A bilingual (EN/FR) brand launch wiki for **ZackAI** — a screen-free AI plush companion for children aged 3–8.
+
+Built with [Astro 4](https://astro.build) and deployed on [Vercel](https://vercel.com).
+
+## Live Site
+
+**https://zackai-beta-update-portal.vercel.app**
+
+## Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Astro 4.16 (static output) |
+| Content | Markdown + Content Collections |
+| Styling | Custom CSS with design tokens |
+| Icons | Custom SVG icon system (`Icon.astro`) |
+| Media | HTML5 audio players, iframe PDF embeds, inline data tables |
+| i18n | English + French with locale routing |
+| Hosting | Vercel (static) |
+| Assets | Git LFS for images, audio, and PDFs |
+
+## Project Structure
+
+```
+├── public/
+│   ├── images/          # Brand visuals, product shots
+│   └── notebooklm/     # Audio briefings, PDF decks, CSVs, infographics
+├── src/
+│   ├── components/      # Astro components (Icon, Navigation, PortalHome, etc.)
+│   ├── content/
+│   │   ├── docs/        # English content (20 pages)
+│   │   └── frDocs/      # French content (10 pages)
+│   ├── data/            # site-data.json (navigation, featured docs)
+│   ├── i18n/            # Translation strings
+│   ├── layouts/         # BaseLayout, DocLayout
+│   ├── pages/           # Route definitions with [locale] param
+│   └── styles/          # global.css with design token system
+├── astro.config.mjs
+└── package.json
+```
+
+## Content Sections
+
+- **Getting Started** — Quick-start guide
+- **Product** — Overview, features, technical specifications
+- **Brand** — Visual guidelines, voice & tone, asset library
+- **Audience** — Primary persona (parents), secondary personas
+- **Marketing** — Campaign copy, email templates, social content, ad creative, video scripts
+- **Market** — Competitive landscape analysis
+- **Research** — NotebookLM artifacts (audio briefings, presentation decks, data tables, infographics, reports)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Git LFS
+
+This repo uses Git LFS for binary assets. Tracked extensions:
+
+`*.mp3` `*.pdf` `*.png` `*.jpg` `*.jpeg` `*.webp` `*.mp4` `*.wav`
+
+After cloning, run `git lfs pull` to fetch media files.
+
+## Design System
+
+- **Fonts**: Figtree (display), Inter (body), JetBrains Mono (code)
+- **Brand colors**: Lilac `#AA98D6`, Orange `#E67A2E`, Teal `#4CC8B2`
+- **Themes**: Light and dark mode via `[data-theme]` toggle
+- **Icons**: 22 custom SVG stroke icons via `Icon.astro` component
+
+## License
+
+Proprietary — HeyZack / ZackAI. All rights reserved.
+>>>>>>> origin/main

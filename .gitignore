@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Astro
 wiki-site/node_modules/
 wiki-site/dist/
@@ -10,3 +11,10 @@ wiki-site/.astro/
 
 # Local runtime
 published-site
+=======
+node_modules/
+dist/
+.astro/
+.DS_Store
+*.log
+>>>>>>> origin/main

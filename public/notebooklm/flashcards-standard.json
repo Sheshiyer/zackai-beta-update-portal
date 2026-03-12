@@ -1,0 +1,285 @@
+{
+  "title": "ZackAI Flashcards",
+  "cards": [
+    {
+      "front": "What is the official tagline of the ZackAI brand?",
+      "back": "Screen-Free Playtime Companion."
+    },
+    {
+      "front": "Which brand archetype does ZackAI embody?",
+      "back": "The Playful Guardian."
+    },
+    {
+      "front": "What is the name of the ZackAI brand persona?",
+      "back": "Zack."
+    },
+    {
+      "front": "Identify the primary brand color used for 60% of backgrounds and hero surfaces.",
+      "back": "Muted Lilac (#AA98D6)."
+    },
+    {
+      "front": "What is the hex code for 'Cloud White' in the ZackAI palette?",
+      "back": "#F8F6F2."
+    },
+    {
+      "front": "Which accent color is used for CTAs and energy bursts?",
+      "back": "Warm Sunset Orange (#E67A2E)."
+    },
+    {
+      "front": "What is the name of the support color used for borders and metadata?",
+      "back": "Soft Almond Cream (#D9D3C1)."
+    },
+    {
+      "front": "In the ZackAI visual system, what does 'Soft Aqua Teal' represent?",
+      "back": "Growth indicators and learning progress."
+    },
+    {
+      "front": "Which typeface is used for headers in the ZackAI brand guidelines?",
+      "back": "Figtree."
+    },
+    {
+      "front": "What font is designated for body copy in the ZackAI typography system?",
+      "back": "Inter."
+    },
+    {
+      "front": "Which font is utilized for data and technical information?",
+      "back": "JetBrains Mono."
+    },
+    {
+      "front": "How many conversational languages does ZackAI support?",
+      "back": "40+ languages."
+    },
+    {
+      "front": "What is the launch price of ZackAI for early Kickstarter backers?",
+      "back": "EUR 99."
+    },
+    {
+      "front": "What is the full retail price of ZackAI after the 50% launch discount?",
+      "back": "EUR 199."
+    },
+    {
+      "front": "What is the name of the hero colorway for the ZackAI Smart Plush?",
+      "back": "Phantom Purple."
+    },
+    {
+      "front": "Which unique physical feature allows ZackAI to express emotion without a screen?",
+      "back": "Animated LED eyes."
+    },
+    {
+      "front": "What feature allows ZackAI to deepen its relationship with a child over months?",
+      "back": "Persistent memory of the child's interests and stories."
+    },
+    {
+      "front": "What is the primary target age range for ZackAI users?",
+      "back": "3 to 12 years old."
+    },
+    {
+      "front": "What is the name given to the primary ZackAI buyer persona?",
+      "back": "The Intentional Parent."
+    },
+    {
+      "front": "Where is the ZackAI dateline located according to the press release?",
+      "back": "Paris, France."
+    },
+    {
+      "front": "Identify the three primary safety certifications ZackAI holds for the EU market.",
+      "back": "GDPR, CE, and EN71."
+    },
+    {
+      "front": "What is the specific physical shape of the ZackAI Smart Plush?",
+      "back": "Round and ball-shaped."
+    },
+    {
+      "front": "What material is used for the exterior of the ZackAI plush to ensure safety for all children?",
+      "back": "Hypoallergenic fur."
+    },
+    {
+      "front": "ZackAI's business model distinguishes itself from competitors by promising no mandatory _____.",
+      "back": "Subscriptions."
+    },
+    {
+      "front": "What charging standard does the ZackAI device use?",
+      "back": "USB-C."
+    },
+    {
+      "front": "How does ZackAI's interaction model differ from products like Tonies or Yoto?",
+      "back": "It provides two-way conversational AI instead of passive audio playback."
+    },
+    {
+      "front": "What is a primary 'pain point' for 'The Intentional Parent' persona?",
+      "back": "Negotiating daily limits on screen time with their children."
+    },
+    {
+      "front": "Which competitor is directly attacked for 'locking families into subscriptions'?",
+      "back": "Bondu."
+    },
+    {
+      "front": "In the ZackAI voice guidelines, who is the intended 'hero' of every story?",
+      "back": "The child."
+    },
+    {
+      "front": "What is the maximum number of words allowed per sentence in child-facing copy?",
+      "back": "20 words."
+    },
+    {
+      "front": "What 'sigil' state is represented by curved upward crescents glowing teal?",
+      "back": "Happy."
+    },
+    {
+      "front": "What 'sigil' state is represented by thin horizontal lines with a dim glow?",
+      "back": "Sleeping."
+    },
+    {
+      "front": "Which primary visual element must be avoided to maintain the 'screen-free' positioning?",
+      "back": "Digital device displays or screens."
+    },
+    {
+      "front": "What is the core strategic metaphor for ZackAI's brand theme 'Soft Intelligence'?",
+      "back": "A warm friend who whispers knowledge and kindness."
+    },
+    {
+      "front": "Which demographic income bracket does 'The Intentional Parent' typically fall into?",
+      "back": "EUR 55,000 to 120,000 per year."
+    },
+    {
+      "front": "What specific psychological feeling does ZackAI aim to provide parents regarding technology?",
+      "back": "Relief and the absence of screen guilt."
+    },
+    {
+      "front": "What is the 'Elevator Pitch' duration for the 30-second version of the brand story?",
+      "back": "A plush AI companion that speaks 40+ languages with no screen or subscription."
+    },
+    {
+      "front": "Which competitor is identified as a 'privacy nightmare' because it harvests data for a big tech ecosystem?",
+      "back": "Alexa Kids (Amazon)."
+    },
+    {
+      "front": "What is the primary material used for ZackAI's product packaging?",
+      "back": "Kraft paper and embossed cardboard."
+    },
+    {
+      "front": "In the tone spectrum, which context requires 'Maximum wonder and delight'?",
+      "back": "Packaging and Unboxing."
+    },
+    {
+      "front": "What is the 'Repellent Word' regarding technology that should never be used in ZackAI copy?",
+      "back": "Gamified."
+    },
+    {
+      "front": "What is the 'Trigger Word' emphasizing long-term value in ZackAI copy?",
+      "back": "Grows with your child."
+    },
+    {
+      "front": "Which specific French law is cited as a cultural tailwind for ZackAI's screen-free model?",
+      "back": "Loi Studer 2024."
+    },
+    {
+      "front": "What visual texture overlay is suggested to add warmth to digital brand surfaces?",
+      "back": "Subtle fabric or felt texture overlays."
+    },
+    {
+      "front": "What is the name of the pattern featuring small repeating silhouettes of ZackAI ears?",
+      "back": "Ear Scatter."
+    },
+    {
+      "front": "Which social media platform is used for 'emotion-first reels' in the content strategy?",
+      "back": "Instagram."
+    },
+    {
+      "front": "What timing is suggested for the 'Launch Day Reminder' email?",
+      "back": "Launch Day at 18:00."
+    },
+    {
+      "front": "How many color variants are available for ZackAI at launch?",
+      "back": "Five."
+    },
+    {
+      "front": "What is the primary differentiator of ZackAI compared to Montessori subscription kits like Lovevery?",
+      "back": "It enables independent play without requiring constant parental involvement."
+    },
+    {
+      "front": "Which specific design aesthetic is listed as an association for ZackAI's warmth and wonder?",
+      "back": "Studio Ghibli."
+    },
+    {
+      "front": "What is the 'Voice Attribute' defining the need for sensory, emotionally resonant language?",
+      "back": "Warm."
+    },
+    {
+      "front": "Which competitor has a price of EUR 36 per month for subscription kits?",
+      "back": "Lovevery."
+    },
+    {
+      "front": "What is the primary objective of the 'T-10 days' pre-launch email?",
+      "back": "Prime the problem/solution frame regarding screen-time solutions."
+    },
+    {
+      "front": "What is the founder's quote used in the press release boilerplate?",
+      "back": "ZackAI was designed to feel like a friend first and technology second."
+    },
+    {
+      "front": "What is the recommended writing rule regarding technical specifications?",
+      "back": "Show, don't spec (translate specs into felt benefits)."
+    },
+    {
+      "front": "In the 'Genie Simulation,' what is the 'Perfect Product' for the persona?",
+      "back": "A child-safe companion that speaks multiple languages and costs less than two weeks of childcare."
+    },
+    {
+      "front": "What is the primary demographic gender skew for the ZackAI purchasing decision?",
+      "back": "65% female."
+    },
+    {
+      "front": "According to the pricing analysis, why is ZackAI the 'best value proposition'?",
+      "back": "It has no ongoing costs and is cheaper than first-year totals of Tonies or Yoto."
+    },
+    {
+      "front": "What 'mode of use' describes how parents interact with the ZackAI app?",
+      "back": "A control panel for setting languages and reviewing learning insights."
+    },
+    {
+      "front": "What state are ZackAI's eyes in during the 'listening' mode?",
+      "back": "Wide open ovals pulsing gently."
+    },
+    {
+      "front": "Which typeface must be avoided because it is associated with the competitor Bondu?",
+      "back": "Poppins."
+    },
+    {
+      "front": "What is the 'Brand Archetype' name that combines protection and fun?",
+      "back": "The Playful Guardian."
+    },
+    {
+      "front": "What is the core message of the ZackAI brand?",
+      "back": "A cuddly, screen-free AI companion that speaks the child's language and grows with them."
+    },
+    {
+      "front": "What is the primary purpose of the 'Momentum Update' email on Day 3?",
+      "back": "To use social proof and campaign progress to drive pledges."
+    },
+    {
+      "front": "Identify one of the 'Social Proof Angles' used in the campaign page copy.",
+      "back": "Bedtime ritual improvement."
+    },
+    {
+      "front": "What is the 'Visual Mood' description for the ZackAI visual identity?",
+      "back": "Approachable AI wrapped in cozy tactile softness."
+    },
+    {
+      "front": "Which specific icon group name is used to categorize the 9A series (Storytelling, Multilingual, etc.)?",
+      "back": "Engines."
+    },
+    {
+      "front": "What is the primary 'Call to Action' for the top of the website funnel?",
+      "back": "Meet ZackAI."
+    },
+    {
+      "front": "What is the 'Anti Goal' regarding consumer behavior for the ZackAI brand?",
+      "back": "Do not turn the child into a passive content consumer."
+    },
+    {
+      "front": "What is the 'Loyalty Logic' that drives long-term retention for ZackAI?",
+      "back": "The emotional bond formed with a companion that remembers the child's life."
+    }
+  ]
+}
