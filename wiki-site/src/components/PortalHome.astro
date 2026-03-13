@@ -60,7 +60,7 @@ const orderedCategories = Object.entries(categories).sort(([a], [b]) => {
 
         <div class="hero-actions">
           <a class="cta cta--primary" href={localizedPath(locale, siteData.heroPrimaryHref || '/docs/product/overview')}>{locale === 'fr' ? 'Explorer le récit produit' : 'Explore the product story'}</a>
-          <a class="cta cta--secondary" href={localizedPath(locale, siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts')}>{locale === 'fr' ? 'Ouvrir la recherche & NotebookLM' : 'Open research & NotebookLM'}</a>
+          <a class="cta cta--secondary" href={localizedPath(locale, siteData.heroSecondaryHref || '/docs/research/notebooklm-artifacts')}>{locale === 'fr' ? 'Ouvrir la recherche' : 'Open research hub'}</a>
         </div>
 
         {storyPillars.length > 0 && (

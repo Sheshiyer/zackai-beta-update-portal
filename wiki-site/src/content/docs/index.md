@@ -21,12 +21,8 @@ This dossier index summarizes the latest ZackAI beta-update documentation build.
 
 - **Brand:** ZackAI
 - **Tagline:** Screen-Free Playtime Companion
-- **Run root:** `/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update`
-- **Source outputs:** `/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs`
-- **NotebookLM artifacts:** `/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/deliverables/notebooklm/artifacts`
-- **Published site:** `/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/wiki-site/dist`
 - **Structured outputs available:** 18
-- **NotebookLM artifacts surfaced:** 21
+- **Research artifacts:** 21
 
 ## Primary Sections
 
@@ -61,6 +57,5 @@ This dossier index summarizes the latest ZackAI beta-update documentation build.
 
 ## Inventory Snapshot
 
-- **Source directory:** `/Volumes/madara/2026/twc-vault/01-Projects/HeyZack/zackai-launch/beta-update/.brandmint/outputs`
 - **Documents classified:** 18
 - **Agent groups available:** brand, foundation, marketing, persona

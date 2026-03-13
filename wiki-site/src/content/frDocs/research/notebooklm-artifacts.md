@@ -1,7 +1,7 @@
 ---
-title: Artefacts NotebookLM
+title: Artefacts de recherche
 description: Hub de recherche pour les rapports, decks, audio, infographies et exports
-  structurés générés par NotebookLM.
+  structurés de recherche.
 category: general
 tags:
 - research
@@ -13,9 +13,9 @@ order: 1
 icon: 🧠
 ---
 
-# Artefacts NotebookLM
+# Artefacts de recherche
 
-Les outputs NotebookLM sont publiés comme une couche de recherche à part entière dans Wave 8. Ils complètent le récit de marque ZackAI par des rapports, decks, infographies, audio et exports structurés directement consultables depuis le wiki.
+Les artefacts de recherche sont publiés comme une couche à part entière. Ils complètent le récit de marque ZackAI par des rapports, decks, infographies, audio et exports structurés directement consultables depuis le wiki.
 
 ## Couverture
 
@@ -75,25 +75,25 @@ This study guide provides an exhaustive overview of ZackAI, a screen-free AI pla
 
 ### Detailed Deck — Full
 
-Export NotebookLM prêt à présenter, au format PDF.
+Deck prêt à présenter, au format PDF.
 
 - **Téléchargement :** [deck-detailed-full.pdf](/notebooklm/deck-detailed-full.pdf)
 
 ### Detailed Deck — Short
 
-Export NotebookLM prêt à présenter, au format PDF.
+Deck prêt à présenter, au format PDF.
 
 - **Téléchargement :** [deck-detailed-short.pdf](/notebooklm/deck-detailed-short.pdf)
 
 ### Presenter Deck — Full
 
-Export NotebookLM prêt à présenter, au format PDF.
+Deck prêt à présenter, au format PDF.
 
 - **Téléchargement :** [deck-presenter-full.pdf](/notebooklm/deck-presenter-full.pdf)
 
 ### Presenter Deck — Short
 
-Export NotebookLM prêt à présenter, au format PDF.
+Deck prêt à présenter, au format PDF.
 
 - **Téléchargement :** [deck-presenter-short.pdf](/notebooklm/deck-presenter-short.pdf)
 
@@ -101,19 +101,19 @@ Export NotebookLM prêt à présenter, au format PDF.
 
 ### Audio Brief — Short
 
-Brief audio généré par NotebookLM pour une revue à l’écoute.
+Brief audio pour une revue à l’écoute.
 
 - **Téléchargement :** [audio-brief-short.mp3](/notebooklm/audio-brief-short.mp3)
 
 ### Audio Debate
 
-Brief audio généré par NotebookLM pour une revue à l’écoute.
+Brief audio pour une revue à l’écoute.
 
 - **Téléchargement :** [audio-debate.mp3](/notebooklm/audio-debate.mp3)
 
 ### Audio Deep Dive — Long
 
-Brief audio généré par NotebookLM pour une revue à l’écoute.
+Brief audio pour une revue à l’écoute.
 
 - **Téléchargement :** [audio-deep-dive-long.mp3](/notebooklm/audio-deep-dive-long.mp3)
 
@@ -147,14 +147,14 @@ Export CSV avec 8 lignes et 5 colonnes.
 
 ### Flashcards — Detailed
 
-Deck de flashcards NotebookLM avec 84 cards.
+Deck de flashcards avec 84 cards.
 
 - **Items :** 84
 - **Téléchargement :** [flashcards-detailed.json](/notebooklm/flashcards-detailed.json)
 
 ### Flashcards — Standard
 
-Deck de flashcards NotebookLM avec 70 cards.
+Deck de flashcards avec 70 cards.
 
 - **Items :** 70
 - **Téléchargement :** [flashcards-standard.json](/notebooklm/flashcards-standard.json)
@@ -163,14 +163,14 @@ Deck de flashcards NotebookLM avec 70 cards.
 
 ### Quiz — Hard
 
-Jeu de quiz NotebookLM avec 10 questions.
+Jeu de quiz avec 10 questions.
 
 - **Items :** 10
 - **Téléchargement :** [quiz-hard.json](/notebooklm/quiz-hard.json)
 
 ### Quiz — Medium
 
-Jeu de quiz NotebookLM avec 12 questions.
+Jeu de quiz avec 12 questions.
 
 - **Items :** 12
 - **Téléchargement :** [quiz-medium.json](/notebooklm/quiz-medium.json)
@@ -179,6 +179,6 @@ Jeu de quiz NotebookLM avec 12 questions.
 
 ### Mind Map
 
-Export mind map NotebookLM.
+Export mind map.
 
 - **Téléchargement :** [mind-map.json](/notebooklm/mind-map.json)

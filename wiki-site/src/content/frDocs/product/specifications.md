@@ -16,9 +16,9 @@ icon: 🧵
 
 # Spécifications produit
 
-![Catalog Layout](/images/4A-catalog-layout-nanobananapro-v1.png)
+![Catalog Layout](/images/4A-catalog-layout-zackai-v1.png)
 
-![Flatlay](/images/4B-flatlay-nanobananapro-v1.png)
+![Flatlay](/images/4B-flatlay-zackai-v1.png)
 
 Cette page est la base canonique pour les équipes produit, créa et contenu. Elle fixe ce que ZackAI est, comment il se présente physiquement et quels signaux matériels doivent rester stables d’un rendu à l’autre.
 

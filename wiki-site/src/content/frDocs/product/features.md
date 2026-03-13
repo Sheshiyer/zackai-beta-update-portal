@@ -17,9 +17,9 @@ icon: ✨
 
 # Fonctionnalités produit
 
-![Capsule Collection](/images/3A-capsule-collection-nanobananapro-v1.png)
+![Capsule Collection](/images/3A-capsule-collection-zackai-v1.png)
 
-![Product Detail](/images/3C-product-detail-nanobananapro-v1.png)
+![Product Detail](/images/3C-product-detail-zackai-v1.png)
 
 Cette page traduit les capacités ZackAI en bénéfices vécus. On ne vend pas une fiche technique : on montre comment le produit devient un compagnon sans écran, fiable, doux et désirable dans le quotidien familial.
 

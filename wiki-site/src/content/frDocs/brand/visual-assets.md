@@ -1,7 +1,7 @@
 ---
 title: Bibliothèque visuelle
 description: Lecture française de la bibliothèque d’assets ZackAI et des infographies
-  NotebookLM du run beta-update.
+  de recherche du run beta-update.
 category: brand
 tags:
 - brand
@@ -17,7 +17,7 @@ icon: 🖼️
 
 Cette bibliothèque rassemble les surfaces visuelles réellement produites pour ZackAI pendant le run beta-update. Elle sert autant de galerie que de référence de cohérence : chaque image doit prolonger la douceur, la confiance et la logique sans écran de la marque.
 
-## Assets Brandmint générés
+## Assets visuels générés
 
 - **2A — Brand Kit Bento Grid :** pose la lecture globale du système de marque, de la palette et des codes doux/premium.
 - **2B — Brand Seal :** encode la crédibilité, la signature visuelle et la lecture plus institutionnelle de ZackAI.
@@ -28,10 +28,10 @@ Cette bibliothèque rassemble les surfaces visuelles réellement produites pour 
 - **4A — Catalog Layout :** aide à penser les supports de présentation et de collection.
 - **4B — Flatlay :** donne une lecture plus cataloguée et explicite des composants visibles.
 
-## Infographies NotebookLM
+## Infographies de recherche
 
 - **Infographies disponibles :** 3
-- Elles complètent la bibliothèque comme surfaces de recherche visuelle, sans remplacer les images Brandmint de référence.
+- Elles complètent la bibliothèque comme surfaces de recherche visuelle, sans remplacer les images de référence.
 - Elles doivent être utilisées pour enrichir la compréhension, pas pour redéfinir le territoire esthétique principal.
 
 ## Comment utiliser cette bibliothèque

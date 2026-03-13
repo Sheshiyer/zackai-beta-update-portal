@@ -16,7 +16,7 @@ icon: 🎨
 
 # Visual Guidelines
 
-![Brand Kit Bento Grid](/images/2A-brand-kit-bento-nanobananapro-v1.png)
+![Brand Kit Bento Grid](/images/2A-brand-kit-bento-zackai-v1.png)
 
 ![Brand Seal](/images/2B-brand-seal-flux2pro-v1.png)
 

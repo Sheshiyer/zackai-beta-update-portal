@@ -16,7 +16,7 @@ icon: 🎨
 
 # Lignes directrices visuelles
 
-![Brand Kit Bento Grid](/images/2A-brand-kit-bento-nanobananapro-v1.png)
+![Brand Kit Bento Grid](/images/2A-brand-kit-bento-zackai-v1.png)
 
 ![Brand Seal](/images/2B-brand-seal-flux2pro-v1.png)
 
@@ -132,4 +132,4 @@ Le système visuel ZackAI doit toujours faire ressentir la **douceur**, la **sé
 
 ## Résumé d’usage
 
-Chaque surface ZackAI — portail, page produit, kit de marque, packaging, rendu héro ou asset NotebookLM surfacé — doit sembler douce, habitable et digne de confiance. Si un écran, une esthétique enterprise ou une froideur technique dominent la composition, la direction visuelle a échoué.
+Chaque surface ZackAI — portail, page produit, kit de marque, packaging, rendu héro ou artefact de recherche surfacé — doit sembler douce, habitable et digne de confiance. Si un écran, une esthétique enterprise ou une froideur technique dominent la composition, la direction visuelle a échoué.

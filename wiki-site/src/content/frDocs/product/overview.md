@@ -18,7 +18,7 @@ icon: 📦
 
 # Vue d’ensemble produit
 
-![Hero Product](/images/3B-hero-product-nanobananapro-v1.png)
+![Hero Product](/images/3B-hero-product-zackai-v1.png)
 
 ZackAI est un compagnon IA en peluche, premium et sans écran, conçu pour transformer le jeu, l’apprentissage et le coucher en rituels conversationnels chaleureux.
 
@@ -109,5 +109,5 @@ Pour les parents intentionnels en France qui veulent que leurs enfants de 3 à 1
 ## Pour aller plus loin
 
 - [Voir les lignes directrices visuelles](/fr/docs/brand/visual-guidelines)
-- [Ouvrir le hub NotebookLM](/fr/docs/research/notebooklm-artifacts)
+- [Ouvrir le hub de recherche](/fr/docs/research/notebooklm-artifacts)
 - [Consulter la copy de campagne](/fr/docs/marketing/campaign-copy)

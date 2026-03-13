@@ -91,4 +91,4 @@ Le récit produit doit faire remonter quatre preuves : sécurité, intelligence 
 ## Liens utiles
 
 - [Voir la vue d’ensemble produit](/fr/docs/product/overview)
-- [Ouvrir le hub NotebookLM](/fr/docs/research/notebooklm-artifacts)
+- [Ouvrir le hub de recherche](/fr/docs/research/notebooklm-artifacts)

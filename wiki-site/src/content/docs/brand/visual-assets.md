@@ -1,7 +1,7 @@
 ---
 title: Visual Assets Library
-description: Curated library of generated visuals and surfaced NotebookLM infographics
-  for the latest beta-update run.
+description: Curated library of generated visuals and research infographics for the
+  latest beta-update run.
 category: brand
 tags:
 - brand
@@ -17,11 +17,11 @@ icon: 🖼️
 
 Curated visual library for the latest beta-update run.
 
-## Brandmint Generated Visuals
+## Generated Brand Visuals
 
 ### 2A — Brand Kit Bento Grid
 
-![Brand Kit Bento Grid](/images/2A-brand-kit-bento-nanobananapro-v1.png)
+![Brand Kit Bento Grid](/images/2A-brand-kit-bento-zackai-v1.png)
 
 - **Section:** Brand Kit
 - **Variants:** 2
@@ -42,40 +42,40 @@ Curated visual library for the latest beta-update run.
 
 ### 3A — Capsule Collection
 
-![Capsule Collection](/images/3A-capsule-collection-nanobananapro-v1.png)
+![Capsule Collection](/images/3A-capsule-collection-zackai-v1.png)
 
 - **Section:** Product Line
 - **Variants:** 2
 
 ### 3B — Hero Product
 
-![Hero Product](/images/3B-hero-product-nanobananapro-v1.png)
+![Hero Product](/images/3B-hero-product-zackai-v1.png)
 
 - **Section:** Hero Product
 - **Variants:** 2
 
 ### 3C — Product Detail
 
-![Product Detail](/images/3C-product-detail-nanobananapro-v1.png)
+![Product Detail](/images/3C-product-detail-zackai-v1.png)
 
 - **Section:** Product Line
 - **Variants:** 1
 
 ### 4A — Catalog Layout
 
-![Catalog Layout](/images/4A-catalog-layout-nanobananapro-v1.png)
+![Catalog Layout](/images/4A-catalog-layout-zackai-v1.png)
 
 - **Section:** Catalog
 - **Variants:** 2
 
 ### 4B — Flatlay
 
-![Flatlay](/images/4B-flatlay-nanobananapro-v1.png)
+![Flatlay](/images/4B-flatlay-zackai-v1.png)
 
 - **Section:** Product Photography
 - **Variants:** 2
 
-## NotebookLM Infographics
+## Research Infographics
 
 ### Infographic — Landscape
 
