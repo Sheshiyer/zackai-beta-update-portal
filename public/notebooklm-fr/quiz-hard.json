@@ -1,0 +1,255 @@
+{
+  "title": "Peluche Questionnaire",
+  "questions": [
+    {
+      "question": "Quel est le coloris signature (phare) utilis\u00e9 pour le lancement de la peluche ZackAI ?",
+      "answerOptions": [
+        {
+          "text": "Spark Orange",
+          "isCorrect": false,
+          "rationale": "Bien que ce coloris existe dans la gamme, il est consid\u00e9r\u00e9 comme une variante secondaire par rapport au coloris de la marque."
+        },
+        {
+          "text": "Phantom Purple",
+          "isCorrect": true,
+          "rationale": "Ce coloris, associ\u00e9 au Lilas Doux ($#AA98D6$), est l'identit\u00e9 visuelle primaire et le mod\u00e8le phare pr\u00e9sent\u00e9 dans les supports de communication."
+        },
+        {
+          "text": "Arctic Blue",
+          "isCorrect": false,
+          "rationale": "L'Arctic Blue est un coloris de support signalant la progression, mais n'est pas la couleur embl\u00e9matique du produit phare."
+        },
+        {
+          "text": "Stealth Black",
+          "isCorrect": false,
+          "rationale": "Le noir est une option de couleur disponible, mais il ne repr\u00e9sente pas l'esth\u00e9tique 'lilas' centrale de la strat\u00e9gie de marque."
+        }
+      ],
+      "hint": "C'est une nuance de violet souvent d\u00e9crite comme 'Muted Lilac' dans la charte graphique."
+    },
+    {
+      "question": "Combien de langues ZackAI peut-il parler de mani\u00e8re conversationnelle ?",
+      "answerOptions": [
+        {
+          "text": "Plus de 40 langues",
+          "isCorrect": true,
+          "rationale": "Cette capacit\u00e9 multilingue \u00e9tendue est un diff\u00e9renciateur majeur, offrant une immersion bien sup\u00e9rieure aux concurrents qui se limitent souvent \u00e0 moins de 10 langues."
+        },
+        {
+          "text": "Environ 10 langues",
+          "isCorrect": false,
+          "rationale": "Ce nombre est proche de ce que proposent certains concurrents haut de gamme, mais ZackAI d\u00e9passe largement ce seuil."
+        },
+        {
+          "text": "Exactement 5 langues",
+          "isCorrect": false,
+          "rationale": "C'est le nombre de coloris disponibles pour la peluche, pas le nombre de langues support\u00e9es par l'intelligence artificielle."
+        },
+        {
+          "text": "Plus de 100 langues",
+          "isCorrect": false,
+          "rationale": "Bien que l'IA soit puissante, la promesse de marque actuelle se concentre sur une quarantaine de langues valid\u00e9es avec une qualit\u00e9 native."
+        }
+      ],
+      "hint": "Le nombre est huit fois sup\u00e9rieur \u00e0 celui du concurrent le plus proche mentionn\u00e9 dans l'analyse."
+    },
+    {
+      "question": "Quelle est la caract\u00e9ristique physique de ZackAI qui remplace l'utilisation d'un \u00e9cran pour l'interaction \u00e9motionnelle ?",
+      "answerOptions": [
+        {
+          "text": "Un haut-parleur int\u00e9gr\u00e9 haute fid\u00e9lit\u00e9",
+          "isCorrect": false,
+          "rationale": "Le son est crucial pour la conversation, mais il ne fournit pas les indices visuels n\u00e9cessaires \u00e0 l'expression de l'humeur."
+        },
+        {
+          "text": "Des capteurs de pression dans les oreilles",
+          "isCorrect": false,
+          "rationale": "Ces capteurs permettent le toucher, mais l'expression faciale et \u00e9motionnelle passe par un autre canal visuel."
+        },
+        {
+          "text": "Des yeux LED anim\u00e9s",
+          "isCorrect": true,
+          "rationale": "Les yeux LED se synchronisent avec la voix et les \u00e9motions pour cr\u00e9er un personnage vivant tout en respectant la promesse 'sans \u00e9cran'."
+        },
+        {
+          "text": "Un sourire qui change de forme m\u00e9caniquement",
+          "isCorrect": false,
+          "rationale": "Le sourire est brod\u00e9 sur le visage cr\u00e8me pour conserver la douceur de la peluche, sans m\u00e9canisme rigide."
+        }
+      ],
+      "hint": "Pensez \u00e0 l'\u00e9l\u00e9ment lumineux qui peut cligner des yeux ou changer d'intensit\u00e9 selon l'humeur."
+    },
+    {
+      "question": "Quel est le mod\u00e8le tarifaire de ZackAI apr\u00e8s l'achat initial de $99$ euros ?",
+      "answerOptions": [
+        {
+          "text": "Un abonnement mensuel de $5$ euros",
+          "isCorrect": false,
+          "rationale": "ZackAI se positionne explicitement contre le mod\u00e8le de l'abonnement pour \u00e9viter les co\u00fbts r\u00e9currents aux familles."
+        },
+        {
+          "text": "L'achat obligatoire de cartes de contenu",
+          "isCorrect": false,
+          "rationale": "C'est le mod\u00e8le utilis\u00e9 par Yoto, mais ZackAI g\u00e9n\u00e8re son contenu via l'IA sans support physique suppl\u00e9mentaire payant."
+        },
+        {
+          "text": "Aucun abonnement ni frais cach\u00e9s",
+          "isCorrect": true,
+          "rationale": "La proposition de valeur repose sur un achat unique incluant toutes les fonctionnalit\u00e9s et mises \u00e0 jour \u00e0 vie."
+        },
+        {
+          "text": "Une licence annuelle pour les langues suppl\u00e9mentaires",
+          "isCorrect": false,
+          "rationale": "L'acc\u00e8s aux plus de 40 langues est inclus dans le prix d'achat initial sans frais de licence."
+        }
+      ],
+      "hint": "La marque insiste sur le fait que 'les meilleures choses de l'enfance ne viennent pas avec une facture mensuelle'."
+    },
+    {
+      "question": "Sur quel pilier de s\u00e9curit\u00e9 ZackAI se diff\u00e9rencie-t-il des assistants comme Alexa Kids ?",
+      "answerOptions": [
+        {
+          "text": "Le cryptage des donn\u00e9es aux \u00c9tats-Unis",
+          "isCorrect": false,
+          "rationale": "L'h\u00e9bergement des donn\u00e9es aux \u00c9tats-Unis est souvent per\u00e7u comme un risque par les parents europ\u00e9ens cibl\u00e9s."
+        },
+        {
+          "text": "La conformit\u00e9 au RGPD avec h\u00e9bergement en Europe",
+          "isCorrect": true,
+          "rationale": "En tant qu'entreprise fran\u00e7aise, ZackAI place la vie priv\u00e9e au centre de son architecture avec une stricte conformit\u00e9 aux lois europ\u00e9ennes."
+        },
+        {
+          "text": "L'absence totale de connexion internet",
+          "isCorrect": false,
+          "rationale": "L'appareil n\u00e9cessite une connexion pour l'IA conversationnelle, mais elle est s\u00e9curis\u00e9e et filtr\u00e9e par les parents."
+        },
+        {
+          "text": "Le partage anonymis\u00e9 des donn\u00e9es avec des annonceurs",
+          "isCorrect": false,
+          "rationale": "La marque garantit z\u00e9ro partage de donn\u00e9es avec des tiers, contrairement aux mod\u00e8les \u00e9conomiques des g\u00e9ants de la tech."
+        }
+      ],
+      "hint": "La marque est con\u00e7ue 'RGPD-first' pour gagner la confiance des parents intentionnels."
+    },
+    {
+      "question": "Quel est l'arch\u00e9type de marque d\u00e9fini pour ZackAI ?",
+      "answerOptions": [
+        {
+          "text": "Le Sage",
+          "isCorrect": false,
+          "rationale": "Bien que le produit soit intelligent, ZackAI privil\u00e9gie l'interaction ludique et protectrice plut\u00f4t qu'une posture purement professorale."
+        },
+        {
+          "text": "L'Explorateur",
+          "isCorrect": false,
+          "rationale": "Le produit encourage l'aventure, mais son identit\u00e9 profonde est davantage li\u00e9e \u00e0 la s\u00e9curit\u00e9 et \u00e0 la bienveillance au foyer."
+        },
+        {
+          "text": "Le Gardien Espi\u00e8gle",
+          "isCorrect": true,
+          "rationale": "Cet arch\u00e9type combine la s\u00e9curit\u00e9 (gardien) et le plaisir d'apprendre (espi\u00e8gle), refl\u00e9tant parfaitement la personnalit\u00e9 de la peluche."
+        },
+        {
+          "text": "Le Cr\u00e9ateur",
+          "isCorrect": false,
+          "rationale": "Bien que ZackAI aide \u00e0 imaginer des histoires, son r\u00f4le principal est d'\u00eatre un compagnon et un protecteur du temps d'enfance."
+        }
+      ],
+      "hint": "C'est un m\u00e9lange entre une figure protectrice et un compagnon qui aime s'amuser."
+    },
+    {
+      "question": "\u00c0 quelle tranche d'\u00e2ge ZackAI s'adresse-t-il principalement ?",
+      "answerOptions": [
+        {
+          "text": "0 \u00e0 3 ans",
+          "isCorrect": false,
+          "rationale": "\u00c0 cet \u00e2ge, les interactions conversationnelles complexes ne sont pas encore adapt\u00e9es au stade de d\u00e9veloppement de l'enfant."
+        },
+        {
+          "text": "3 \u00e0 12 ans",
+          "isCorrect": true,
+          "rationale": "C'est la fen\u00eatre cible o\u00f9 l'enfant d\u00e9veloppe son langage, sa curiosit\u00e9 et son autonomie, et o\u00f9 ZackAI peut s'adapter \u00e0 son \u00e9volution."
+        },
+        {
+          "text": "6 \u00e0 15 ans",
+          "isCorrect": false,
+          "rationale": "Le format peluche risque de perdre de son attrait aupr\u00e8s des adolescents en fin de primaire et au coll\u00e8ge."
+        },
+        {
+          "text": "Exclusivement les 4-8 ans",
+          "isCorrect": false,
+          "rationale": "Bien que ce soit le c\u0153ur de cible de concurrents comme Bondu, ZackAI pr\u00e9tend couvrir une plage plus large gr\u00e2ce \u00e0 son IA adaptative."
+        }
+      ],
+      "hint": "La plage commence d\u00e8s l'entr\u00e9e en \u00e9cole maternelle et s'\u00e9tend jusqu'\u00e0 la fin de l'\u00e9cole \u00e9l\u00e9mentaire."
+    },
+    {
+      "question": "Quelle fonctionnalit\u00e9 permet \u00e0 ZackAI de ne pas 'oublier' le sujet favori d'un enfant ?",
+      "answerOptions": [
+        {
+          "text": "Le t\u00e9l\u00e9chargement manuel de fichiers de donn\u00e9es",
+          "isCorrect": false,
+          "rationale": "Le processus est automatique et ne n\u00e9cessite pas d'intervention manuelle pour chaque souvenir."
+        },
+        {
+          "text": "La m\u00e9moire persistante",
+          "isCorrect": true,
+          "rationale": "ZackAI se souvient des histoires, des int\u00e9r\u00eats et des \u00e9tapes franchies par l'enfant pour approfondir la relation au fil du temps."
+        },
+        {
+          "text": "Le mode 'R\u00e9p\u00e9tition'",
+          "isCorrect": false,
+          "rationale": "Ce mode servirait \u00e0 l'apprentissage m\u00e9canique, alors que ZackAI vise une amiti\u00e9 \u00e9volutive."
+        },
+        {
+          "text": "La synchronisation avec le calendrier scolaire",
+          "isCorrect": false,
+          "rationale": "L'IA se concentre sur l'univers personnel de l'enfant plut\u00f4t que sur un programme scolaire rigide."
+        }
+      ],
+      "hint": "Cette caract\u00e9ristique transforme le gadget en un 'ami qui grandit avec vous'."
+    },
+    {
+      "question": "Quel r\u00f4le joue l'application compagnon dans l'\u00e9cosyst\u00e8me ZackAI ?",
+      "answerOptions": [
+        {
+          "text": "C'est le seul moyen pour l'enfant d'utiliser la peluche",
+          "isCorrect": false,
+          "rationale": "L'enfant ne doit jamais voir d'\u00e9cran ; la peluche est autonome pour le jeu."
+        },
+        {
+          "text": "Une plateforme de jeux vid\u00e9os compl\u00e9mentaires",
+          "isCorrect": false,
+          "rationale": "Cela contredirait la mission 'sans \u00e9cran' de la marque qui refuse de transformer l'\u00e9ducation en consommation num\u00e9rique passive."
+        },
+        {
+          "text": "Un tableau de bord pour les parents",
+          "isCorrect": true,
+          "rationale": "L'application permet aux parents de param\u00e9trer les langues, de consulter les progr\u00e8s et de d\u00e9finir des limites de s\u00e9curit\u00e9."
+        },
+        {
+          "text": "Un catalogue de figurines \u00e0 acheter",
+          "isCorrect": false,
+          "rationale": "ZackAI n'utilise pas de figurines physiques payantes comme Tonies, misant sur le contenu g\u00e9n\u00e9ratif."
+        }
+      ],
+      "hint": "C'est l'outil qui permet au 'Parent Intentionnel' de garder le contr\u00f4le sans exposer l'enfant \u00e0 l'\u00e9cran."
+    },
+    {
+      "question": "Vrai ou Faux : ZackAI a \u00e9t\u00e9 con\u00e7u pour \u00eatre conforme aux recommandations de l'ANSES sur le temps d'\u00e9cran.",
+      "answerOptions": [
+        {
+          "text": "Vrai",
+          "isCorrect": true,
+          "rationale": "En \u00e9tant totalement d\u00e9pourvu d'\u00e9cran, ZackAI s'aligne sur les directives de sant\u00e9 publique fran\u00e7aises concernant la limitation de l'exposition aux pixels."
+        },
+        {
+          "text": "Faux",
+          "isCorrect": false,
+          "rationale": "Le positionnement 'sans \u00e9cran' est pr\u00e9cis\u00e9ment une r\u00e9ponse aux inqui\u00e9tudes soulev\u00e9es par des organismes comme l'ANSES."
+        }
+      ],
+      "hint": "Rappelez-vous que le produit se d\u00e9finit par ce qu'il n'a pas : un \u00e9cran."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "ZackAI",
+  "children": [
+    {
+      "name": "Positionnement",
+      "children": [
+        {
+          "name": "Compagnon d'apprentissage sans écran"
+        },
+        {
+          "name": "Alternative européenne sécurisée"
+        },
+        {
+          "name": "Prix de 99 EUR sans abonnement"
+        },
+        {
+          "name": "Conformité RGPD, CE et EN71"
+        }
+      ]
+    },
+    {
+      "name": "Fonctionnalités Clés",
+      "children": [
+        {
+          "name": "AI conversationnelle bidirectionnelle"
+        },
+        {
+          "name": "Support de 40+ langues"
+        },
+        {
+          "name": "Yeux LED animés expressifs"
+        },
+        {
+          "name": "Mémoire persistante adaptative"
+        },
+        {
+          "name": "Intelligence émotionnelle"
+        }
+      ]
+    },
+    {
+      "name": "Design et Matériaux",
+      "children": [
+        {
+          "name": "Peluche ronde type doudou"
+        },
+        {
+          "name": "Coloris signature Phantom Purple"
+        },
+        {
+          "name": "Fourrure hypoallergénique"
+        },
+        {
+          "name": "Recharge via USB-C"
+        },
+        {
+          "name": "Composants scellés et arrondis"
+        }
+      ]
+    },
+    {
+      "name": "Public Cible (Parent Intentionnel)",
+      "children": [
+        {
+          "name": "Âge 30-42 ans, urbain"
+        },
+        {
+          "name": "Techno-sceptique pour les enfants"
+        },
+        {
+          "name": "Valeur : multilinguisme et éveil"
+        },
+        {
+          "name": "Peur : impact des écrans et vie privée"
+        }
+      ]
+    },
+    {
+      "name": "Stratégie Kickstarter",
+      "children": [
+        {
+          "name": "Offre Early Bird à -50%"
+        },
+        {
+          "name": "Séquences d'e-mails de lancement"
+        },
+        {
+          "name": "Vidéo axée sur l'émotion"
+        },
+        {
+          "name": "Comparaison directe avec la concurrence"
+        }
+      ]
+    },
+    {
+      "name": "Cas d'Utilisation",
+      "children": [
+        {
+          "name": "Rituels du coucher"
+        },
+        {
+          "name": "Pratique des langues"
+        },
+        {
+          "name": "Jeu autonome sécurisé"
+        },
+        {
+          "name": "Gestion des émotions"
+        }
+      ]
+    }
+  ]
+}

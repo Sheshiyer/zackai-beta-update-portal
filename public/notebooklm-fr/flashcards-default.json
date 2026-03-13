@@ -1,0 +1,265 @@
+{
+  "title": "ZackAI Flashcards",
+  "cards": [
+    {
+      "front": "Quel est le message central (ou 'Message Principal') de la marque ZackAI ?",
+      "back": "Un compagnon IA c\u00e2lin et sans \u00e9cran, multilingue et sans abonnement."
+    },
+    {
+      "front": "Combien de langues ZackAI peut-il parler de mani\u00e8re conversationnelle ?",
+      "back": "Plus de $40$ langues."
+    },
+    {
+      "front": "Quel est le mod\u00e8le \u00e9conomique de ZackAI concernant les frais r\u00e9currents ?",
+      "back": "ZackAI ne n\u00e9cessite aucun abonnement."
+    },
+    {
+      "front": "Quelle est la forme physique distinctive de la peluche ZackAI ?",
+      "back": "Une cr\u00e9ature ronde et moelleuse en forme de boule avec des oreilles de chat."
+    },
+    {
+      "front": "Quelle technologie remplace l'\u00e9cran pour exprimer les \u00e9motions de ZackAI ?",
+      "back": "Des yeux LED anim\u00e9s expressifs."
+    },
+    {
+      "front": "\u00c0 quel arch\u00e9type de marque ZackAI est-il associ\u00e9 ?",
+      "back": "Le Gardien Espi\u00e8gle."
+    },
+    {
+      "front": "Quel est le nom du coloris phare (primaire) de ZackAI ?",
+      "back": "Phantom Purple (Lilas doux)."
+    },
+    {
+      "front": "ZackAI est con\u00e7u pour quelle tranche d'\u00e2ge d'enfants ?",
+      "back": "Entre $3$ et $12$ ans."
+    },
+    {
+      "front": "Quel est le prix de lancement de ZackAI sur Kickstarter avec la r\u00e9duction de $50\\%$ ?",
+      "back": "$99 \\text{ \u20ac}$."
+    },
+    {
+      "front": "Quelle est la valeur de l'hexad\u00e9cimal de la couleur 'Muted Lilac' ?",
+      "back": "\\#AA98D6."
+    },
+    {
+      "front": "Le parent intentionnel : Donn\u00e9es d\u00e9mographiques (\u00e2ge)",
+      "back": "Le segment cible a entre $30$ et $42$ ans."
+    },
+    {
+      "front": "Quel est l'objectif principal du 'Parent Intentionnel' vis-\u00e0-vis de la technologie ?",
+      "back": "Il souhaite moins de temps d'\u00e9cran et plus de jeu significatif."
+    },
+    {
+      "front": "ZackAI est conforme \u00e0 quelle r\u00e9glementation europ\u00e9enne sur la protection des donn\u00e9es ?",
+      "back": "Le RGPD (R\u00e8glement G\u00e9n\u00e9ral sur la Protection des Donn\u00e9es)."
+    },
+    {
+      "front": "Quelle est la fonction de la 'm\u00e9moire persistante' de ZackAI ?",
+      "back": "Elle permet de se souvenir des sujets, histoires et conversations pr\u00e9f\u00e9r\u00e9s de l'enfant."
+    },
+    {
+      "front": "Citez un concurrent de ZackAI qui propose une peluche intelligente avec abonnement.",
+      "back": "Bondu."
+    },
+    {
+      "front": "Pourquoi le Toniebox ou le Yoto Player sont-ils consid\u00e9r\u00e9s comme inf\u00e9rieurs \u00e0 ZackAI en termes d'interaction ?",
+      "back": "Ils proposent une \u00e9coute audio passive et unidirectionnelle."
+    },
+    {
+      "front": "Quel est le type de port utilis\u00e9 pour recharger la peluche ZackAI ?",
+      "back": "Un port USB-C."
+    },
+    {
+      "front": "Terme : Intelligence douce",
+      "back": "Une IA accessible envelopp\u00e9e de douceur tactile et de chaleur \u00e9motionnelle."
+    },
+    {
+      "front": "Quelles sont les trois certifications de s\u00e9curit\u00e9 mentionn\u00e9es pour ZackAI ?",
+      "back": "EN71, CE et ASTM F963."
+    },
+    {
+      "front": "Quel est l'accent de couleur utilis\u00e9 pour les boutons d'action (CTA) ?",
+      "back": "Warm Sunset Orange (\\#E67A2E)."
+    },
+    {
+      "front": "Dans le positionnement de ZackAI, l'IA ne remplace pas l'interaction humaine mais la _____.",
+      "back": "Compl\u00e8te."
+    },
+    {
+      "front": "Quel trait de personnalit\u00e9 de ZackAI est mis en avant aupr\u00e8s des enfants ?",
+      "back": "Sa patience infinie et sa curiosit\u00e9."
+    },
+    {
+      "front": "Comment ZackAI traite-t-il les r\u00e9ponses pour garantir la s\u00e9curit\u00e9 des 3-12 ans ?",
+      "back": "Gr\u00e2ce \u00e0 un filtrage de contenu multi-couches sp\u00e9cifique."
+    },
+    {
+      "front": "Quel est le r\u00f4le de l'application compagnon pour les parents ?",
+      "back": "Param\u00e9trer les langues, consulter les progr\u00e8s et g\u00e9rer les contr\u00f4les parentaux."
+    },
+    {
+      "front": "La police de caract\u00e8res utilis\u00e9e pour les titres de la marque est _____.",
+      "back": "Figtree."
+    },
+    {
+      "front": "Quel mat\u00e9riau est utilis\u00e9 pour le rembourrage de la peluche ?",
+      "back": "Du polyester recycl\u00e9."
+    },
+    {
+      "front": "Pourquoi ZackAI gagne-t-il face \u00e0 Alexa Kids concernant la vie priv\u00e9e ?",
+      "back": "ZackAI est con\u00e7u exclusivement pour les enfants avec z\u00e9ro partage de donn\u00e9es tiers."
+    },
+    {
+      "front": "Quel est le nom de la startup fran\u00e7aise derri\u00e8re ZackAI ?",
+      "back": "HeyZack."
+    },
+    {
+      "front": "Quelle est l'accroche \u00e9motionnelle li\u00e9e au multilinguisme de ZackAI ?",
+      "back": "Le premier ami multilingue de votre enfant n'a pas besoin de passeport."
+    },
+    {
+      "front": "Comment ZackAI est-il per\u00e7u par les enfants par rapport \u00e0 un gadget ?",
+      "back": "Ils le voient comme un ami de confiance avec qui cr\u00e9er un lien."
+    },
+    {
+      "front": "Quelle est la part de march\u00e9 cible estim\u00e9e (taux de p\u00e9n\u00e9tration) en France ?",
+      "back": "Entre $2\\%$ et $5\\%$."
+    },
+    {
+      "front": "Quel est le ton recommand\u00e9 pour s'adresser aux parents ?",
+      "back": "Chaleureux, comp\u00e9tent et respectueux (vouvoiement)."
+    },
+    {
+      "front": "Quel type de tissu est utilis\u00e9 pour la surface de ZackAI ?",
+      "back": "Un tissu peluche doux, moelleux et hypoallerg\u00e9nique."
+    },
+    {
+      "front": "Quel est le prix final de vente (MSRP) pr\u00e9vu apr\u00e8s la campagne Kickstarter ?",
+      "back": "$199 \\text{ \u20ac}$."
+    },
+    {
+      "front": "Concept : Parentalit\u00e9 intentionnelle",
+      "back": "Une approche privil\u00e9giant des choix r\u00e9fl\u00e9chis et limitant les \u00e9crans pour l'\u00e9veil de l'enfant."
+    },
+    {
+      "front": "ZackAI aide \u00e0 r\u00e9soudre quelle frustration quotidienne lors du rituel du soir ?",
+      "back": "Les routines du coucher qui s'\u00e9ternisent (champ de bataille)."
+    },
+    {
+      "front": "O\u00f9 les donn\u00e9es de ZackAI sont-elles h\u00e9berg\u00e9es pour respecter le RGPD ?",
+      "back": "Dans l'Union europ\u00e9enne."
+    },
+    {
+      "front": "Quelle couleur est associ\u00e9e au signal de progression dans l'apprentissage ?",
+      "back": "Soft Aqua Teal (\\#4CC8B2)."
+    },
+    {
+      "front": "Quel est l'arch\u00e9type de la voix de Zack pour les enfants ?",
+      "back": "Un grand fr\u00e8re ador\u00e9 ou le narrateur d'un livre de contes."
+    },
+    {
+      "front": "La fourrure de ZackAI est garantie _____ pour la s\u00e9curit\u00e9 des enfants sensibles.",
+      "back": "Hypoallerg\u00e9nique."
+    },
+    {
+      "front": "Dans le script vid\u00e9o, quelle s\u00e9quence montre le mode coucher ?",
+      "back": "La chambre se transforme en un espace calme avec une lueur tamis\u00e9e."
+    },
+    {
+      "front": "Quel est le slogan (tagline) de ZackAI ?",
+      "back": "Compagnon de jeu sans \u00e9cran."
+    },
+    {
+      "front": "Quel est le but de la s\u00e9quence d'e-mails de bienvenue ?",
+      "back": "\u00c9tablir la promesse de marque et cr\u00e9er un attachement \u00e9motionnel."
+    },
+    {
+      "front": "Quelle est la particularit\u00e9 du mod\u00e8le 'Early Bird' sur Kickstarter ?",
+      "back": "Il propose le coloris phare au prix de lancement r\u00e9duit."
+    },
+    {
+      "front": "Quelle dimension de la matrice concurrentielle obtient un score de $10/10$ pour ZackAI ?",
+      "back": "L'IA conversationnelle (ou l'absence d'abonnement)."
+    },
+    {
+      "front": "Quel est le mot d\u00e9clencheur li\u00e9 \u00e0 la durabilit\u00e9 du lien enfant-peluche ?",
+      "back": "Grandit avec votre enfant."
+    },
+    {
+      "front": "Comment ZackAI se diff\u00e9rencie-t-il visuellement des robots technologiques ?",
+      "back": "Par son design de peluche tactile et ses textures douces."
+    },
+    {
+      "front": "ZackAI utilise le 'Muted Lilac' car c'est une couleur _____ dans la cat\u00e9gorie.",
+      "back": "Unique et inoccup\u00e9e."
+    },
+    {
+      "front": "Quelle est la r\u00e8gle d'\u00e9criture concernant l'enfant dans le contenu de marque ?",
+      "back": "L'enfant doit toujours \u00eatre le h\u00e9ros/protagoniste."
+    },
+    {
+      "front": "Quel support de communication est privil\u00e9gi\u00e9 pour les relations presse (RP) ?",
+      "back": "Le communiqu\u00e9 de presse ax\u00e9 sur l'innovation sans \u00e9cran et le RGPD."
+    },
+    {
+      "front": "Pourquoi ZackAI est-il adapt\u00e9 aux familles expatri\u00e9es ?",
+      "back": "Il permet de maintenir les langues patrimoniales gr\u00e2ce au support multilingue."
+    },
+    {
+      "front": "Quel segment d'influenceurs est vis\u00e9 pour la strat\u00e9gie de collaboration ?",
+      "back": "Les \u00e9ducateurs Montessori et les parents engag\u00e9s dans le sans-\u00e9cran."
+    },
+    {
+      "front": "Combien de variantes de couleurs ZackAI propose-t-il au total ?",
+      "back": "$5$ variantes."
+    },
+    {
+      "front": "Le nom de la police utilis\u00e9e pour les donn\u00e9es techniques est _____.",
+      "back": "JetBrains Mono."
+    },
+    {
+      "front": "Quel est l'\u00e9l\u00e9ment visuel signature de ZackAI lors d'une d\u00e9monstration ?",
+      "back": "La lueur des yeux LED anim\u00e9s."
+    },
+    {
+      "front": "Quelle peur parentale ZackAI exploite-t-il pour son positionnement ?",
+      "back": "L'addiction des enfants aux \u00e9crans et la passivit\u00e9."
+    },
+    {
+      "front": "ZackAI est con\u00e7u pour fonctionner _____ pour les fonctions essentielles.",
+      "back": "Hors ligne."
+    },
+    {
+      "front": "Quel est le timing recommand\u00e9 pour l'envoi de l'e-mail 'Matin du lancement' ?",
+      "back": "Jour du lancement \u00e0 $09\\text{h}00$."
+    },
+    {
+      "front": "Quelle \u00e9motion cible-t-on chez l'enfant avec ZackAI ?",
+      "back": "L'\u00e9merveillement et la joie."
+    },
+    {
+      "front": "Comment ZackAI \u00e9vite-t-il d'\u00eatre un 'simple gadget' sur le long terme ?",
+      "back": "En s'adaptant \u00e0 la croissance et aux nouveaux int\u00e9r\u00eats de l'enfant."
+    },
+    {
+      "front": "ZackAI est certifi\u00e9 _____ pour la s\u00e9curit\u00e9 des jouets en Europe.",
+      "back": "EN71."
+    },
+    {
+      "front": "Quelle est la m\u00e9taphore de marque de ZackAI ?",
+      "back": "Une technologie qui a la chaleur d'un c\u00e2lin."
+    },
+    {
+      "front": "Quel est le canal pr\u00e9f\u00e9r\u00e9 pour montrer de vrais enfants utilisant ZackAI ?",
+      "back": "Instagram (Reels de 60-90 secondes)."
+    },
+    {
+      "front": "Quel est le r\u00f4le du coloris 'Soft Almond Cream' dans l'interface ?",
+      "back": "\u00c9l\u00e9ments discrets, bordures et m\u00e9tadonn\u00e9es."
+    },
+    {
+      "front": "ZackAI rejette les termes comme 'gamifi\u00e9' ou 'addictif', pr\u00e9f\u00e9rant _____.",
+      "back": "\u00c9veil ou apprentissage naturel."
+    }
+  ]
+}

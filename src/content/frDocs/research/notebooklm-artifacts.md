@@ -1,247 +1,182 @@
 ---
 title: Artefacts NotebookLM
 description: Hub de recherche pour les rapports, decks, audio, infographies et exports
-  structurés générés par NotebookLM.
+  structurés générés par NotebookLM — édition française.
 category: general
 tags:
 - research
 - notebooklm
 - artifacts
 sources: []
-lastUpdated: '2026-03-12'
+lastUpdated: "2026-03-13"
 order: 1
-icon: "brain"
+icon: 🧠
 ---
 
-# Artefacts NotebookLM
+# Artefacts NotebookLM — Édition Française
 
-Les outputs NotebookLM sont publiés comme une couche de recherche à part entière dans Wave 8. Ils complètent le récit de marque ZackAI par des rapports, decks, infographies, audio et exports structurés directement consultables depuis le wiki.
+Les outputs NotebookLM sont publiés comme une couche de recherche à part entière dans Wave 8. Ils complètent le récit de marque ZackAI par des rapports, decks, infographies, audio et exports structurés directement consultables depuis le wiki. Tous les artefacts ci-dessous sont générés en français à partir de 28 sources traduites et 6 images produit.
 
-| Catégorie | Quantité |
-|---|---|
-| Rapports | 3 |
-| Decks | 4 |
-| Briefs audio | 3 |
-| Infographies | 3 |
-| Tables de données | 3 |
-| Flashcards | 2 |
-| Quiz | 2 |
-| Cartes mentales | 1 |
+## Couverture
 
----
-
-## Briefs audio
-
-Écoute directe — aucun téléchargement requis.
-
-### Audio Brief — Short
-
-Un résumé audio concis de la proposition de valeur et du positionnement marché de ZackAI.
-
-<div class="media-player">
-<audio controls preload="metadata">
-  <source src="/notebooklm/audio-brief-short.mp3" type="audio/mpeg" />
-  Votre navigateur ne supporte pas l'élément audio.
-</audio>
-<p class="media-meta"><a href="/notebooklm/audio-brief-short.mp3" download>Télécharger MP3</a></p>
-</div>
-
-### Audio Debate
-
-Discussion à deux voix explorant le positionnement, le paysage concurrentiel et la stratégie go-to-market de ZackAI.
-
-<div class="media-player">
-<audio controls preload="metadata">
-  <source src="/notebooklm/audio-debate.mp3" type="audio/mpeg" />
-  Votre navigateur ne supporte pas l'élément audio.
-</audio>
-<p class="media-meta"><a href="/notebooklm/audio-debate.mp3" download>Télécharger MP3</a></p>
-</div>
-
-### Audio Deep Dive — Long
-
-Plongée approfondie couvrant l'architecture produit, la stratégie de marque et les résultats de recherche en détail.
-
-<div class="media-player">
-<audio controls preload="metadata">
-  <source src="/notebooklm/audio-deep-dive-long.mp3" type="audio/mpeg" />
-  Votre navigateur ne supporte pas l'élément audio.
-</audio>
-<p class="media-meta"><a href="/notebooklm/audio-deep-dive-long.mp3" download>Télécharger MP3</a></p>
-</div>
-
----
-
-## Decks
-
-Les decks de présentation sont intégrés pour consultation directe. Utilisez la barre d'outils pour naviguer entre les pages ou télécharger.
-
-### Detailed Deck — Full
-
-<div class="media-embed">
-<iframe src="/notebooklm/deck-detailed-full.pdf" title="Detailed Deck — Full" loading="lazy"></iframe>
-<p class="media-meta"><a href="/notebooklm/deck-detailed-full.pdf" download>Télécharger PDF</a></p>
-</div>
-
-### Detailed Deck — Short
-
-<div class="media-embed">
-<iframe src="/notebooklm/deck-detailed-short.pdf" title="Detailed Deck — Short" loading="lazy"></iframe>
-<p class="media-meta"><a href="/notebooklm/deck-detailed-short.pdf" download>Télécharger PDF</a></p>
-</div>
-
-### Presenter Deck — Full
-
-<div class="media-embed">
-<iframe src="/notebooklm/deck-presenter-full.pdf" title="Presenter Deck — Full" loading="lazy"></iframe>
-<p class="media-meta"><a href="/notebooklm/deck-presenter-full.pdf" download>Télécharger PDF</a></p>
-</div>
-
-### Presenter Deck — Short
-
-<div class="media-embed">
-<iframe src="/notebooklm/deck-presenter-short.pdf" title="Presenter Deck — Short" loading="lazy"></iframe>
-<p class="media-meta"><a href="/notebooklm/deck-presenter-short.pdf" download>Télécharger PDF</a></p>
-</div>
-
----
+- **Rapports :** 3
+- **Decks :** 4
+- **Audio :** 3
+- **Infographies :** 3
+- **Tables de données :** 3
+- **Flashcards :** 2
+- **Quiz :** 2
+- **Cartes mentales :** 1
+- **Total :** 21 artefacts · 34 sources
 
 ## Rapports
 
-Rapports complets issus du pipeline de recherche NotebookLM.
+### [L'IA sans écran : Pourquoi ZackAI est le compagnon que nos enfants attendaient](/fr/docs/research/report-blog)
 
-### [More Than a Hug: Why ZackAI is Redefining Screen-Free Play](/fr/docs/research/report-blog)
+« Et si l'objet le plus intelligent dans la chambre de votre enfant ressemblait à un câlin plutôt qu'à un écran ? »
 
-"What if the smartest thing in your child's room felt like a hug instead of a screen?"
+- **Page wiki :** [/fr/docs/research/report-blog](/fr/docs/research/report-blog)
+- **Artefact brut :** `/notebooklm-fr/report-blog.md`
 
-- [Lire le rapport complet](/fr/docs/research/report-blog)
-- <a href="/notebooklm/report-blog.md" download>Télécharger l'artefact brut</a>
+### [Note d'Information : ZackAI – Le Compagnon de Jeu Sans Écran](/fr/docs/research/report-briefing)
 
-### [Brand Intelligence Report: ZackAI](/fr/docs/research/report-briefing)
+**Mission & Vision** ZackAI est défini par la philosophie de l'« Intelligence Douce » — la fusion stratégique de l'IA conversationnelle avancée et du réconfort tactile…
 
-ZackAI est défini par la philosophie de "Soft Intelligence" — la fusion stratégique de l'IA conversationnelle avancée et de la chaleur tactile.
+- **Page wiki :** [/fr/docs/research/report-briefing](/fr/docs/research/report-briefing)
+- **Artefact brut :** `/notebooklm-fr/report-briefing.md`
 
-- [Lire le rapport complet](/fr/docs/research/report-briefing)
-- <a href="/notebooklm/report-briefing.md" download>Télécharger l'artefact brut</a>
+### [Guide d'Étude Complet : ZackAI, le Compagnon de Jeu Sans Écran](/fr/docs/research/report-study-guide)
 
-### [ZackAI: Comprehensive Study Guide](/fr/docs/research/report-study-guide)
+Ce guide d'étude offre une vue exhaustive de ZackAI, compagnon de jeu IA sans écran conçu pour les enfants de 3 à 12 ans. Il synthétise les fondements de la marque…
 
-Un aperçu exhaustif de ZackAI en tant que compagnon de jeu IA sans écran conçu pour les enfants de 3 à 12 ans.
-
-- [Lire le rapport complet](/fr/docs/research/report-study-guide)
-- <a href="/notebooklm/report-study-guide.md" download>Télécharger l'artefact brut</a>
-
----
+- **Page wiki :** [/fr/docs/research/report-study-guide](/fr/docs/research/report-study-guide)
+- **Artefact brut :** `/notebooklm-fr/report-study-guide.md`
 
 ## Infographies
 
-### Infographic — Landscape
+### ZackAI : l'intelligence sans écran
 
-![Infographic — Landscape](/notebooklm/infographic-landscape.png)
 
-<p class="media-meta"><a href="/notebooklm/infographic-landscape.png" download>Télécharger PNG haute résolution</a></p>
+- **Téléchargement :** [infographic-default.png](/notebooklm-fr/infographic-default.png)
 
-### Infographic — Portrait
+### ZackAI : Compagnon Intelligent Sans Écran (portrait)
 
-![Infographic — Portrait](/notebooklm/infographic-portrait.png)
 
-<p class="media-meta"><a href="/notebooklm/infographic-portrait.png" download>Télécharger PNG haute résolution</a></p>
+- **Téléchargement :** [infographic-portrait.png](/notebooklm-fr/infographic-portrait.png)
 
-### Infographic — Square
+### ZackAI : compagnon éducatif sans écran (paysage)
 
-![Infographic — Square](/notebooklm/infographic-square.png)
 
-<p class="media-meta"><a href="/notebooklm/infographic-square.png" download>Télécharger PNG haute résolution</a></p>
+- **Téléchargement :** [infographic-landscape.png](/notebooklm-fr/infographic-landscape.png)
 
----
+## Decks
+
+### ZackAI Gentle Intelligence — Standard
+
+Export NotebookLM prêt à présenter, au format PDF.
+
+- **Téléchargement :** [deck-default.pdf](/notebooklm-fr/deck-default.pdf)
+
+### ZackAI Screen Free AI Companion — Présentateur
+
+Export NotebookLM avec notes de présentateur intégrées.
+
+- **Téléchargement :** [deck-presenter.pdf](/notebooklm-fr/deck-presenter.pdf)
+
+### ZackAI Launch Blueprint — Exécutif
+
+Deck exécutif synthétique pour la direction.
+
+- **Téléchargement :** [deck-executive.pdf](/notebooklm-fr/deck-executive.pdf)
+
+### ZackAI Strategic Playbook — Résumé
+
+Résumé distribué en format condensé.
+
+- **Téléchargement :** [deck-handout.pdf](/notebooklm-fr/deck-handout.pdf)
+
+## Briefs audio
+
+### L'IA conversationnelle camouflée en doudou — Découverte complète
+
+Exploration approfondie de l'univers ZackAI, générée par NotebookLM.
+
+- **Téléchargement :** [audio-default.mp3](/notebooklm-fr/audio-default.mp3)
+
+### ZackAI la peluche IA sans écran — Brief
+
+Résumé audio concis pour une écoute rapide.
+
+- **Téléchargement :** [audio-brief.mp3](/notebooklm-fr/audio-brief.mp3)
+
+### ZackAI la peluche sans écran ni abonnement — Deep Dive
+
+Plongée en profondeur dans la stratégie et le positionnement ZackAI.
+
+- **Téléchargement :** [audio-deep-dive.mp3](/notebooklm-fr/audio-deep-dive.mp3)
 
 ## Tables de données
 
-Tables interactives rendues depuis les fichiers CSV source.
+### Matrice de comparaison concurrentielle ZackAI
 
-### Paysage concurrentiel
+Export CSV avec 6 lignes et 10 colonnes.
 
-<div class="table-scroll">
+- **Lignes :** 6
+- **Colonnes :** Concurrent, Catégorie de produit, Prix (EUR), Modèle d'abonnement, IA conversationnelle, Support multilingue, Format physique, Différenciateurs, Score d'intelligence émotionnelle, Source
+- **Téléchargement :** [table-competitive.csv](/notebooklm-fr/table-competitive.csv)
 
-| Marque | Tarif | Marché cible | Différenciateur clé |
-|---|---|---|---|
-| **ZackAI** | 99 EUR achat unique | Parents sceptiques des écrans (30-42) valorisant le multilinguisme | 40+ langues, yeux LED animés, sans abonnement |
-| Bondu | 89-129 EUR + abonnement | Parents cherchant une peluche IA intelligente | Incumbent peluche IA ; modèle abonnement ; langues limitées |
-| Tonies | 79.99 EUR + 14.99 EUR/figurine | Parents voulant un audio sans écran | Figurines physiques ; audio passif unidirectionnel |
-| Yoto Player | 99.99 EUR + 6.99-12.99 EUR/carte | Parents cherchant un audio sans écran par cartes | Interface NFC ; pas de conversation en temps réel |
+### Spécifications Techniques et Caractéristiques de ZackAI
 
-</div>
+Export CSV avec 5 lignes et 9 colonnes.
 
-<p class="media-meta"><a href="/notebooklm/table-competitive.csv" download>Télécharger CSV complet (5 lignes x 9 colonnes)</a></p>
+- **Lignes :** 5
+- **Colonnes :** Nom du Produit, Variante de Couleur, Matériaux, Fonctionnalités Clés, Capacités Linguistiques, Spécifications Électroniques, Certifications de Sécurité, Dimensions et Poids, Source
+- **Téléchargement :** [table-specs.csv](/notebooklm-fr/table-specs.csv)
 
-### Profil persona
+### Stratégie de campagne et calendrier de lancement ZackAI
 
-<div class="table-scroll">
+Export CSV avec 4 lignes et 8 colonnes.
 
-| Attribut | Détails | Implications marketing |
-|---|---|---|
-| **Démographie** | 30-42 ans, revenus moyens-supérieurs, France urbaine / familles expatriées | Cible un segment exigeant qui valorise les outils éducatifs premium |
-| **Psychographie** | Parentalité intentionnelle, multilinguisme, intelligence émotionnelle | Mener avec l'archétype "Gardien ludique" — une technologie qui fait l'effet d'un câlin |
-| **Frustrations** | Culpabilité liée aux écrans, manque de jouets intelligents francophones | Positionner ZackAI comme soulagement de la consommation passive d'écrans |
-| **Confiance** | Architecture GDPR-first, certifications CE/EN71, contrôles parentaux exclusifs | La sécurité comme avantage concurrentiel |
-
-</div>
-
-<p class="media-meta"><a href="/notebooklm/table-persona.csv" download>Télécharger CSV complet (8 lignes x 5 colonnes)</a></p>
-
-### Fonctionnalités produit
-
-<div class="table-scroll">
-
-| Fonctionnalité | Description | Bénéfice client |
-|---|---|---|
-| **40+ langues** | IA conversationnelle avec prononciation native | Comble le fossé d'immersion multilingue pour les foyers bilingues |
-| **Confidentialité GDPR** | Stockage UE, pas de partage tiers | Tranquillité — le seul à écouter est l'ami en peluche |
-| **Yeux LED animés** | LEDs expressifs synchronisés avec voix, émotion et humeur | Crée une expérience de compagnon vivant |
-| **Sans abonnement** | 99 EUR achat unique, mises à jour gratuites à vie | Aucun coût caché ; coût total première année le plus bas |
-
-</div>
-
-<p class="media-meta"><a href="/notebooklm/table-product.csv" download>Télécharger CSV complet (8 lignes x 5 colonnes)</a></p>
-
----
+- **Lignes :** 4
+- **Colonnes :** Phase de Campagne, Objectif Stratégique, Canaux de Diffusion, Messages Clés, Livrables Créatifs, Public Cible, Date ou Échéance, Source
+- **Téléchargement :** [table-campaign.csv](/notebooklm-fr/table-campaign.csv)
 
 ## Flashcards
 
-### Flashcards — Detailed
+### ZackAI Flashcards
 
-84 cartes couvrant le positionnement produit, la stratégie de marque et l'analyse concurrentielle.
+Deck de flashcards NotebookLM avec 65 cartes.
 
-- <a href="/notebooklm/flashcards-detailed.json" download>Télécharger JSON (84 cartes)</a>
+- **Items :** 65
+- **Téléchargement :** [flashcards-default.json](/notebooklm-fr/flashcards-default.json)
 
-### Flashcards — Standard
+### Stratégie Fiches
 
-70 cartes couvrant la base de connaissances essentielle ZackAI.
+Deck de flashcards NotebookLM avec 60 cartes.
 
-- <a href="/notebooklm/flashcards-standard.json" download>Télécharger JSON (70 cartes)</a>
-
----
+- **Items :** 60
+- **Téléchargement :** [flashcards-more.json](/notebooklm-fr/flashcards-more.json)
 
 ## Quiz
 
-### Quiz — Hard
+### Stratégie Quiz
 
-10 questions approfondies testant la compréhension du positionnement et de la stratégie ZackAI.
+Jeu de quiz NotebookLM avec 12 questions.
 
-- <a href="/notebooklm/quiz-hard.json" download>Télécharger JSON (10 questions)</a>
+- **Items :** 12
+- **Téléchargement :** [quiz-default.json](/notebooklm-fr/quiz-default.json)
 
-### Quiz — Medium
+### Peluche Questionnaire
 
-12 questions couvrant le produit, la marque et le paysage concurrentiel ZackAI.
+Jeu de quiz NotebookLM avec 10 questions.
 
-- <a href="/notebooklm/quiz-medium.json" download>Télécharger JSON (12 questions)</a>
-
----
+- **Items :** 10
+- **Téléchargement :** [quiz-hard.json](/notebooklm-fr/quiz-hard.json)
 
 ## Cartes mentales
 
-### Mind Map
+### Carte mentale ZackAI
 
-Structure de connaissances visuelle reliant le produit, la marque, l'audience et les systèmes de campagne ZackAI.
+Export mind map NotebookLM en JSON.
 
-- <a href="/notebooklm/mind-map.json" download>Télécharger JSON</a>
+- **Téléchargement :** [mind-map.json](/notebooklm-fr/mind-map.json)

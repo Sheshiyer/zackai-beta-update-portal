@@ -1,0 +1,317 @@
+{
+  "title": "Strat\u00e9gie Quiz",
+  "questions": [
+    {
+      "question": "Quelle est la proposition de valeur financi\u00e8re pr\u00e9cise de ZackAI par rapport \u00e0 ses concurrents Tonies et Yoto apr\u00e8s un an d'utilisation ?",
+      "answerOptions": [
+        {
+          "text": "Un co\u00fbt total de possession inf\u00e9rieur d\u00e8s le troisi\u00e8me mois d'utilisation.",
+          "isCorrect": true,
+          "rationale": "Le mod\u00e8le sans abonnement de ZackAI \u00e0 $99\\text{ \u20ac}$ amortit rapidement l'investissement initial face aux achats r\u00e9currents de figurines ou de cartes."
+        },
+        {
+          "text": "Un prix d'achat initial inf\u00e9rieur de $20\\%$ par rapport aux packs de d\u00e9marrage concurrents.",
+          "isCorrect": false,
+          "rationale": "Les packs de d\u00e9marrage concurrents sont souvent moins chers \u00e0 l'achat, mais co\u00fbtent plus cher sur la dur\u00e9e."
+        },
+        {
+          "text": "L'absence de mat\u00e9riel suppl\u00e9mentaire \u00e0 acheter pour d\u00e9bloquer de nouvelles langues.",
+          "isCorrect": false,
+          "rationale": "Bien que vrai, ce n'est pas l'argument financier principal soulign\u00e9 pour le calcul de rentabilit\u00e9 face \u00e0 Tonies ou Yoto."
+        },
+        {
+          "text": "Une r\u00e9duction garantie de $50\\%$ sur tous les accessoires futurs pour les contributeurs.",
+          "isCorrect": false,
+          "rationale": "La strat\u00e9gie de ZackAI repose sur l'absence de co\u00fbts cach\u00e9s plut\u00f4t que sur des r\u00e9ductions futures sur des accessoires."
+        }
+      ],
+      "hint": "Calculez le co\u00fbt cumul\u00e9 des contenus physiques chez les concurrents."
+    },
+    {
+      "question": "Dans le cadre de la diff\u00e9renciation visuelle, quel code hexad\u00e9cimal ZackAI doit-il imp\u00e9rativement \u00e9viter pour ne pas empi\u00e9ter sur le territoire de marque de Bondu ?",
+      "answerOptions": [
+        {
+          "text": "$#78C9B3$",
+          "isCorrect": true,
+          "rationale": "Ce code correspond au vert menthe/turquoise utilis\u00e9 par Bondu, que ZackAI doit \u00e9viter pour affirmer son identit\u00e9 propre."
+        },
+        {
+          "text": "$#AA98D6$",
+          "isCorrect": false,
+          "rationale": "Il s'agit du code hexad\u00e9cimal de la couleur signature Phantom Purple de ZackAI."
+        },
+        {
+          "text": "$#E67A2E$",
+          "isCorrect": false,
+          "rationale": "C'est le code Warm Sunset Orange utilis\u00e9 pour les boutons d'appel \u00e0 l'action de ZackAI."
+        },
+        {
+          "text": "$#D9D3C1$",
+          "isCorrect": false,
+          "rationale": "Cette couleur, Soft Almond Cream, est utilis\u00e9e par ZackAI pour les \u00e9l\u00e9ments de support et les bordures."
+        }
+      ],
+      "hint": "Identifiez la couleur associ\u00e9e au concurrent principal dans la cat\u00e9gorie des peluches IA."
+    },
+    {
+      "question": "Quel trait psychographique d\u00e9finit le mieux le segment n\u00b01, le \u00ab Parent Intentionnel \u00bb ?",
+      "answerOptions": [
+        {
+          "text": "Technophile pour son usage personnel mais techno-sceptique pour ses enfants.",
+          "isCorrect": true,
+          "rationale": "Ces parents utilisent des smartphones mais imposent des limites strictes aux \u00e9crans pour leur prog\u00e9niture."
+        },
+        {
+          "text": "Adepte pr\u00e9coce de l'IA cherchant \u00e0 maximiser l'acc\u00e9l\u00e9ration acad\u00e9mique.",
+          "isCorrect": false,
+          "rationale": "Ce profil valorise l'intelligence \u00e9motionnelle et le jeu plut\u00f4t que la simple performance scolaire."
+        },
+        {
+          "text": "Parent d\u00e9bord\u00e9 privil\u00e9giant la facilit\u00e9 d'utilisation et les solutions de divertissement passif.",
+          "isCorrect": false,
+          "rationale": "Le parent intentionnel refuse justement la parentalit\u00e9 de facilit\u00e9 au profit d'interactions significatives."
+        },
+        {
+          "text": "Utilisateur exclusif de jouets en bois traditionnels refusant toute forme d'\u00e9lectronique.",
+          "isCorrect": false,
+          "rationale": "Ce profil accepte la technologie \u00e0 condition qu'elle soit invisible (sans \u00e9cran) et s\u00e9curis\u00e9e."
+        }
+      ],
+      "hint": "Consid\u00e9rez le paradoxe entre l'\u00e9ducation des parents et leur vision des \u00e9crans."
+    },
+    {
+      "question": "Quelle fonctionnalit\u00e9 technique permet \u00e0 ZackAI de cr\u00e9er un lien \u00e9motionnel unique sans utiliser d'\u00e9cran ?",
+      "answerOptions": [
+        {
+          "text": "Des yeux LED anim\u00e9s qui se synchronisent avec la voix et l'humeur.",
+          "isCorrect": true,
+          "rationale": "L'expression physique via les LED cr\u00e9e une personnalit\u00e9 vivante et interactive."
+        },
+        {
+          "text": "Un capteur de fr\u00e9quence cardiaque int\u00e9gr\u00e9 dans la patte de la peluche.",
+          "isCorrect": false,
+          "rationale": "ZackAI utilise le toucher et la voix, mais n'int\u00e8gre pas de capteur biom\u00e9trique de ce type."
+        },
+        {
+          "text": "La diffusion de ph\u00e9romones apaisantes pendant le mode coucher.",
+          "isCorrect": false,
+          "rationale": "Le confort de ZackAI est bas\u00e9 sur les mat\u00e9riaux tactiles et le son, pas sur des diffuseurs chimiques."
+        },
+        {
+          "text": "Une reconnaissance faciale via une cam\u00e9ra dissimul\u00e9e dans le sourire.",
+          "isCorrect": false,
+          "rationale": "L'absence de cam\u00e9ra est un point cl\u00e9 de la promesse de respect de la vie priv\u00e9e."
+        }
+      ],
+      "hint": "Cherchez un \u00e9l\u00e9ment visuel dynamique mentionn\u00e9 comme 'signature' du produit."
+    },
+    {
+      "question": "Pourquoi la certification EN71 est-elle cruciale pour le positionnement de ZackAI en Europe ?",
+      "answerOptions": [
+        {
+          "text": "Elle garantit la conformit\u00e9 aux normes de s\u00e9curit\u00e9 physique des jouets.",
+          "isCorrect": true,
+          "rationale": "Cette norme europ\u00e9enne est indispensable pour rassurer les parents sur la qualit\u00e9 des mat\u00e9riaux et la construction."
+        },
+        {
+          "text": "Elle certifie que l'IA ne g\u00e9n\u00e8re aucun contenu inappropri\u00e9.",
+          "isCorrect": false,
+          "rationale": "La s\u00e9curit\u00e9 du contenu rel\u00e8ve du filtrage logiciel et non de la norme physique EN71."
+        },
+        {
+          "text": "Elle valide l'h\u00e9bergement des donn\u00e9es sur le territoire de l'Union europ\u00e9enne.",
+          "isCorrect": false,
+          "rationale": "L'h\u00e9bergement des donn\u00e9es est r\u00e9gi par le RGPD, pas par les normes de s\u00e9curit\u00e9 des jouets."
+        },
+        {
+          "text": "Elle atteste de la durabilit\u00e9 de la batterie lithium-ion embarqu\u00e9e.",
+          "isCorrect": false,
+          "rationale": "Bien que la batterie soit s\u00e9curis\u00e9e, EN71 couvre un spectre beaucoup plus large de risques m\u00e9caniques et chimiques."
+        }
+      ],
+      "hint": "Diff\u00e9renciez les normes de s\u00e9curit\u00e9 logicielle des normes de s\u00e9curit\u00e9 mat\u00e9rielle."
+    },
+    {
+      "question": "Quel arch\u00e9type de marque ZackAI utilise-t-il pour d\u00e9finir son ton et sa voix ?",
+      "answerOptions": [
+        {
+          "text": "Le Gardien Espi\u00e8gle",
+          "isCorrect": true,
+          "rationale": "Cet arch\u00e9type m\u00e9lange protection rassurante et curiosit\u00e9 ludique, id\u00e9al pour un compagnon enfant."
+        },
+        {
+          "text": "Le Sage Mentor",
+          "isCorrect": false,
+          "rationale": "Bien que savant, Zack \u00e9vite d'\u00eatre condescendant ou purement acad\u00e9mique comme un mentor classique."
+        },
+        {
+          "text": "L'Explorateur Audacieux",
+          "isCorrect": false,
+          "rationale": "Zack encourage l'aventure, mais son r\u00f4le premier est la bienveillance et le r\u00e9confort domestique."
+        },
+        {
+          "text": "L'Innocent Cr\u00e9atif",
+          "isCorrect": false,
+          "rationale": "L'arch\u00e9type retenu souligne davantage la dimension de guide et de protection (Gardien)."
+        }
+      ],
+      "hint": "Ce nom combine une fonction de protection et un trait de caract\u00e8re amusant."
+    },
+    {
+      "question": "Quelle est la particularit\u00e9 du moteur linguistique de ZackAI par rapport \u00e0 un produit comme Alexa Kids ?",
+      "answerOptions": [
+        {
+          "text": "Il propose plus de $40$ langues avec une intelligence \u00e9motionnelle adapt\u00e9e aux enfants.",
+          "isCorrect": true,
+          "rationale": "ZackAI ne se contente pas de traduire, il construit une relation et s'adapte au niveau de l'enfant."
+        },
+        {
+          "text": "Il permet de traduire instantan\u00e9ment les pleurs d'un b\u00e9b\u00e9 en mots compr\u00e9hensibles.",
+          "isCorrect": false,
+          "rationale": "Le produit est destin\u00e9 aux enfants de $3$ \u00e0 $12$ ans et ne poss\u00e8de pas de fonction de traduction de pleurs."
+        },
+        {
+          "text": "Il fonctionne int\u00e9gralement sans connexion Wi-Fi pour toutes les langues.",
+          "isCorrect": false,
+          "rationale": "Une connexion est n\u00e9cessaire pour les fonctions avanc\u00e9es d'IA conversationnelle multilingue."
+        },
+        {
+          "text": "Il limite l'usage de l'anglais pour favoriser uniquement la langue maternelle du foyer.",
+          "isCorrect": false,
+          "rationale": "Au contraire, ZackAI encourage la d\u00e9couverte ludique de nombreuses langues \u00e9trang\u00e8res."
+        }
+      ],
+      "hint": "Comparez le nombre de langues et l'objectif de l'interaction."
+    },
+    {
+      "question": "En termes de durabilit\u00e9 mat\u00e9rielle, quel composant est sp\u00e9cifiquement mentionn\u00e9 pour le rembourrage de la peluche ?",
+      "answerOptions": [
+        {
+          "text": "Du polyester recycl\u00e9",
+          "isCorrect": true,
+          "rationale": "Le choix du polyester recycl\u00e9 s'inscrit dans les valeurs de durabilit\u00e9 ch\u00e8res aux parents intentionnels."
+        },
+        {
+          "text": "De la mousse \u00e0 m\u00e9moire de forme",
+          "isCorrect": false,
+          "rationale": "ZackAI privil\u00e9gie un rembourrage classique de peluche pour pr\u00e9server la douceur et le c\u00f4t\u00e9 c\u00e2lin."
+        },
+        {
+          "text": "Des billes de silicone hypoallerg\u00e9niques",
+          "isCorrect": false,
+          "rationale": "Le silicone est utilis\u00e9 pour certains accents ext\u00e9rieurs, mais pas pour le rembourrage principal."
+        },
+        {
+          "text": "De la laine de mouton bross\u00e9e",
+          "isCorrect": false,
+          "rationale": "Le coton est bross\u00e9 pour l'aspect ext\u00e9rieur, mais le rembourrage interne est synth\u00e9tique et recycl\u00e9."
+        }
+      ],
+      "hint": "Il s'agit d'un mat\u00e9riau synth\u00e9tique transform\u00e9 pour une seconde vie."
+    },
+    {
+      "question": "Quel est l'un des principaux \u00ab anti-objectifs \u00bb de la marque ZackAI lors de la conception de l'exp\u00e9rience utilisateur ?",
+      "answerOptions": [
+        {
+          "text": "Ne pas transformer l'enfant en consommateur passif de contenu.",
+          "isCorrect": true,
+          "rationale": "L'objectif est d'encourager l'imagination et l'interaction bidirectionnelle plut\u00f4t que l'\u00e9coute passive."
+        },
+        {
+          "text": "\u00c9viter que la peluche ne puisse \u00eatre lav\u00e9e en machine.",
+          "isCorrect": false,
+          "rationale": "Bien que l'\u00e9lectronique complique le lavage, l'aspect pratique n'est pas class\u00e9 comme un anti-objectif strat\u00e9gique."
+        },
+        {
+          "text": "Emp\u00eacher l'enfant de donner un nom personnalis\u00e9 \u00e0 la peluche.",
+          "isCorrect": false,
+          "rationale": "ZackAI encourage au contraire l'appropriation et la cr\u00e9ation d'un lien personnel."
+        },
+        {
+          "text": "R\u00e9duire l'autonomie de l'enfant pour forcer la co-pr\u00e9sence parentale.",
+          "isCorrect": false,
+          "rationale": "ZackAI vise \u00e0 offrir $30$ minutes de jeu autonome pour lib\u00e9rer du temps aux parents."
+        }
+      ],
+      "hint": "Pensez \u00e0 la critique faite aux tablettes et aux lecteurs audio simples."
+    },
+    {
+      "question": "Dans la hi\u00e9rarchie des messages de ZackAI, quel argument est prioritaire pour le march\u00e9 fran\u00e7ais ?",
+      "answerOptions": [
+        {
+          "text": "Le positionnement \u00ab sans \u00e9cran \u00bb conforme aux recommandations de sant\u00e9 publique.",
+          "isCorrect": true,
+          "rationale": "En France, la sensibilisation au temps d'\u00e9cran est un levier de conversion majeur pour les parents."
+        },
+        {
+          "text": "La capacit\u00e9 de la peluche \u00e0 remplacer les cours de soutien scolaire.",
+          "isCorrect": false,
+          "rationale": "ZackAI est un compagnon d'\u00e9veil et de jeu, pas un substitut formel \u00e0 l'\u00e9cole."
+        },
+        {
+          "text": "L'origine am\u00e9ricaine de la technologie d'intelligence artificielle.",
+          "isCorrect": false,
+          "rationale": "La marque insiste au contraire sur sa conception europ\u00e9enne et sa conformit\u00e9 RGPD locale."
+        },
+        {
+          "text": "La possibilit\u00e9 de surveiller \u00e0 distance les conversations de l'enfant en temps r\u00e9el.",
+          "isCorrect": false,
+          "rationale": "Le respect de la vie priv\u00e9e interdit l'\u00e9coute clandestine, privil\u00e9giant un tableau de bord de progr\u00e8s."
+        }
+      ],
+      "hint": "Rappelez-vous de la loi Studer et des pr\u00e9occupations de l'ANSES."
+    },
+    {
+      "question": "Quelle est la fonction principale de l'application compagnon ZackAI ?",
+      "answerOptions": [
+        {
+          "text": "Servir de tableau de bord parental pour configurer les langues et consulter les progr\u00e8s.",
+          "isCorrect": true,
+          "rationale": "L'application est un outil de contr\u00f4le pour les parents, garantissant que l'enfant reste \u00e9loign\u00e9 des \u00e9crans."
+        },
+        {
+          "text": "Permettre \u00e0 l'enfant de jouer \u00e0 des mini-jeux tactiles synchronis\u00e9s avec la peluche.",
+          "isCorrect": false,
+          "rationale": "Cela contredirait la mission principale de ZackAI qui est de supprimer le temps d'\u00e9cran pour l'enfant."
+        },
+        {
+          "text": "Agir comme une t\u00e9l\u00e9commande pour diriger les mouvements de la peluche.",
+          "isCorrect": false,
+          "rationale": "ZackAI est une peluche statique et c\u00e2line, elle ne poss\u00e8de pas de moteurs de d\u00e9placement."
+        },
+        {
+          "text": "Vendre des packs de contenus additionnels sous forme d'achats in-app.",
+          "isCorrect": false,
+          "rationale": "Le mod\u00e8le \u00e9conomique exclut explicitement les abonnements et les co\u00fbts r\u00e9currents cach\u00e9s."
+        }
+      ],
+      "hint": "L'enfant ne doit jamais avoir besoin d'utiliser cet outil."
+    },
+    {
+      "question": "Comment ZackAI traite-t-il la m\u00e9moire des conversations pour approfondir la relation avec l'enfant ?",
+      "answerOptions": [
+        {
+          "text": "Gr\u00e2ce \u00e0 une m\u00e9moire persistante qui retient les sujets et histoires pr\u00e9f\u00e9r\u00e9s de l'enfant.",
+          "isCorrect": true,
+          "rationale": "Cette m\u00e9moire permet \u00e0 ZackAI d'\u00e9voluer avec l'enfant, rendant l'amiti\u00e9 plus cr\u00e9dible au fil du temps."
+        },
+        {
+          "text": "En enregistrant l'int\u00e9gralit\u00e9 des audios sur un serveur cloud public pour analyse.",
+          "isCorrect": false,
+          "rationale": "La protection de la vie priv\u00e9e via le RGPD interdit ce type d'exploitation des donn\u00e9es."
+        },
+        {
+          "text": "En r\u00e9initialisant les donn\u00e9es toutes les $24$ heures pour garantir une s\u00e9curit\u00e9 maximale.",
+          "isCorrect": false,
+          "rationale": "Une r\u00e9initialisation quotidienne emp\u00eacherait la cr\u00e9ation d'un lien durable et d'une amiti\u00e9 \u00e9volutive."
+        },
+        {
+          "text": "En partageant les centres d'int\u00e9r\u00eat de l'enfant avec des partenaires publicitaires.",
+          "isCorrect": false,
+          "rationale": "Le mod\u00e8le \u00e9conomique sans abonnement repose sur la vente du mat\u00e9riel, pas sur la mon\u00e9tisation des donn\u00e9es."
+        }
+      ],
+      "hint": "Pensez \u00e0 l'analogie de l'ami qui n'oublie jamais le dinosaure pr\u00e9f\u00e9r\u00e9."
+    }
+  ]
+}
