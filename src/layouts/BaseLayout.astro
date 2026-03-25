@@ -1,5 +1,6 @@
 ---
 import Navigation from '../components/Navigation.astro';
+import SearchModal from '../components/SearchModal.astro';
 import ThemeToggle from '../components/ThemeToggle.astro';
 import LanguageToggle from '../components/LanguageToggle.astro';
 import siteData from '../data/site-data.json';
@@ -47,6 +48,14 @@ const pathname = Astro.url.pathname;
     <div class="portal-shell">
       <aside class="sidebar-frame">
         <div class="sidebar-frame__topbar">
+          <button class="search-trigger" id="search-trigger" type="button" aria-label={locale === 'fr' ? 'Rechercher' : 'Search'}>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="M21 21l-4.35-4.35"></path>
+            </svg>
+            <span>{locale === 'fr' ? 'Rechercher' : 'Search'}</span>
+            <kbd>⌘K</kbd>
+          </button>
           <LanguageToggle locale={locale} pathname={pathname} />
         </div>
         <Navigation locale={locale} />
@@ -58,5 +67,6 @@ const pathname = Astro.url.pathname;
     </div>
 
     <ThemeToggle />
+    <SearchModal locale={locale} />
   </body>
 </html>

@@ -259,8 +259,51 @@ body::selection {
 
 .sidebar-frame__topbar {
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  gap: var(--space-3);
   margin-bottom: var(--space-4);
+}
+
+.search-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  flex: 1;
+  padding: 0.45rem 0.75rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--surface-border);
+  background: var(--surface-card);
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.search-trigger:hover {
+  background: var(--surface-card-strong);
+  color: var(--text-body);
+  border-color: color-mix(in srgb, var(--brand-primary) 30%, var(--surface-border));
+}
+
+.search-trigger kbd {
+  margin-left: auto;
+  padding: 1px 6px;
+  font-family: var(--font-mono, monospace);
+  font-size: 0.65rem;
+  background: var(--surface-card-strong);
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--surface-border);
+  color: var(--text-soft);
+}
+
+[data-theme='dark'] .search-trigger {
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme='dark'] .search-trigger:hover {
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .language-toggle {

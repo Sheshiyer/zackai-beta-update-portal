@@ -32,7 +32,7 @@ export const translations = {
     shell: {
       portalHome: 'Portal Home',
       docsIndex: 'Docs Index',
-      notebooklm: 'NotebookLM',
+      notebooklm: 'Research',
       portal: 'Portal',
       onThisPage: 'On this page',
       minRead: 'min read',
@@ -52,7 +52,7 @@ export const translations = {
       visualHeading: 'Use the actual brand surfaces, not just generic documentation cards',
       knowledgeMap: 'Knowledge map',
       knowledgeHeading: 'Browse the wiki by track',
-      notebooklmSpotlight: 'NotebookLM spotlight',
+      notebooklmSpotlight: 'Research spotlight',
       notebooklmHeading: 'Research and learning artifacts stay close to the story',
     },
     categories: {
@@ -66,7 +66,7 @@ export const translations = {
       '/docs/product/overview': { title: 'Product Overview', eyebrow: 'Product', description: 'Hero product definition, positioning, and messaging stack for the current ZackAI build.' },
       '/docs/brand/visual-guidelines': { title: 'Visual Guidelines', eyebrow: 'Brand System', description: 'Palette, typography, art direction, and brand-system guardrails for the current run.' },
       '/docs/marketing/campaign-copy': { title: 'Campaign Copy', eyebrow: 'Campaign', description: 'Campaign narratives, key copy assets, and launch-ready messaging organized for review.' },
-      '/docs/research/notebooklm-artifacts': { title: 'NotebookLM Artifacts', eyebrow: 'Research', description: 'Surfaced reports, infographics, decks, audio, and research tables produced during Wave 7.' },
+      '/docs/research/notebooklm-artifacts': { title: 'Research Artifacts', eyebrow: 'Research', description: 'Curated reports, infographics, decks, audio, and research tables.' },
     },
     docTitles: {
       'index': 'Launch Dossier Index',
@@ -84,15 +84,17 @@ export const translations = {
       'marketing/email-templates': 'Email Templates',
       'marketing/social-content': 'Social Content',
       'marketing/video-scripts': 'Video Scripts',
+      'marketing/founder-video-concepts': 'Founder Video Concepts',
       'marketing/ad-creative': 'Ad Creative',
-      'research/notebooklm-artifacts': 'NotebookLM Artifacts',
+      'marketing/whatsapp-templates': 'WhatsApp Templates',
+      'research/notebooklm-artifacts': 'Research Artifacts',
     },
   },
   fr: {
     shell: {
       portalHome: 'Accueil du portail',
       docsIndex: 'Index du wiki',
-      notebooklm: 'NotebookLM',
+      notebooklm: 'Recherche',
       portal: 'Portail',
       onThisPage: 'Sur cette page',
       minRead: 'min de lecture',
@@ -112,7 +114,7 @@ export const translations = {
       visualHeading: 'Utilisez les vraies surfaces de marque, pas seulement des cartes de documentation génériques',
       knowledgeMap: 'Carte des connaissances',
       knowledgeHeading: 'Parcourir le wiki par piste',
-      notebooklmSpotlight: 'Focus NotebookLM',
+      notebooklmSpotlight: 'Focus recherche',
       notebooklmHeading: 'Les artefacts de recherche restent proches du récit produit',
     },
     categories: {
@@ -126,7 +128,7 @@ export const translations = {
       '/docs/product/overview': { title: 'Vue d’ensemble produit', eyebrow: 'Produit', description: 'Définition du produit hero, positionnement et socle de messaging pour ZackAI.' },
       '/docs/brand/visual-guidelines': { title: 'Lignes directrices visuelles', eyebrow: 'Système de marque', description: 'Palette, typographie, direction artistique et garde-fous de la marque pour le run actuel.' },
       '/docs/marketing/campaign-copy': { title: 'Copy de campagne', eyebrow: 'Campagne', description: 'Narratifs de campagne, assets copy clés et messaging prêt pour le lancement.' },
-      '/docs/research/notebooklm-artifacts': { title: 'Artefacts NotebookLM', eyebrow: 'Recherche', description: 'Rapports, infographies, decks, audio et tables de recherche issus de Wave 7.' },
+      '/docs/research/notebooklm-artifacts': { title: 'Artefacts de recherche', eyebrow: 'Recherche', description: 'Rapports, infographies, decks, audio et tables de recherche.' },
     },
     docTitles: {
       'index': 'Index du dossier de lancement',
@@ -144,8 +146,10 @@ export const translations = {
       'marketing/email-templates': 'Templates email',
       'marketing/social-content': 'Contenu social',
       'marketing/video-scripts': 'Scripts vidéo',
+      'marketing/founder-video-concepts': 'Concepts vidéo du fondateur',
       'marketing/ad-creative': 'Création publicitaire',
-      'research/notebooklm-artifacts': 'Artefacts NotebookLM',
+      'marketing/whatsapp-templates': 'Templates WhatsApp',
+      'research/notebooklm-artifacts': 'Artefacts de recherche',
     },
   },
 } as const;
